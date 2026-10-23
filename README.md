@@ -1,4 +1,4 @@
-[index (1).html](https://github.com/user-attachments/files/33888333/index.1.html)
+[index_fixed.html](https://github.com/user-attachments/files/33888573/index_fixed.html)
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -173,4 +173,76 @@ if(toggle&&nav){toggle.addEventListener('click',()=>{const opened=nav.classList.
 const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();
 
 </script>
+
+<script>
+/* توافق إضافي لأزرار الأدلة: event delegation حتى تعمل الأزرار بعد النشر */
+(function () {
+  function showLessonFromData(key) {
+    try {
+      const data = lessonData && lessonData[key];
+      const modal = document.getElementById('lessonModal');
+      if (!data || !modal) return false;
+      const kicker = document.getElementById('modalKicker');
+      const title = document.getElementById('modalTitle');
+      const intro = document.getElementById('modalIntro');
+      const topics = document.getElementById('modalTopics');
+      if (!kicker || !title || !intro || !topics) return false;
+      kicker.textContent = data.kicker || 'دليل القسم';
+      title.textContent = data.title || 'الدليل';
+      intro.textContent = data.intro || '';
+      topics.replaceChildren();
+      (data.topics || []).forEach(function (topic, index) {
+        const item = document.createElement('article');
+        item.className = 'modal-topic';
+        const number = document.createElement('span');
+        number.textContent = String(index + 1).padStart(2, '0');
+        const body = document.createElement('div');
+        const heading = document.createElement('b');
+        heading.textContent = topic[0] || '';
+        const description = document.createElement('small');
+        description.textContent = topic[1] || '';
+        body.append(heading, description);
+        item.append(number, body);
+        topics.append(item);
+      });
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      return true;
+    } catch (error) {
+      console.error('تعذر فتح الدليل:', error);
+      return false;
+    }
+  }
+  document.addEventListener('click', function (event) {
+    const button = event.target && event.target.closest ? event.target.closest('[data-open]') : null;
+    if (!button) return;
+    event.preventDefault();
+    const key = button.getAttribute('data-open');
+    if (typeof openLesson === 'function') {
+      try { openLesson(key); return; } catch (error) { console.error(error); }
+    }
+    showLessonFromData(key);
+  }, true);
+  document.addEventListener('click', function (event) {
+    const modal = document.getElementById('lessonModal');
+    if (!modal) return;
+    if ((event.target && event.target.id === 'modalClose') || event.target === modal) {
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape') return;
+    const modal = document.getElementById('lessonModal');
+    if (modal) {
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+</script>
+
 </body></html>
