@@ -1,248 +1,1765 @@
-[index_fixed (3).html](https://github.com/user-attachments/files/33889149/index_fixed.3.html)
+[code_artifact.html](https://github.com/user-attachments/files/33889179/code_artifact.html)
 <!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="scroll-smooth">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#087fc3">
-<meta name="description" content="الموسوعة التدريبية المصوّرة لشركة أرض الكرم: الدعم الفني، خدمة العملاء، المبيعات، التدريب والصيانة الميدانية.">
-<title>الموسوعة التدريبية المصوّرة | أكاديمية أرض الكرم</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
-:root{--navy:#12233e;--blue:#0785ce;--blue2:#25b3ee;--teal:#0b9f87;--text:#263951;--muted:#6b7d91;--line:#e3ebf2;--bg:#f7faff;--white:#fff;--shadow:0 16px 42px rgba(24,61,98,.09)}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;font-family:'Cairo',Tahoma,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.75}.topline{height:5px;background:linear-gradient(90deg,#06a7e7,#0b6cbc,#05b893)}a{color:inherit;text-decoration:none}button{font:inherit}.site-header{height:86px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 clamp(18px,5vw,76px);border-bottom:1px solid #e9f0f7;position:sticky;top:0;background:rgba(255,255,255,.93);backdrop-filter:blur(16px);z-index:50}.brand{display:flex;align-items:center;gap:12px;min-width:236px}.brand-mark{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(145deg,#0ca3e0,#155fd3);color:#fff;font-size:17px;font-weight:900;box-shadow:0 9px 20px #087fc330}.brand b{font-weight:900;color:var(--navy);font-size:16px;display:block;line-height:1.5}.brand small{font-size:11px;color:#6c8197;display:block;line-height:1.5}nav{display:flex;gap:26px;align-items:center}nav a{font-size:13px;font-weight:700;color:#63778d;transition:.2s}nav a:hover,nav a.active{color:var(--blue)}.header-cta{padding:10px 16px;border-radius:13px;color:#fff;background:var(--navy);font-size:12px;font-weight:800;white-space:nowrap}.header-cta span,.btn span,.text-link span,.card-open span{margin-right:9px}.menu-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;padding:6px 12px;color:var(--navy)}.section{padding:82px clamp(20px,7vw,110px)}.hero{min-height:610px;display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:60px;overflow:hidden;background:radial-gradient(ellipse at 90% 7%,#e3f5ff 0,transparent 33%),linear-gradient(180deg,#fff,#fafdff)}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#0c8fba;font-weight:800;font-size:12px;letter-spacing:.2px}.eyebrow i{width:7px;height:7px;background:#0caf9a;border-radius:50%;box-shadow:0 0 0 5px #0caf9a18}.hero h1{font-size:clamp(32px,4.3vw,56px);line-height:1.35;letter-spacing:-1.3px;color:var(--navy);margin:18px 0 15px;font-weight:900}.hero h1 em,.spotlight h2 em,.roadmap h2 em{font-style:normal;color:var(--blue)}.hero-copy>p,.section-heading p,.spotlight-text>p,.roadmap-copy>p{color:var(--muted);font-size:15px;max-width:585px;margin:0}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}.btn{display:inline-flex;justify-content:center;align-items:center;padding:12px 19px;border-radius:13px;font-weight:800;font-size:13px;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}.btn.primary{color:#fff;background:linear-gradient(135deg,#078fd5,#1264cb);box-shadow:0 9px 22px #087fc330}.btn.secondary{border:1px solid #dce8f2;color:#34516e;background:#fff}.hero-stats{display:flex;gap:38px;margin-top:39px}.hero-stats div{display:grid;gap:0}.hero-stats strong{color:var(--navy);font-size:23px;font-weight:900;line-height:1.35}.hero-stats span{font-size:11px;color:#7a8ca0}.hero-art{height:430px;position:relative;display:grid;place-items:center}.hero-image-wrap{width:min(100%,500px);position:relative;z-index:2;border-radius:40px;transform:rotate(-2deg);filter:drop-shadow(0 20px 24px #1c7cb31b)}.hero-image-wrap img{width:100%;display:block}.orb{position:absolute;border-radius:50%;border:1px dashed #80ccf1}.orb-one{width:420px;height:420px;right:0;top:10px}.orb-two{width:320px;height:320px;left:0;bottom:0;border-style:solid;border-color:#cceafa}.float-card{position:absolute;z-index:4;background:#fff;padding:12px 16px;border:1px solid #e2eaf2;box-shadow:var(--shadow);border-radius:16px;display:flex;gap:10px;align-items:center;min-width:215px}.float-top{right:-6px;top:45px}.float-bottom{left:-4px;bottom:36px}.mini-icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:22px;font-weight:900}.mini-icon.blue{background:#e4f5ff;color:#078bd4}.mini-icon.green{background:#dffaf0;color:#0c9d7b}.float-card b,.float-card small{display:block}.float-card b{font-size:12px;color:var(--navy)}.float-card small{font-size:10px;color:var(--muted)}.hero-dot{position:absolute;background:#0b96df;border-radius:50%;box-shadow:0 0 0 8px #0b96df13}.dot-a{width:12px;height:12px;top:70px;left:70px}.dot-b{width:8px;height:8px;bottom:68px;right:20px}.trust-strip{min-height:76px;display:flex;justify-content:space-evenly;align-items:center;flex-wrap:wrap;gap:20px;padding:16px 20px;background:#f6fbff;border-top:1px solid #e6f0f7;border-bottom:1px solid #e6f0f7;color:#61758b;font-size:12px;font-weight:700}.trust-strip>div{display:flex;align-items:center;gap:10px}.trust-icon{width:30px;height:30px;background:#e4f5ff;color:#078bd4;border-radius:10px;display:grid;place-items:center;font-size:16px}.departments{background:#fff}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:33px}.section-heading h2,.spotlight h2,.roadmap h2{margin:8px 0 7px;font-size:clamp(27px,3vw,39px);line-height:1.35;color:var(--navy);font-weight:900;letter-spacing:-.6px}.section-heading p{font-size:13px}.text-link{color:#087fc3;font-weight:800;font-size:12px;white-space:nowrap}.department-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px}.department-card{border:1px solid #e4edf5;border-radius:21px;overflow:hidden;background:#fff;box-shadow:0 7px 24px #193b5808;transition:.25s}.department-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#d2e8f8}.card-image{height:170px;position:relative;background:#e8f5ff;overflow:hidden}.card-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}.department-card:hover .card-image img{transform:scale(1.045)}.card-number{position:absolute;top:12px;right:12px;border:1px solid #ffffffa6;background:#ffffffdd;backdrop-filter:blur(6px);border-radius:9px;color:var(--navy);font-weight:900;font-size:11px;padding:3px 8px}.card-body{padding:21px 20px 18px}.category-pill{display:inline-flex;padding:3px 10px;border-radius:50px;font-size:10px;font-weight:800}.pill-blue{color:#067cba;background:#e4f5ff}.pill-purple{color:#7953c4;background:#f1eaff}.pill-green{color:#0b8c69;background:#e1faf0}.pill-orange{color:#c5781a;background:#fff1df}.card-body h3{font-size:20px;margin:12px 0 5px;color:var(--navy);font-weight:900}.card-body p{font-size:12px;line-height:1.9;color:var(--muted);min-height:70px;margin:0}.card-open{margin-top:16px;padding:0;border:0;background:none;color:#087fc3;font-size:12px;font-weight:900;cursor:pointer}.card-open:hover{color:#0b9e85}.spotlight{display:grid;grid-template-columns:.82fr 1.18fr;gap:65px;background:#f7fbff;border-top:1px solid #eaf1f8;border-bottom:1px solid #eaf1f8;align-items:center}.spotlight h2{font-size:clamp(29px,3vw,40px);margin-top:14px}.spotlight-text>p{font-size:13px;line-height:2;margin-top:12px}.spotlight-points{display:grid;gap:17px;margin-top:26px}.spotlight-points>div{display:flex;gap:12px;align-items:center}.spotlight-points>div>span{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#dff9f0;color:#0a9b78;font-weight:900;flex-shrink:0}.spotlight-points p{margin:0;display:grid;line-height:1.55}.spotlight-points b{font-size:12px;color:var(--navy)}.spotlight-points small{font-size:11px;color:var(--muted)}.gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.gallery-tile{position:relative;border-radius:20px;overflow:hidden;margin:0;background:#e6f5ff;min-height:175px}.gallery-tile img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .4s}.gallery-tile:hover img{transform:scale(1.04)}.gallery-tile:after{content:"";position:absolute;inset:30% 0 0;background:linear-gradient(transparent,#142b48b8)}.gallery-tile figcaption{position:absolute;z-index:2;bottom:13px;right:16px;color:#fff;display:grid;line-height:1.6}.gallery-tile figcaption b{font-size:13px}.gallery-tile figcaption span{font-size:10px;color:#e7f1f8}.tile-wide{min-height:210px}.coding{background:#fff}.code-badge{background:#e8f7ff;color:#0784c2;border:1px solid #d4ebfa;border-radius:50px;padding:8px 14px;direction:ltr;white-space:nowrap;font-size:11px;font-weight:900}.code-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:22px;align-items:stretch}.language-list{border:1px solid var(--line);border-radius:18px;padding:8px;background:#fbfdff;display:grid;gap:5px}.language{display:flex;align-items:center;gap:12px;border:1px solid transparent;background:transparent;padding:10px 12px;border-radius:12px;text-align:right;cursor:pointer;color:var(--text);transition:.2s}.language:hover,.language.active{background:#fff;border-color:#dfeaf4;box-shadow:0 5px 13px #153b5808}.lang-symbol{width:37px;height:37px;display:grid;place-items:center;border-radius:10px;font-weight:900;font-family:monospace;direction:ltr;flex-shrink:0}.lang-symbol.orange{background:#fff0e7;color:#e66d26}.lang-symbol.blue{background:#e8f3ff;color:#2678de}.lang-symbol.yellow{background:#fff7d5;color:#947000}.lang-symbol.teal{background:#ddf8f3;color:#0a9282}.lang-symbol.violet{background:#f0e9ff;color:#7855c8;font-size:11px}.lang-symbol.dark{background:#e9eef6;color:#253f63;font-size:12px}.language span:nth-child(2){display:grid;line-height:1.55;flex:1}.language b{font-size:12px}.language small{font-size:10px;color:#7d8da1}.lang-arrow{color:#9db0c2;font-size:15px}.language.active .lang-arrow{color:#087fc3}.code-window{background:#101c32;border-radius:20px;overflow:hidden;box-shadow:0 17px 40px #12274319;min-width:0}.code-top{height:58px;display:flex;align-items:center;padding:0 18px;gap:15px;background:#172743;border-bottom:1px solid #263854}.window-dots{display:flex;gap:6px}.window-dots i{width:8px;height:8px;border-radius:50%;background:#ff7777}.window-dots i:nth-child(2){background:#ffca61}.window-dots i:nth-child(3){background:#42d6a5}.code-top>span{font-family:monospace;direction:ltr;color:#c4d6ec;font-size:11px;flex:1;text-align:left}.copy-button{border:1px solid #3b506d;border-radius:8px;background:#20334f;color:#d8e7f6;padding:5px 10px;font-size:10px;cursor:pointer}.copy-button:hover{background:#294464}.code-description{padding:16px 22px 2px;color:#91aac8;font-size:11px}pre{direction:ltr;text-align:left;margin:0;padding:18px 22px 23px;overflow:auto;min-height:210px;color:#d9e5f6;font-size:13px;line-height:2.05;font-family:Consolas,monospace;white-space:pre}.code-bottom{border-top:1px solid #253653;padding:12px 20px;display:flex;justify-content:space-between;color:#8fa7c3;font-size:10px}.code-bottom span:first-child{display:flex;align-items:center;gap:7px}.code-bottom i{width:6px;height:6px;border-radius:50%;background:#29d9a4}.tech-note{margin:18px 0 0;padding:13px 16px;background:#f5f9fd;border:1px solid #e3edf6;border-radius:12px;color:#6b7d91;font-size:11px;line-height:1.9}.tech-note b{color:#244362}.roadmap{display:grid;grid-template-columns:.8fr 1.2fr;gap:75px;align-items:center;background:#f7fbff;border-top:1px solid #eaf1f8}.roadmap h2{margin-top:12px}.roadmap-copy>p{font-size:13px;line-height:2;margin-bottom:23px}.roadmap-steps{display:grid;gap:10px}.roadmap-step{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid #e2edf5;border-radius:15px;padding:14px 18px;box-shadow:0 4px 12px #173d5a05}.roadmap-step>span{width:40px;height:40px;border-radius:12px;background:#e8f6ff;color:#087fc3;display:grid;place-items:center;font-weight:900;font-size:12px}.roadmap-step div{flex:1}.roadmap-step b{font-size:12px;color:var(--navy)}.roadmap-step p{font-size:10px;color:var(--muted);margin:0}.roadmap-step>i{font-style:normal;color:#0aa581;background:#e4f9f0;width:27px;height:27px;display:grid;place-items:center;border-radius:50%;font-size:12px}.bottom-cta{margin:0 clamp(20px,7vw,110px) 70px;border-radius:25px;background:linear-gradient(110deg,#0868bf,#078bc9 58%,#08a7bb);padding:29px 35px;display:flex;align-items:center;gap:20px;color:#fff;box-shadow:0 18px 30px #087fc31c}.cta-symbol{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;background:#ffffff20;border:1px solid #ffffff55;font-size:20px;font-weight:900;flex-shrink:0}.bottom-cta>div:nth-child(2){flex:1}.bottom-cta h2{margin:0;font-size:21px;font-weight:900}.bottom-cta p{margin:3px 0 0;color:#e2f5ff;font-size:11px}.btn.white{background:#fff;color:#0878bd;white-space:nowrap}.footer{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px clamp(20px,7vw,110px);border-top:1px solid #e8eff6}.footer-brand .brand-mark{width:39px;height:39px;border-radius:12px;font-size:14px}.footer-brand b{font-size:13px}.footer-brand small{font-size:10px}.footer>span,.back-top{color:#8a99aa;font-size:10px}.back-top{font-weight:800;color:#087fc3}.modal-backdrop{position:fixed;inset:0;z-index:100;background:#0b1d31a6;backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:20px}.modal-backdrop.show{display:flex}.lesson-modal{position:relative;width:min(100%,600px);max-height:85vh;overflow:auto;background:#fff;border-radius:24px;padding:32px;box-shadow:0 25px 100px #08192f44;animation:pop .2s ease}.modal-close{position:absolute;top:15px;left:16px;border:0;background:#f0f5f8;border-radius:11px;width:34px;height:34px;font-size:24px;line-height:1;color:#50667d;cursor:pointer}.lesson-modal h2{margin:9px 0;color:var(--navy);font-size:28px;font-weight:900}.lesson-modal>p{margin:0 0 20px;color:var(--muted);font-size:13px}.modal-topics{display:grid;grid-template-columns:1fr 1fr;gap:10px}.modal-topic{padding:13px;border:1px solid #e3ecf4;background:#fbfdff;border-radius:13px;display:flex;align-items:flex-start;gap:10px}.modal-topic>span{flex-shrink:0;background:#e2f6ff;color:#087fc3;width:25px;height:25px;display:grid;place-items:center;border-radius:8px;font-size:11px;font-weight:900}.modal-topic b{font-size:12px;display:block;color:var(--navy)}.modal-topic small{color:var(--muted);font-size:10px;display:block;line-height:1.65;margin-top:4px}.modal-footnote{margin-top:18px;padding:12px 14px;border-radius:11px;background:#fff8ec;color:#936322;font-size:10px;line-height:1.8}@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
-@media(max-width:1100px){.site-header{gap:14px;padding:0 24px}.brand{min-width:auto}nav{gap:14px}.hero{padding-inline:38px;gap:26px}.department-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.spotlight{gap:35px;padding-inline:45px}.section{padding:68px 38px}.bottom-cta{margin-inline:38px}.footer{padding-inline:38px}}
-@media(max-width:780px){.site-header{height:75px;padding:0 18px}.menu-toggle{display:block;margin-right:auto}.header-cta{display:none}.site-header nav{display:none;position:absolute;top:74px;right:12px;left:12px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:15px;align-items:stretch;gap:0;flex-direction:column}.site-header nav.open{display:flex}.site-header nav a{padding:10px 8px}.hero{grid-template-columns:1fr;padding:52px 22px 35px;gap:15px}.hero-copy{order:1}.hero-art{order:0;height:300px}.hero-image-wrap{width:min(87%,430px)}.orb-one{width:290px;height:290px;right:10px;top:3px}.orb-two{width:230px;height:230px;left:20px}.float-card{padding:9px 11px;min-width:178px}.float-top{right:0;top:16px}.float-bottom{left:0;bottom:8px}.mini-icon{width:33px;height:33px}.hero h1{font-size:34px}.hero-stats{gap:28px;margin-top:26px}.trust-strip{justify-content:flex-start;padding-inline:22px;gap:13px 24px}.trust-strip>div{min-width:43%}.section{padding:56px 22px}.section-heading{align-items:flex-start;flex-direction:column;gap:10px}.section-heading h2,.spotlight h2,.roadmap h2{font-size:29px}.department-grid{gap:13px}.card-image{height:145px}.card-body{padding:15px}.card-body h3{font-size:17px}.card-body p{font-size:11px;min-height:90px}.spotlight{grid-template-columns:1fr;padding:56px 22px}.gallery-tile,.tile-wide{min-height:160px}.code-layout{grid-template-columns:1fr}.language-list{grid-template-columns:1fr 1fr}.language{padding:9px 7px;gap:8px}.language small{font-size:9px}.language b{font-size:11px}.lang-symbol{width:31px;height:31px}.code-badge{white-space:normal}.roadmap{grid-template-columns:1fr;gap:28px}.bottom-cta{margin:0 22px 45px;padding:24px;flex-wrap:wrap}.bottom-cta h2{font-size:18px}.bottom-cta>div:nth-child(2){min-width:calc(100% - 90px)}.bottom-cta .btn{width:100%}.footer{padding:22px;flex-wrap:wrap}.footer>span{order:3;width:100%}.modal-topics{grid-template-columns:1fr}.lesson-modal{padding:27px 20px}.lesson-modal h2{font-size:24px}}
-@media(max-width:430px){.brand b{font-size:13px}.brand small{font-size:9px}.brand-mark{width:39px;height:39px}.department-grid{grid-template-columns:1fr}.card-image{height:200px}.card-body p{min-height:0}.hero-art{height:265px}.float-card b{font-size:11px}.float-card small{font-size:9px}.hero h1{font-size:30px}.hero-stats{justify-content:space-between;gap:12px}.gallery-grid{gap:9px}.gallery-tile,.tile-wide{min-height:138px}.gallery-tile figcaption{right:10px;bottom:8px}.gallery-tile figcaption b{font-size:11px}.gallery-tile figcaption span{font-size:9px}.language-list{grid-template-columns:1fr}.language{padding:9px 12px}.code-top{padding:0 12px;gap:9px}.code-description{padding-inline:15px}pre{padding-inline:15px;font-size:11px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-/* Earth Al-Karam identity, interactive device gallery and offer cards */
-.brand-logo{width:62px;height:62px;object-fit:contain;border-radius:15px;background:#fff;box-shadow:0 5px 18px #087fc31a;border:1px solid #e1edf7}.footer-brand .brand-logo{width:48px;height:48px}.author-line{display:inline-flex;gap:7px;align-items:center;background:#eaf7ff;border:1px solid #cfeafb;color:#35607f;border-radius:999px;padding:6px 14px;font-size:12px!important;margin-top:8px}.author-line strong{color:#087fc3}.hero-image-wrap img{animation:deviceFloat 5s ease-in-out infinite;filter:drop-shadow(0 18px 22px #087fc31c)}@keyframes deviceFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}.department-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.devices{background:linear-gradient(180deg,#f5fbff,#fff);border-top:1px solid #e7f1f8}.device-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.device-card{background:#fff;border:1px solid #deebf5;border-radius:20px;padding:16px;box-shadow:0 12px 30px #173d5a0a;transition:transform .25s,border-color .25s}.device-card:hover{transform:translateY(-5px);border-color:#94d6f4}.device-visual{height:170px;display:grid;place-items:center;background:radial-gradient(ellipse,#e5f7ff,transparent 70%);border-radius:15px;overflow:hidden}.device-visual img{width:100%;height:100%;object-fit:contain}.device-card h3{margin:13px 0 5px;color:var(--navy);font-size:16px;font-weight:900}.device-card p{margin:0 0 12px;color:var(--muted);font-size:12px;line-height:1.9;min-height:91px}.device-card .card-open{font-size:11px}.power-panel{margin-top:25px;display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;padding:25px;border:1px solid #cfe8f8;border-radius:22px;background:linear-gradient(120deg,#edf9ff,#fff);box-shadow:0 12px 30px #0b80b510}.power-panel h3{font-size:22px;color:var(--navy);margin:9px 0}.power-panel p{font-size:12px;line-height:2;color:var(--muted);margin:0}.power-steps{display:grid;gap:9px}.power-steps div{display:flex;align-items:center;gap:12px;padding:10px 13px;border-radius:12px;background:#fff;border:1px solid #e2eef7;font-size:12px;color:#49647d}.power-steps b{width:29px;height:29px;border-radius:9px;background:#e2f5ff;color:#087fc3;display:grid;place-items:center;flex-shrink:0}.power-source{margin-top:8px!important;font-size:10px!important;line-height:1.8!important;color:#74869a!important}.power-source a{color:#087fc3;text-decoration:underline;text-underline-offset:3px}.field-note{margin-top:18px;padding:14px 18px;border-right:4px solid #0785ce;border-radius:12px;background:#eff9ff;color:#58748b;font-size:12px;line-height:1.9}.field-note b{color:#173451}.offers{background:#fff}.offer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}.offer-card{padding:22px;border:1px solid #deebf5;border-radius:18px;background:#fff;box-shadow:0 10px 26px #173d5a08;transition:transform .2s,border-color .2s}.offer-card:hover{transform:translateY(-4px);border-color:#97d8f5}.offer-card .offer-icon{display:grid;place-items:center;width:43px;height:43px;margin-bottom:13px;border-radius:14px;background:linear-gradient(145deg,#078bc9,#155fd3);color:#fff;font-size:22px}.offer-card h3{margin:0 0 6px;color:var(--navy);font-size:17px;font-weight:900}.offer-card p{margin:0;color:var(--muted);font-size:12px;line-height:2}.featured-offer{border-color:#9ddafa;background:linear-gradient(150deg,#f2fbff,#fff)}.offer-price{color:#087fc3;font-size:27px;font-weight:900;margin:7px 0;direction:ltr;text-align:right}.offer-price small{font-size:13px}.offer-foot{display:block;margin-top:8px;color:#76899c;font-size:10px;line-height:1.8}.speed-range{padding:25px;border:1px solid #cce8f8;border-radius:22px;background:linear-gradient(120deg,#edf9ff,#fff);box-shadow:0 12px 30px #0b80b510}.speed-range-head{display:flex;align-items:center;justify-content:space-between;gap:16px;color:#54708b;font-size:13px;font-weight:800}.speed-range-head strong{color:#087fc3;font-size:28px;font-weight:900;white-space:nowrap;direction:ltr}.speed-range-head small{font-size:12px}.speed-track{height:12px;border-radius:20px;background:#dceef9;overflow:hidden;margin:21px 0 12px;position:relative}.speed-track span{display:block;width:100%;height:100%;border-radius:20px;background:linear-gradient(90deg,#10c9c0,#078bd4 60%,#245ed2);box-shadow:0 0 20px #078bd44a;animation:fillSpeed 1.5s ease-out both}.speed-labels{display:flex;justify-content:space-between;gap:12px;color:#6c8197;font-size:11px;font-weight:800}.offer-disclaimer{margin:18px 0 0;color:#75869a;font-size:11px;line-height:1.9}@keyframes fillSpeed{from{width:0}to{width:100%}}@media(max-width:1100px){.device-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.device-card p{min-height:0}.department-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:900px){.offer-grid{grid-template-columns:1fr}}@media(max-width:780px){.brand-logo{width:48px;height:48px}.power-panel{grid-template-columns:1fr;gap:17px}.device-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.device-visual{height:140px}}@media(max-width:430px){.department-grid,.device-grid{grid-template-columns:1fr}.device-visual{height:185px}.brand-logo{width:42px;height:42px}.speed-range{padding:18px}.speed-range-head{align-items:flex-start;flex-direction:column}.speed-range-head strong{font-size:25px}.speed-labels{font-size:9px;gap:5px}.offer-card{padding:18px}.offer-grid{grid-template-columns:1fr}}
-
-
-/* FIX: prevent the footer logo from expanding and overlapping the page */
-.footer .footer-brand { display:flex; align-items:center; gap:10px; flex:0 0 auto; max-width:max-content; min-width:0; }
-.footer .footer-brand img.brand-logo { display:block; width:48px !important; height:48px !important; min-width:48px !important; max-width:48px !important; min-height:48px !important; max-height:48px !important; object-fit:contain; flex:0 0 48px; position:static !important; transform:none !important; }
-.footer .footer-brand span { display:block; min-width:0; }
-.footer .footer-brand b, .footer .footer-brand small { white-space:normal; }
-@media(max-width:600px){ .footer{flex-wrap:wrap;align-items:center;} .footer .footer-brand img.brand-logo{width:42px !important;height:42px !important;min-width:42px !important;max-width:42px !important;min-height:42px !important;max-height:42px !important;flex-basis:42px;} }
-
-</style>
-</head>
-<body>
-<div class="topline"></div>
-<header class="site-header">
-  <a class="brand" href="#home" aria-label="العودة للرئيسية"><img class="brand-logo" src="data:image/png;base64,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" alt="شعار أرض الكرم"><span><b>شركة أرض الكرم</b><small>مركز التعليم والتدريب</small></span></a>
-  <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
-  <nav id="mainNav"><a class="active" href="#home">الرئيسية</a><a href="#departments">الأقسام</a><a href="#library">المكتبة المصوّرة</a><a href="#devices">أجهزة الفايبر</a><a href="#routers">الراوترات</a><a href="#offers">العروض</a><a href="#about">عن الأكاديمية</a></nav>
-  <a class="header-cta" href="#departments">ابدأ التعلّم <span>←</span></a>
-</header>
-<main>
-<section class="hero section" id="home">
- <div class="hero-copy"><span class="eyebrow"><i></i> تعلّم • طبّق • تطوّر</span><h1>المعرفة التقنية لفريق أرض الكرم، <em>بأسلوب عملي متكامل.</em></h1><p>مركز تدريبي تفاعلي للدعم الفني وخدمة العملاء والمبيعات والتدريب والصيانة. اضغط على أي قسم لفتح دليل عملي، نصوص المكالمات، خطوات التشخيص، ورسومات ONU والراوترات المتحركة.</p><p class="author-line">إعداد وتطوير المحتوى: <strong>علي وجدي</strong></p>
- <div class="hero-actions"><a class="btn primary" href="#departments">استكشف الأقسام <span>←</span></a><a class="btn secondary" href="#library">شاهد المكتبة المصوّرة</a></div>
- <div class="hero-stats"><div><strong>05</strong><span>أقسام العمل</span></div><div><strong>ONU</strong><span>تشخيص بصري</span></div><div><strong>360°</strong><span>تعلّم وتطبيق</span></div></div></div>
- <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-image-wrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDVlZmZmIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImVkZ2UiPjxzdG9wIHN0b3AtY29sb3I9IiMwYWE2ZTUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNTViZDEiLz48L2xpbmVhckdyYWRpZW50PjxmaWx0ZXIgaWQ9InMiPjxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSIxOCIgc3RkRGV2aWF0aW9uPSIxOCIgZmxvb2QtY29sb3I9IiMwYjZhYWIiIGZsb29kLW9wYWNpdHk9Ii4yIi8+PC9maWx0ZXI+PC9kZWZzPjxlbGxpcHNlIGN4PSIzMDgiIGN5PSIzNDAiIHJ4PSIyMjUiIHJ5PSIyNSIgZmlsbD0iIzhmY2NlZSIgb3BhY2l0eT0iLjI1Ii8+PGcgZmlsdGVyPSJ1cmwoI3MpIj48cGF0aCBkPSJNOTggMTU3UTk4IDEzMiAxMjYgMTI1TDQ3MSAxMTJRNTAwIDExMiA1MTAgMTM3TDUyOSAyNTRRNTMxIDI3NCA1MDYgMjgyTDE0OSAzMTBRMTIzIDMxMSAxMTggMjg4WiIgZmlsbD0idXJsKCNnKSIgc3Ryb2tlPSIjYTJjZGU2IiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTAxIDE1Nkw0OTcgMTM1TDUxMCAxNTdMMTE2IDE4MVoiIGZpbGw9IiNlYWY4ZmYiIHN0cm9rZT0iI2M0ZTJmNCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMTU1IiB5PSIyMTEiIHdpZHRoPSIyOTAiIGhlaWdodD0iNjgiIHJ4PSIxMCIgZmlsbD0iI2Y2ZmNmZiIgc3Ryb2tlPSIjY2VlNWY0Ii8+PGcgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMyMzUyN2IiPjx0ZXh0IHg9IjE3NSIgeT0iMjM1Ij5QT1dFUjwvdGV4dD48dGV4dCB4PSIyNDYiIHk9IjIzNSI+UE9OPC90ZXh0Pjx0ZXh0IHg9IjMwOCIgeT0iMjM1Ij5MT1M8L3RleHQ+PHRleHQgeD0iMzcwIiB5PSIyMzUiPkxBTjwvdGV4dD48L2c+PGNpcmNsZSBjeD0iMTg4IiBjeT0iMjU0IiByPSI5IiBmaWxsPSIjMTBjNTdmIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjU1OzEiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjYwIiBjeT0iMjU0IiByPSI5IiBmaWxsPSIjMTBjNTdmIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjY7MSIgZHVyPSIxLjVzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjMyMyIgY3k9IjI1NCIgcj0iOSIgZmlsbD0iI2U1NTI1ZiIvPjxjaXJjbGUgY3g9IjM4NiIgY3k9IjI1NCIgcj0iOSIgZmlsbD0iIzE1OTllNyI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuNDU7MTsuNDUiIGR1cj0iLjlzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjx0ZXh0IHg9IjMxMCIgeT0iODQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwNjdjYmUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI5IiBmb250LXdlaWdodD0iODAwIj5PTlUgLyBHUE9OPC90ZXh0PjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1NSAxNzQpIj48cmVjdCB3aWR0aD0iNDUiIGhlaWdodD0iMzEiIHJ4PSI1IiBmaWxsPSIjMGI0Njc1Ii8+PHJlY3QgeD0iNyIgeT0iNSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ0YmVmNCIvPjxwYXRoIGQ9Ik0xMSAxMUgzM00xMSAxNkgyOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMjEgMzFWNDIiIHN0cm9rZT0iIzBiNDY3NSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9nPjxwYXRoIGQ9Ik0xNDUgMzA1UTEwOCAzMjAgNzQgMzA1IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZWRnZSkiIHN0cm9rZS13aWR0aD0iMTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xNTAgMzA1UTExMyAzMjEgNzYgMzA2IiBmaWxsPSJub25lIiBzdHJva2U9IiM4YmU2ZmYiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTQ4NiAzMDBRNTMwIDMyMSA1NTIgMjk1IiBmaWxsPSJub25lIiBzdHJva2U9IiNmNWE2MjMiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik00ODQgMzAwUTUyOCAzMjEgNTUwIDI5NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZlMjlhIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiM2M2M4ZmEiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iLjciPjxjaXJjbGUgY3g9IjkwIiBjeT0iMTEwIiByPSIzMSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA3Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCA5MCAxMTAiIHRvPSIzNjAgOTAgMTEwIiBkdXI9IjE4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT48Y2lyY2xlIGN4PSI1MjciIGN5PSI4MCIgcj0iMTgiLz48L2c+PGcgZmlsbD0iIzEyYTRlNSI+PGNpcmNsZSBjeD0iODkiIGN5PSIxMTAiIHI9IjUiLz48Y2lyY2xlIGN4PSI1MjciIGN5PSI4MCIgcj0iNSIvPjwvZz48L3N2Zz4K" alt="رسم متحرك توضيحي لجهاز ONU ومؤشرات الحالة"></div><div class="float-card float-top"><span class="mini-icon blue">⌁</span><span><b>الدعم الفني</b><small>تشخيص المشكلة خطوة بخطوة</small></span></div><div class="float-card float-bottom"><span class="mini-icon green">✓</span><span><b>تدريب عملي</b><small>معلومات مرتبة وسهلة</small></span></div><span class="hero-dot dot-a"></span><span class="hero-dot dot-b"></span></div>
-</section>
-<section class="trust-strip"><div><span class="trust-icon">✦</span> شرح مبسّط وواضح</div><div><span class="trust-icon">▧</span> صور ومخططات توضيحية</div><div><span class="trust-icon">⌘</span> مهارات عملية قابلة للتطبيق</div><div><span class="trust-icon">↗</span> تطوير مستمر للمعرفة</div></section>
-<section class="section departments" id="departments"><div class="section-heading"><div><span class="eyebrow">بوابتك للمعرفة</span><h2>تصفّح الأقسام الرئيسية</h2><p>اختَر القسم الذي تحتاجه، ثم افتح الدليل المناسب لك.</p></div><a class="text-link" href="#library">كل المواد التعليمية <span>←</span></a></div>
-<div class="department-grid">
- <article class="department-card"><div class="card-image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNlN2Y2ZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNjOWU4ZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYm94IiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxOThlZTUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0YmEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iNzYwIiBoZWlnaHQ9IjQ2MCIgcng9IjM0IiBmaWxsPSJ1cmwoI2JnKSIvPjxjaXJjbGUgY3g9IjYyMCIgY3k9Ijg1IiByPSIxMDUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii40Ii8+PGNpcmNsZSBjeD0iMTMwIiBjeT0iMzgwIiByPSIxMzAiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTgwIDM1MCBDMTgwIDMwMCAyMDAgMjIwIDMxMCAyNDAgUzUxMCAzMzAgNjgwIDE3MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNmJjOGZmIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik04MCAzNzUgQzE4MCAzMjUgMjAwIDI0NSAzMTAgMjY1IFM1MTAgMzU1IDY4MCAxOTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwOTRkOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMjAgMTAwKSI+PHJlY3QgeD0iMCIgeT0iMjAiIHdpZHRoPSIzMjAiIGhlaWdodD0iMjEwIiByeD0iMjQiIGZpbGw9IiMwZDI5NDciLz48cmVjdCB4PSIxNyIgeT0iMzciIHdpZHRoPSIyODYiIGhlaWdodD0iMTc2IiByeD0iMTYiIGZpbGw9IiNmOGZjZmYiLz48cmVjdCB4PSIzNCIgeT0iNTUiIHdpZHRoPSIyNTIiIGhlaWdodD0iMzUiIHJ4PSI4IiBmaWxsPSJ1cmwoI2JveCkiLz48dGV4dCB4PSIxNjAiIHk9Ijc4IiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZUVEggLyBHUE9OPC90ZXh0PjxnIGZpbGw9IiMyMGI5ODEiPjxjaXJjbGUgY3g9IjU2IiBjeT0iMTE3IiByPSI4Ii8+PGNpcmNsZSBjeD0iNTYiIGN5PSIxNDkiIHI9IjgiLz48L2c+PGcgZmlsbD0iIzJiNzNmZiI+PGNpcmNsZSBjeD0iNTYiIGN5PSIxODEiIHI9IjgiLz48L2c+PGcgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE3IiBmaWxsPSIjMjQ0MTVkIj48dGV4dCB4PSI3OCIgeT0iMTIzIj5QT1dFUjwvdGV4dD48dGV4dCB4PSI3OCIgeT0iMTU1Ij5QT048L3RleHQ+PHRleHQgeD0iNzgiIHk9IjE4NyI+TEFOPC90ZXh0PjwvZz48cGF0aCBkPSJNMjEwIDEyMmg0OG0tNDggMzFoNDhtLTQ4IDMxaDQ4IiBzdHJva2U9IiM5ZmI5ZDMiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTI1NSAyNDBsMzUgNDJoLTcweiIgZmlsbD0iIzA5MjY0YSIvPjxwYXRoIGQ9Ik0yMzAgMjg2aDYwIiBzdHJva2U9IiMwOTI2NGEiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2NjZTlmYiIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMjUiIGN5PSIxMDgiIHI9IjMyIi8+PGNpcmNsZSBjeD0iNjQxIiBjeT0iMzI2IiByPSIyNiIvPjwvZz48cGF0aCBkPSJNMTEyIDEwOGgyNm0tMTMtMTN2MjYiIHN0cm9rZT0iIzE0OGNkYSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNjI5IDMyNmgyNG0tMTItMTJ2MjQiIHN0cm9rZT0iIzE0OGNkYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=" alt="رسم توضيحي لمعدات الفايبر" loading="lazy"><span class="card-number">01</span></div><div class="card-body"><span class="category-pill pill-blue">الشبكات والتقنيات</span><h3>الدعم الفني</h3><p>أساسيات الشبكات، لمبات جهاز ONU، تشخيص الأعطال، قراءة مؤشرات الاتصال، وخطوات التصعيد.</p><button class="card-open" data-open="support">افتح الدليل <span>←</span></button></div></article>
- <article class="department-card"><div class="card-image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2YxZWFmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2RlZGNmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI2MzAiIGN5PSI4MCIgcj0iOTAiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii40NSIvPjxyZWN0IHg9IjEwMCIgeT0iMjk1IiB3aWR0aD0iNTYwIiBoZWlnaHQ9IjE4IiByeD0iOSIgZmlsbD0iIzhhODhjNyIvPjxyZWN0IHg9IjE0NSIgeT0iMzA0IiB3aWR0aD0iMTgiIGhlaWdodD0iOTQiIHJ4PSI5IiBmaWxsPSIjNzA3OGI1Ii8+PHJlY3QgeD0iNjAwIiB5PSIzMDQiIHdpZHRoPSIxOCIgaGVpZ2h0PSI5NCIgcng9IjkiIGZpbGw9IiM3MDc4YjUiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxODAgOTUpIj48Y2lyY2xlIGN4PSI5NSIgY3k9IjY1IiByPSI1MSIgZmlsbD0iI2M5ODU1OSIvPjxwYXRoIGQ9Ik00NSA2N1EzOSAwIDk5IDExcTU1LTYgNTEgNTZsLTE2LTE5LTczIDF6IiBmaWxsPSIjM2EyOTRiIi8+PHBhdGggZD0iTTQwIDE3NXExNC01MCA1NS01MHQ1NiA1MHYxMTJINDB6IiBmaWxsPSIjN2Q2N2RmIi8+PHBhdGggZD0iTTYxIDE0NWwzNiAyNiAzNC0yNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjgiLz48cGF0aCBkPSJNOTUgMTcxdjQ2IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iOCIvPjxwYXRoIGQ9Ik00MiAyMDBMMTAgMjQ0bTEzNS00NCAzNCA0NCIgc3Ryb2tlPSIjYzk4NTU5IiBzdHJva2Utd2lkdGg9IjE4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cmVjdCB4PSI3MCIgeT0iNDkiIHdpZHRoPSI1NSIgaGVpZ2h0PSIxMCIgcng9IjUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii41Ii8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM5MCA5NSkiPjxjaXJjbGUgY3g9Ijk1IiBjeT0iNjUiIHI9IjUxIiBmaWxsPSIjOGU1NzNmIi8+PHBhdGggZD0iTTQzIDU3UTQ5IDYgOTQgMTJxNDYtMyA1MSA0OGwtMTYtMTQtNzcgMHoiIGZpbGw9IiMxNzJjNDUiLz48cGF0aCBkPSJNNDAgMTc1cTE0LTUwIDU1LTUwdDU2IDUwdjExMkg0MHoiIGZpbGw9IiMxMTllOTciLz48cGF0aCBkPSJNNTggMTQ1bDM3IDI2IDM2LTI2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iOCIvPjxwYXRoIGQ9Ik05NSAxNzF2NDYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI4Ii8+PHBhdGggZD0iTTQyIDIwMEwxMCAyNDRtMTM1LTQ0IDM0IDQ0IiBzdHJva2U9IiM4ZTU3M2YiIHN0cm9rZS13aWR0aD0iMTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmaWxsPSIjZmZmIiBzdHJva2U9IiNkMWNmZmYiIHN0cm9rZS13aWR0aD0iMyI+PHJlY3QgeD0iMjcwIiB5PSI1MCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSI2NCIgcng9IjE4Ii8+PHJlY3QgeD0iNDY4IiB5PSI0MCIgd2lkdGg9IjE0NSIgaGVpZ2h0PSI2MSIgcng9IjE4Ii8+PC9nPjxnIGZpbGw9IiM2NjU0Y2UiPjxjaXJjbGUgY3g9IjI5NiIgY3k9IjgyIiByPSI2Ii8+PGNpcmNsZSBjeD0iMzE1IiBjeT0iODIiIHI9IjYiLz48Y2lyY2xlIGN4PSIzMzQiIGN5PSI4MiIgcj0iNiIvPjxwYXRoIGQ9Ik01MDIgNzFoNzRtLTc0IDE0aDUyIiBzdHJva2U9IiM2NjU0Y2UiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjxyZWN0IHg9IjI3MCIgeT0iMjcwIiB3aWR0aD0iMTIyIiBoZWlnaHQ9IjE2IiByeD0iOCIgZmlsbD0iIzhlOWFkOSIvPjxyZWN0IHg9IjQ3NSIgeT0iMjcwIiB3aWR0aD0iMTIyIiBoZWlnaHQ9IjE2IiByeD0iOCIgZmlsbD0iIzhlOWFkOSIvPjwvc3ZnPg==" alt="رسم توضيحي لفريق خدمة العملاء" loading="lazy"><span class="card-number">02</span></div><div class="card-body"><span class="category-pill pill-purple">التواصل وتجربة العميل</span><h3>خدمة العملاء</h3><p>استقبال المكالمات، طرح الأسئلة الصحيحة، توثيق البلاغ، تهدئة العميل، والمتابعة باحتراف.</p><button class="card-open" data-open="service">افتح الدليل <span>←</span></button></div></article>
- <article class="department-card"><div class="card-image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2U2ZmZmNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M3ZjJlMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI2MTAiIGN5PSI5MCIgcj0iOTAiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii41Ii8+PHJlY3QgeD0iMTQwIiB5PSI4MiIgd2lkdGg9IjQ4MCIgaGVpZ2h0PSIyODAiIHJ4PSIyNCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYjllOGQ1IiBzdHJva2Utd2lkdGg9IjQiLz48cmVjdCB4PSIxNjgiIHk9IjExMiIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjZDVlOWUxIi8+PHJlY3QgeD0iMTY4IiB5PSIxNTEiIHdpZHRoPSIxNjQiIGhlaWdodD0iMTIiIHJ4PSI2IiBmaWxsPSIjZTNlZmVhIi8+PHJlY3QgeD0iMTY4IiB5PSIxNzgiIHdpZHRoPSIxOTQiIGhlaWdodD0iMTIiIHJ4PSI2IiBmaWxsPSIjZTNlZmVhIi8+PHBhdGggZD0iTTE3OSAzMDBsNjYtNTggNTUgMzAgNTgtODQgNjAgMjYgNTgtNzciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzEwYTg3OSIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48ZyBmaWxsPSIjMTBhODc5Ij48Y2lyY2xlIGN4PSIxNzkiIGN5PSIzMDAiIHI9IjgiLz48Y2lyY2xlIGN4PSIyNDUiIGN5PSIyNDIiIHI9IjgiLz48Y2lyY2xlIGN4PSIzMDAiIGN5PSIyNzIiIHI9IjgiLz48Y2lyY2xlIGN4PSIzNTgiIGN5PSIxODgiIHI9IjgiLz48Y2lyY2xlIGN4PSI0MTgiIGN5PSIyMTQiIHI9IjgiLz48Y2lyY2xlIGN4PSI0NzYiIGN5PSIxMzciIHI9IjgiLz48L2c+PHJlY3QgeD0iNTA1IiB5PSIxMDIiIHdpZHRoPSI4MyIgaGVpZ2h0PSI4MyIgcng9IjIyIiBmaWxsPSIjMGY5Zjc4Ii8+PHBhdGggZD0iTTU0NiAxMTlsOCAxNyAxOSAzLTE0IDEzIDQgMTktMTctOS0xNyA5IDQtMTktMTQtMTMgMTktM3oiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSIxNzgiIHk9IjMyNCIgd2lkdGg9IjM5MCIgaGVpZ2h0PSIxMiIgcng9IjYiIGZpbGw9IiNlMWYxZWIiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1NDAgMjQ1KSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDUiIGZpbGw9IiMwZDMxNTEiLz48cGF0aCBkPSJNMjggNTNsMTUgMTUgMjgtMzciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L2c+PC9zdmc+" alt="رسم توضيحي لمتابعة المبيعات" loading="lazy"><span class="card-number">03</span></div><div class="card-body"><span class="category-pill pill-green">العروض والنمو</span><h3>المبيعات</h3><p>فهم احتياج المشترك، شرح الباقات بوضوح، التعامل مع الاعتراضات، والمتابعة دون مبالغة بالوعود.</p><button class="card-open" data-open="sales">افتح الدليل <span>←</span></button></div></article>
- <article class="department-card"><div class="card-image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZjFkZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZGRiZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI2NTAiIGN5PSI5MCIgcj0iMTAwIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNCIvPjxyZWN0IHg9Ijk1IiB5PSI3MCIgd2lkdGg9IjU3MCIgaGVpZ2h0PSIyMDIiIHJ4PSIyMCIgZmlsbD0iIzE3M2E2MyIvPjxyZWN0IHg9IjExNiIgeT0iOTEiIHdpZHRoPSI1MjgiIGhlaWdodD0iMTYwIiByeD0iMTAiIGZpbGw9IiNmOGZjZmYiLz48cmVjdCB4PSIxNDIiIHk9IjExNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIxNyIgcng9IjgiIGZpbGw9IiMxNjhjZDEiLz48cmVjdCB4PSIxNDIiIHk9IjE0NiIgd2lkdGg9IjM1MCIgaGVpZ2h0PSIxMCIgcng9IjUiIGZpbGw9IiNjNGRlZWYiLz48cmVjdCB4PSIxNDIiIHk9IjE2NyIgd2lkdGg9IjI4NSIgaGVpZ2h0PSIxMCIgcng9IjUiIGZpbGw9IiNjNGRlZWYiLz48cmVjdCB4PSIxNDIiIHk9IjE4OCIgd2lkdGg9IjMyMCIgaGVpZ2h0PSIxMCIgcng9IjUiIGZpbGw9IiNjNGRlZWYiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MjAgMTIwKSI+PGNpcmNsZSBjeD0iNDAiIGN5PSIzMCIgcj0iMjUiIGZpbGw9IiNiN2RjZmYiLz48cGF0aCBkPSJNMTAgODJxNy0zMCAzMC0zMHQzMCAzMHYyOUgxMHoiIGZpbGw9IiMxNjhjZDEiLz48L2c+PHJlY3QgeD0iMzUwIiB5PSIyNzIiIHdpZHRoPSI2MCIgaGVpZ2h0PSIzNCIgcng9IjciIGZpbGw9IiMxNzNhNjMiLz48cmVjdCB4PSIyNjUiIHk9IjMwNCIgd2lkdGg9IjIzMCIgaGVpZ2h0PSIxNSIgcng9IjciIGZpbGw9IiMxNzNhNjMiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjggMzE1KSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE5MCIgaGVpZ2h0PSIxOCIgcng9IjkiIGZpbGw9IiNmMGFlNzAiLz48cmVjdCB4PSIyNCIgeT0iMTgiIHdpZHRoPSIxNCIgaGVpZ2h0PSI2NCIgcng9IjciIGZpbGw9IiNkOThiNGIiLz48cmVjdCB4PSIxNTIiIHk9IjE4IiB3aWR0aD0iMTQiIGhlaWdodD0iNjQiIHJ4PSI3IiBmaWxsPSIjZDk4YjRiIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iLTMwIiByPSIyOSIgZmlsbD0iI2E5NjY0NSIvPjxwYXRoIGQ9Ik03Mi0zMXE0LTM0IDMxLTI5dDI3IDI4bC0xNS04LTI3IDB6IiBmaWxsPSIjMjkzZjVlIi8+PHBhdGggZD0iTTY2IDI2cTctMzEgMzQtMzF0MzQgMzF2NDJINjZ6IiBmaWxsPSIjMTM4Y2FhIi8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQyMCAzMzcpIj48Y2lyY2xlIGN4PSI0MCIgY3k9Ii0zMCIgcj0iMjciIGZpbGw9IiNjNzg2NWQiLz48cGF0aCBkPSJNMTMtMzNxNi0yOSAzMC0yNXQyNCAyNWwtMTItNy0zMiAxeiIgZmlsbD0iIzM0NDY1ZiIvPjxwYXRoIGQ9Ik01IDE1cTYtMjggMzUtMjh0MzUgMjh2NDlINXoiIGZpbGw9IiM3ODY0ZDkiLz48L2c+PC9zdmc+" alt="رسم توضيحي لقاعة تدريب" loading="lazy"><span class="card-number">04</span></div><div class="card-body"><span class="category-pill pill-orange">التطوير المهني</span><h3>التدريب</h3><p>مسارات الموظف الجديد، أسلوب التعلّم، الاختبارات القصيرة، وتوثيق المهارات المكتسبة.</p><button class="card-open" data-open="training">افتح الدليل <span>←</span></button></div></article>
- <article class="department-card"><div class="card-image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNlN2Y2ZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNjOWU4ZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYm94IiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxOThlZTUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0YmEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iNzYwIiBoZWlnaHQ9IjQ2MCIgcng9IjM0IiBmaWxsPSJ1cmwoI2JnKSIvPjxjaXJjbGUgY3g9IjYyMCIgY3k9Ijg1IiByPSIxMDUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii40Ii8+PGNpcmNsZSBjeD0iMTMwIiBjeT0iMzgwIiByPSIxMzAiIGZpbGw9IiNmZmYiIG9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTgwIDM1MCBDMTgwIDMwMCAyMDAgMjIwIDMxMCAyNDAgUzUxMCAzMzAgNjgwIDE3MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNmJjOGZmIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik04MCAzNzUgQzE4MCAzMjUgMjAwIDI0NSAzMTAgMjY1IFM1MTAgMzU1IDY4MCAxOTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwOTRkOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMjAgMTAwKSI+PHJlY3QgeD0iMCIgeT0iMjAiIHdpZHRoPSIzMjAiIGhlaWdodD0iMjEwIiByeD0iMjQiIGZpbGw9IiMwZDI5NDciLz48cmVjdCB4PSIxNyIgeT0iMzciIHdpZHRoPSIyODYiIGhlaWdodD0iMTc2IiByeD0iMTYiIGZpbGw9IiNmOGZjZmYiLz48cmVjdCB4PSIzNCIgeT0iNTUiIHdpZHRoPSIyNTIiIGhlaWdodD0iMzUiIHJ4PSI4IiBmaWxsPSJ1cmwoI2JveCkiLz48dGV4dCB4PSIxNjAiIHk9Ijc4IiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZUVEggLyBHUE9OPC90ZXh0PjxnIGZpbGw9IiMyMGI5ODEiPjxjaXJjbGUgY3g9IjU2IiBjeT0iMTE3IiByPSI4Ii8+PGNpcmNsZSBjeD0iNTYiIGN5PSIxNDkiIHI9IjgiLz48L2c+PGcgZmlsbD0iIzJiNzNmZiI+PGNpcmNsZSBjeD0iNTYiIGN5PSIxODEiIHI9IjgiLz48L2c+PGcgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE3IiBmaWxsPSIjMjQ0MTVkIj48dGV4dCB4PSI3OCIgeT0iMTIzIj5QT1dFUjwvdGV4dD48dGV4dCB4PSI3OCIgeT0iMTU1Ij5QT048L3RleHQ+PHRleHQgeD0iNzgiIHk9IjE4NyI+TEFOPC90ZXh0PjwvZz48cGF0aCBkPSJNMjEwIDEyMmg0OG0tNDggMzFoNDhtLTQ4IDMxaDQ4IiBzdHJva2U9IiM5ZmI5ZDMiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTI1NSAyNDBsMzUgNDJoLTcweiIgZmlsbD0iIzA5MjY0YSIvPjxwYXRoIGQ9Ik0yMzAgMjg2aDYwIiBzdHJva2U9IiMwOTI2NGEiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2NjZTlmYiIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMjUiIGN5PSIxMDgiIHI9IjMyIi8+PGNpcmNsZSBjeD0iNjQxIiBjeT0iMzI2IiByPSIyNiIvPjwvZz48cGF0aCBkPSJNMTEyIDEwOGgyNm0tMTMtMTN2MjYiIHN0cm9rZT0iIzE0OGNkYSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNjI5IDMyNmgyNG0tMTItMTJ2MjQiIHN0cm9rZT0iIzE0OGNkYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=" alt="رسم توضيحي لفني يفحص شبكة الفايبر" loading="lazy"><span class="card-number">05</span></div><div class="card-body"><span class="category-pill pill-blue">الفحص الميداني</span><h3>الصيانة الميدانية</h3><p>فحص الباور والتوصيلات، ONU والراوتر وLAN وUPS، وتحديد عوائق الواي فاي ومسار التصعيد.</p><button class="card-open" data-open="maintenance">افتح دليل الصيانة <span>←</span></button></div></article>
-</div></section>
-<section class="section spotlight" id="library"><div class="spotlight-text"><span class="eyebrow">مكتبة مرئية</span><h2>المعلومة تصير أوضح<br><em>لما تشوفها وتطبّقها.</em></h2><p>مخططات وأمثلة بصرية لتسهيل فهم الأجهزة، سير العمل، مهارات التواصل، وقراءة مؤشرات الأداء.</p><div class="spotlight-points"><div><span>✓</span><p><b>رسومات توضيحية</b><small>لتبسيط المفاهيم التقنية والإدارية</small></p></div><div><span>✓</span><p><b>أمثلة من بيئة العمل</b><small>سيناريوهات تدريبية قابلة للتطوير</small></p></div><div><span>✓</span><p><b>محتوى قابل للتوسّع</b><small>إضافة الدروس والصور والملفات لاحقاً</small></p></div></div></div>
-<div class="gallery-grid"><figure class="gallery-tile tile-wide"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2UwZjdmNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2JmZTllZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48ZyBzdHJva2U9IiM3NGM3ZGEiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMzgwIDIwMEwxODAgMTAwTTM4MCAyMDBMNTgwIDEwME0zODAgMjAwTDE3MCAzNTBNMzgwIDIwMEw1OTAgMzUwTTE4MCAxMDBMNTgwIDEwME0xNzAgMzUwTDU5MCAzNTAiLz48L2c+PGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjODNjOGQ4IiBzdHJva2Utd2lkdGg9IjUiPjxjaXJjbGUgY3g9IjM4MCIgY3k9IjIwMCIgcj0iNzYiLz48Y2lyY2xlIGN4PSIxODAiIGN5PSIxMDAiIHI9IjQ4Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMTAwIiByPSI0OCIvPjxjaXJjbGUgY3g9IjE3MCIgY3k9IjM1MCIgcj0iNDgiLz48Y2lyY2xlIGN4PSI1OTAiIGN5PSIzNTAiIHI9IjQ4Ii8+PC9nPjxnIGZpbGw9IiMwYzgzYzAiPjxyZWN0IHg9IjM0MyIgeT0iMTc4IiB3aWR0aD0iNzQiIGhlaWdodD0iNDQiIHJ4PSI4Ii8+PHBhdGggZD0iTTM1NSAxOTFoNTBtLTUwIDE0aDUwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTE2MSA5MWgzOG0tMTktMTl2MzgiIHN0cm9rZT0iIzBjODNjMCIgc3Ryb2tlLXdpZHRoPSI3IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNTYxIDkwaDM4bS0xOS0xOXYzOCIgc3Ryb2tlPSIjMGM4M2MwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xNTIgMzQ5aDM2bS0xOC0xOHYzNiIgc3Ryb2tlPSIjMGM4M2MwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik01NzIgMzQ5aDM2bS0xOC0xOHYzNiIgc3Ryb2tlPSIjMGM4M2MwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZpbGw9IiMyMzUwNmQiIGZvbnQtc2l6ZT0iMTciIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjx0ZXh0IHg9IjM4MCIgeT0iMjk1Ij7YtNio2YPYqSDZhdiq2LHYp9io2LfYqTwvdGV4dD48dGV4dCB4PSIxODAiIHk9IjE2NyI+2LnZhdmK2YQ8L3RleHQ+PHRleHQgeD0iNTgwIiB5PSIxNjciPtiu2K/ZhdipPC90ZXh0Pjx0ZXh0IHg9IjE3MCIgeT0iNDE5Ij7ZgdmG2Yo8L3RleHQ+PHRleHQgeD0iNTkwIiB5PSI0MTkiPtiq2K/YsdmK2Kg8L3RleHQ+PC9nPjwvc3ZnPg==" alt="مخطط مرئي لشبكة مترابطة" loading="lazy"><figcaption><b>فهم مسار الشبكة</b><span>مخططات مبسّطة</span></figcaption></figure><figure class="gallery-tile"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2U5ZjhmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2QyZWJmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48cmVjdCB4PSIxMTAiIHk9IjY1IiB3aWR0aD0iNTQwIiBoZWlnaHQ9IjMzMCIgcng9IjI0IiBmaWxsPSIjZmZmIiBzdHJva2U9IiNiZmRmZjMiIHN0cm9rZS13aWR0aD0iNCIvPjxyZWN0IHg9IjExMCIgeT0iNjUiIHdpZHRoPSI1NDAiIGhlaWdodD0iNTQiIHJ4PSIyNCIgZmlsbD0iIzEzN2ZjNCIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSI1NDAiIGhlaWdodD0iMjQiIGZpbGw9IiMxMzdmYzQiLz48Y2lyY2xlIGN4PSIxNDIiIGN5PSI5MiIgcj0iNyIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE2NSIgY3k9IjkyIiByPSI3IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNyIvPjxjaXJjbGUgY3g9IjE4OCIgY3k9IjkyIiByPSI3IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNSIvPjxnPjxyZWN0IHg9IjE0MiIgeT0iMTQ3IiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjkwIiByeD0iMTMiIGZpbGw9IiNlZWY3ZmYiLz48cmVjdCB4PSIyOTgiIHk9IjE0NyIgd2lkdGg9IjE0MCIgaGVpZ2h0PSI5MCIgcng9IjEzIiBmaWxsPSIjZWNmYmY1Ii8+PHJlY3QgeD0iNDU0IiB5PSIxNDciIHdpZHRoPSIxNjQiIGhlaWdodD0iOTAiIHJ4PSIxMyIgZmlsbD0iI2ZmZjVlOCIvPjxnIGZpbGw9IiMxYThiZDAiPjxyZWN0IHg9IjE2MCIgeT0iMTY3IiB3aWR0aD0iNjMiIGhlaWdodD0iOCIgcng9IjQiLz48cmVjdCB4PSIxNjAiIHk9IjE4OCIgd2lkdGg9IjkzIiBoZWlnaHQ9IjIyIiByeD0iNiIvPjwvZz48ZyBmaWxsPSIjMGNhYTdiIj48cmVjdCB4PSIzMTYiIHk9IjE2NyIgd2lkdGg9IjYzIiBoZWlnaHQ9IjgiIHJ4PSI0Ii8+PHJlY3QgeD0iMzE2IiB5PSIxODgiIHdpZHRoPSI5MyIgaGVpZ2h0PSIyMiIgcng9IjYiLz48L2c+PGcgZmlsbD0iI2VmOWEyZiI+PHJlY3QgeD0iNDcyIiB5PSIxNjciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4IiByeD0iNCIvPjxyZWN0IHg9IjQ3MiIgeT0iMTg4IiB3aWR0aD0iMTEyIiBoZWlnaHQ9IjIyIiByeD0iNiIvPjwvZz48L2c+PHJlY3QgeD0iMTQyIiB5PSIyNTciIHdpZHRoPSI0NzYiIGhlaWdodD0iMTA1IiByeD0iMTMiIGZpbGw9IiNmNWY5ZmQiLz48cGF0aCBkPSJNMTY4IDMzMGw0OC0yOCA1NSAxOCA2NC01MiA2MiAyNyA1Mi0zNCA2MCAzNyA3MC00NyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjA4ZmQwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxnIGZpbGw9IiMyMDhmZDAiPjxjaXJjbGUgY3g9IjE2OCIgY3k9IjMzMCIgcj0iNiIvPjxjaXJjbGUgY3g9IjIxNiIgY3k9IjMwMiIgcj0iNiIvPjxjaXJjbGUgY3g9IjI3MSIgY3k9IjMyMCIgcj0iNiIvPjxjaXJjbGUgY3g9IjMzNSIgY3k9IjI2OCIgcj0iNiIvPjxjaXJjbGUgY3g9IjM5NyIgY3k9IjI5NSIgcj0iNiIvPjxjaXJjbGUgY3g9IjQ0OSIgY3k9IjI2MSIgcj0iNiIvPjxjaXJjbGUgY3g9IjUwOSIgY3k9IjI5OCIgcj0iNiIvPjxjaXJjbGUgY3g9IjU3OSIgY3k9IjI1MSIgcj0iNiIvPjwvZz48L3N2Zz4=" alt="لوحة مؤشرات أداء توضيحية" loading="lazy"><figcaption><b>قراءة المؤشرات</b><span>متابعة الأداء</span></figcaption></figure><figure class="gallery-tile"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNDYwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZjBmMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZDllMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI3NjAiIGhlaWdodD0iNDYwIiByeD0iMzQiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI2MzAiIGN5PSI4MCIgcj0iMTAwIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNDIiLz48cmVjdCB4PSIxMjAiIHk9IjgwIiB3aWR0aD0iNTIwIiBoZWlnaHQ9IjMwMCIgcng9IjIyIiBmaWxsPSIjZmZmIiBzdHJva2U9IiNmM2M4ZDMiIHN0cm9rZS13aWR0aD0iNCIvPjxnIGZpbGw9IiNmOGU4ZWMiPjxyZWN0IHg9IjE1NiIgeT0iMTE2IiB3aWR0aD0iNDQ4IiBoZWlnaHQ9IjE5MCIgcng9IjE0Ii8+PC9nPjxnIGZpbGw9IiNlYjUyNzciPjxyZWN0IHg9IjE5MCIgeT0iMjMwIiB3aWR0aD0iNDIiIGhlaWdodD0iNTIiIHJ4PSI4Ii8+PHJlY3QgeD0iMjYwIiB5PSIxOTkiIHdpZHRoPSI0MiIgaGVpZ2h0PSI4MyIgcng9IjgiLz48cmVjdCB4PSIzMzAiIHk9IjE3NiIgd2lkdGg9IjQyIiBoZWlnaHQ9IjEwNiIgcng9IjgiLz48cmVjdCB4PSI0MDAiIHk9IjE0NSIgd2lkdGg9IjQyIiBoZWlnaHQ9IjEzNyIgcng9IjgiLz48cmVjdCB4PSI0NzAiIHk9IjExOSIgd2lkdGg9IjQyIiBoZWlnaHQ9IjE2MyIgcng9IjgiLz48L2c+PHBhdGggZD0iTTE4NSAyMTFsODgtMzMgNzYgOCA3Ni00NCA3NS0yOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTMyZjUxIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik00ODkgMTE0bDE0LTMtMyAxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTMyZjUxIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxyZWN0IHg9IjE1OCIgeT0iMzI2IiB3aWR0aD0iMjM1IiBoZWlnaHQ9IjE0IiByeD0iNyIgZmlsbD0iI2Y0ZDhkZiIvPjxyZWN0IHg9IjE1OCIgeT0iMzUwIiB3aWR0aD0iMzQ1IiBoZWlnaHQ9IjEyIiByeD0iNiIgZmlsbD0iI2Y4ZTZlYiIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU0MCAzMTApIj48Y2lyY2xlIGN4PSIyOCIgY3k9IjAiIHI9IjI4IiBmaWxsPSIjMTMyZjUxIi8+PHBhdGggZD0iTTE0IDBoMjhtLTE0LTE0djI4IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjwvc3ZnPg==" alt="رسم يوضح نمو الأداء" loading="lazy"><figcaption><b>تطوير الأداء</b><span>تعلّم وتحسين</span></figcaption></figure><figure class="gallery-tile tile-wide"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InIiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDhmMGZmIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjE0IiBzdGREZXZpYXRpb249IjE1IiBmbG9vZC1jb2xvcj0iIzFjNmJhOCIgZmxvb2Qtb3BhY2l0eT0iLjE5Ii8+PC9maWx0ZXI+PC9kZWZzPjxlbGxpcHNlIGN4PSIzMTAiIGN5PSIzNDAiIHJ4PSIxOTIiIHJ5PSIyNCIgZmlsbD0iIzdlYzRlZiIgb3BhY2l0eT0iLjI1Ii8+PGcgZmlsdGVyPSJ1cmwoI3NoKSI+PHBhdGggZD0iTTE3MSAyMzNMMjAxIDE1NFEyMDcgMTQxIDIyNSAxNDNMNDEzIDE2OVE0MzEgMTcxIDQzNyAxOTBMNDU4IDI2M1E0NjEgMjc1IDQ0NyAyODJMMjIyIDMwNlEyMDYgMzA3IDE5OSAyOTRaIiBmaWxsPSJ1cmwoI3IpIiBzdHJva2U9IiM5YmM4ZTQiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik0yMDMgMTU1TDQxNSAxNzhMNDMxIDE5OEwyMTAgMTc4WiIgZmlsbD0iI2VhZjhmZiIgc3Ryb2tlPSIjYzFlMWYzIiBzdHJva2Utd2lkdGg9IjIiLz48ZyBzdHJva2U9IiMwZThlY2YiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMjQyIDE2NEwyMjQgNTciLz48cGF0aCBkPSJNMzk3IDE4Mkw0MTEgNjUiLz48L2c+PHBhdGggZD0iTTIyNCA1N1ExODggMzIgMTg4IDRNMjI0IDU3UTE2MiA1OCAxNDggMzJNNDExIDY1UTQ1NSAyOSA0NzAgOE00MTEgNjVRNDczIDU5IDQ5MCAzNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzJhOWVmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuNTsxOy41IiBkdXI9IjIuNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9wYXRoPjxnIHN0cm9rZT0iIzQ3YmFmMiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjUwIDExOVEzMTEgNTggMzcyIDEyNSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgdmFsdWVzPSIwOzUwIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvcGF0aD48cGF0aCBkPSJNMjY1IDEzOFEzMTEgOTUgMzU1IDE0MSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgdmFsdWVzPSIwOy00MCIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+PC9nPjx0ZXh0IHg9IjMxMCIgeT0iMjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDg3ZmMzIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMyIgZm9udC13ZWlnaHQ9IjgwMCI+V2ktRmkgNjwvdGV4dD48ZyBmaWxsPSIjMTBiOTgxIj48Y2lyY2xlIGN4PSIyNTgiIGN5PSIyNTIiIHI9IjUiLz48Y2lyY2xlIGN4PSIyODAiIGN5PSIyNTAiIHI9IjUiLz48Y2lyY2xlIGN4PSIzMDIiIGN5PSIyNDciIHI9IjUiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMwIDI0MSkiPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI3NiIgaGVpZ2h0PSIyMSIgcng9IjciIGZpbGw9IiMxNzQ5NmQiLz48cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNTgiIGhlaWdodD0iMTAiIHJ4PSIzIiBmaWxsPSIjNDJiZGZmIi8+PC9nPjxwYXRoIGQ9Ik0xNTIgMjk1TDk1IDMxNyIgc3Ryb2tlPSIjMGI4NGM3IiBzdHJva2Utd2lkdGg9IjEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNDUzIDI5MUw1MTQgMzA5IiBzdHJva2U9IiMwYjg0YzciIHN0cm9rZS13aWR0aD0iMTMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiM2YmM5ZjIiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iOTkiIGN5PSIxMjEiIHI9IjI3IiBzdHJva2UtZGFzaGFycmF5PSIzIDciPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBmcm9tPSIwIDk5IDEyMSIgdG89IjM2MCA5OSAxMjEiIGR1cj0iMTRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjUyMCIgY3k9IjEyNCIgcj0iMjIiIHN0cm9rZS1kYXNoYXJyYXk9IjUgNiIvPjwvZz48L3N2Zz4K" alt="رسم متحرك توضيحي لراوتر واي فاي" loading="lazy"><figcaption><b>أجهزة الراوتر والواي فاي</b><span>فهم التغطية والتداخل</span></figcaption></figure></div></section>
-<section class="section devices" id="devices"><div class="section-heading"><div><span class="eyebrow">مختبر الأجهزة</span><h2>افهم الجهاز قبل تشخيص العطل</h2><p>افتح كل بطاقة حتى تظهر لك خطوات الفحص والمؤشرات التي يجب توثيقها.</p></div><span class="code-badge">ONU · Router · LAN · UPS</span></div><div class="device-grid">
-<article class="device-card"><div class="device-visual"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDVlZmZmIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImVkZ2UiPjxzdG9wIHN0b3AtY29sb3I9IiMwYWE2ZTUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNTViZDEiLz48L2xpbmVhckdyYWRpZW50PjxmaWx0ZXIgaWQ9InMiPjxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSIxOCIgc3RkRGV2aWF0aW9uPSIxOCIgZmxvb2QtY29sb3I9IiMwYjZhYWIiIGZsb29kLW9wYWNpdHk9Ii4yIi8+PC9maWx0ZXI+PC9kZWZzPjxlbGxpcHNlIGN4PSIzMDgiIGN5PSIzNDAiIHJ4PSIyMjUiIHJ5PSIyNSIgZmlsbD0iIzhmY2NlZSIgb3BhY2l0eT0iLjI1Ii8+PGcgZmlsdGVyPSJ1cmwoI3MpIj48cGF0aCBkPSJNOTggMTU3UTk4IDEzMiAxMjYgMTI1TDQ3MSAxMTJRNTAwIDExMiA1MTAgMTM3TDUyOSAyNTRRNTMxIDI3NCA1MDYgMjgyTDE0OSAzMTBRMTIzIDMxMSAxMTggMjg4WiIgZmlsbD0idXJsKCNnKSIgc3Ryb2tlPSIjYTJjZGU2IiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTAxIDE1Nkw0OTcgMTM1TDUxMCAxNTdMMTE2IDE4MVoiIGZpbGw9IiNlYWY4ZmYiIHN0cm9rZT0iI2M0ZTJmNCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMTU1IiB5PSIyMTEiIHdpZHRoPSIyOTAiIGhlaWdodD0iNjgiIHJ4PSIxMCIgZmlsbD0iI2Y2ZmNmZiIgc3Ryb2tlPSIjY2VlNWY0Ii8+PGcgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMyMzUyN2IiPjx0ZXh0IHg9IjE3NSIgeT0iMjM1Ij5QT1dFUjwvdGV4dD48dGV4dCB4PSIyNDYiIHk9IjIzNSI+UE9OPC90ZXh0Pjx0ZXh0IHg9IjMwOCIgeT0iMjM1Ij5MT1M8L3RleHQ+PHRleHQgeD0iMzcwIiB5PSIyMzUiPkxBTjwvdGV4dD48L2c+PGNpcmNsZSBjeD0iMTg4IiBjeT0iMjU0IiByPSI5IiBmaWxsPSIjMTBjNTdmIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjU1OzEiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjYwIiBjeT0iMjU0IiByPSI5IiBmaWxsPSIjMTBjNTdmIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7LjY7MSIgZHVyPSIxLjVzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjMyMyIgY3k9IjI1NCIgcj0iOSIgZmlsbD0iI2U1NTI1ZiIvPjxjaXJjbGUgY3g9IjM4NiIgY3k9IjI1NCIgcj0iOSIgZmlsbD0iIzE1OTllNyI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuNDU7MTsuNDUiIGR1cj0iLjlzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjx0ZXh0IHg9IjMxMCIgeT0iODQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwNjdjYmUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI5IiBmb250LXdlaWdodD0iODAwIj5PTlUgLyBHUE9OPC90ZXh0PjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1NSAxNzQpIj48cmVjdCB3aWR0aD0iNDUiIGhlaWdodD0iMzEiIHJ4PSI1IiBmaWxsPSIjMGI0Njc1Ii8+PHJlY3QgeD0iNyIgeT0iNSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ0YmVmNCIvPjxwYXRoIGQ9Ik0xMSAxMUgzM00xMSAxNkgyOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMjEgMzFWNDIiIHN0cm9rZT0iIzBiNDY3NSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9nPjxwYXRoIGQ9Ik0xNDUgMzA1UTEwOCAzMjAgNzQgMzA1IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZWRnZSkiIHN0cm9rZS13aWR0aD0iMTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xNTAgMzA1UTExMyAzMjEgNzYgMzA2IiBmaWxsPSJub25lIiBzdHJva2U9IiM4YmU2ZmYiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTQ4NiAzMDBRNTMwIDMyMSA1NTIgMjk1IiBmaWxsPSJub25lIiBzdHJva2U9IiNmNWE2MjMiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik00ODQgMzAwUTUyOCAzMjEgNTUwIDI5NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZlMjlhIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiM2M2M4ZmEiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iLjciPjxjaXJjbGUgY3g9IjkwIiBjeT0iMTEwIiByPSIzMSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA3Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCA5MCAxMTAiIHRvPSIzNjAgOTAgMTEwIiBkdXI9IjE4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT48Y2lyY2xlIGN4PSI1MjciIGN5PSI4MCIgcj0iMTgiLz48L2c+PGcgZmlsbD0iIzEyYTRlNSI+PGNpcmNsZSBjeD0iODkiIGN5PSIxMTAiIHI9IjUiLz48Y2lyY2xlIGN4PSI1MjciIGN5PSI4MCIgcj0iNSIvPjwvZz48L3N2Zz4K" alt="رسم متحرك لجهاز ONU" loading="lazy"></div><h3>جهاز ONU ولمباته</h3><p>معنى Power وPON وLOS وLAN، والفرق بين انقطاع الإشارة ومشكلة الطاقة أو الربط المحلي.</p><button class="card-open" data-open="onu">افتح شرح ONU ←</button></article>
-<article class="device-card"><div class="device-visual"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InIiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDhmMGZmIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjE0IiBzdGREZXZpYXRpb249IjE1IiBmbG9vZC1jb2xvcj0iIzFjNmJhOCIgZmxvb2Qtb3BhY2l0eT0iLjE5Ii8+PC9maWx0ZXI+PC9kZWZzPjxlbGxpcHNlIGN4PSIzMTAiIGN5PSIzNDAiIHJ4PSIxOTIiIHJ5PSIyNCIgZmlsbD0iIzdlYzRlZiIgb3BhY2l0eT0iLjI1Ii8+PGcgZmlsdGVyPSJ1cmwoI3NoKSI+PHBhdGggZD0iTTE3MSAyMzNMMjAxIDE1NFEyMDcgMTQxIDIyNSAxNDNMNDEzIDE2OVE0MzEgMTcxIDQzNyAxOTBMNDU4IDI2M1E0NjEgMjc1IDQ0NyAyODJMMjIyIDMwNlEyMDYgMzA3IDE5OSAyOTRaIiBmaWxsPSJ1cmwoI3IpIiBzdHJva2U9IiM5YmM4ZTQiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik0yMDMgMTU1TDQxNSAxNzhMNDMxIDE5OEwyMTAgMTc4WiIgZmlsbD0iI2VhZjhmZiIgc3Ryb2tlPSIjYzFlMWYzIiBzdHJva2Utd2lkdGg9IjIiLz48ZyBzdHJva2U9IiMwZThlY2YiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMjQyIDE2NEwyMjQgNTciLz48cGF0aCBkPSJNMzk3IDE4Mkw0MTEgNjUiLz48L2c+PHBhdGggZD0iTTIyNCA1N1ExODggMzIgMTg4IDRNMjI0IDU3UTE2MiA1OCAxNDggMzJNNDExIDY1UTQ1NSAyOSA0NzAgOE00MTEgNjVRNDczIDU5IDQ5MCAzNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzJhOWVmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuNTsxOy41IiBkdXI9IjIuNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9wYXRoPjxnIHN0cm9rZT0iIzQ3YmFmMiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjUwIDExOVEzMTEgNTggMzcyIDEyNSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgdmFsdWVzPSIwOzUwIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvcGF0aD48cGF0aCBkPSJNMjY1IDEzOFEzMTEgOTUgMzU1IDE0MSIgc3Ryb2tlLWRhc2hhcnJheT0iNSA4Ij48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgdmFsdWVzPSIwOy00MCIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+PC9nPjx0ZXh0IHg9IjMxMCIgeT0iMjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDg3ZmMzIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMyIgZm9udC13ZWlnaHQ9IjgwMCI+V2ktRmkgNjwvdGV4dD48ZyBmaWxsPSIjMTBiOTgxIj48Y2lyY2xlIGN4PSIyNTgiIGN5PSIyNTIiIHI9IjUiLz48Y2lyY2xlIGN4PSIyODAiIGN5PSIyNTAiIHI9IjUiLz48Y2lyY2xlIGN4PSIzMDIiIGN5PSIyNDciIHI9IjUiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMwIDI0MSkiPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI3NiIgaGVpZ2h0PSIyMSIgcng9IjciIGZpbGw9IiMxNzQ5NmQiLz48cmVjdCB4PSI5IiB5PSI1IiB3aWR0aD0iNTgiIGhlaWdodD0iMTAiIHJ4PSIzIiBmaWxsPSIjNDJiZGZmIi8+PC9nPjxwYXRoIGQ9Ik0xNTIgMjk1TDk1IDMxNyIgc3Ryb2tlPSIjMGI4NGM3IiBzdHJva2Utd2lkdGg9IjEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNDUzIDI5MUw1MTQgMzA5IiBzdHJva2U9IiMwYjg0YzciIHN0cm9rZS13aWR0aD0iMTMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiM2YmM5ZjIiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iOTkiIGN5PSIxMjEiIHI9IjI3IiBzdHJva2UtZGFzaGFycmF5PSIzIDciPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBmcm9tPSIwIDk5IDEyMSIgdG89IjM2MCA5OSAxMjEiIGR1cj0iMTRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjUyMCIgY3k9IjEyNCIgcj0iMjIiIHN0cm9rZS1kYXNoYXJyYXk9IjUgNiIvPjwvZz48L3N2Zz4K" alt="رسم متحرك لراوتر وهوائيات واي فاي" loading="lazy"></div><h3>الراوتر والواي فاي</h3><p>التفريق بين مشكلة الإنترنت ومشكلة التغطية اللاسلكية، وتأثير المكان والعوائق والتداخل.</p><button class="card-open" data-open="router">افتح شرح الراوتر ←</button></article>
-<article class="device-card"><div class="device-visual"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InBsdWciPjxzdG9wIHN0b3AtY29sb3I9IiNmZmQ0NWUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDkzMWIiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iY2FibGUiPjxzdG9wIHN0b3AtY29sb3I9IiMwNTdmYzYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNmI4ZWYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSI1NiIgeT0iMTA1IiB3aWR0aD0iNTA4IiBoZWlnaHQ9IjIxNSIgcng9IjI1IiBmaWxsPSIjZWZmOWZmIiBzdHJva2U9IiNjY2U4ZjkiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik05MCAyMzdDMTQwIDIzNyAxMjUgMTUwIDIxNiAxNTBTMjg4IDI3MCAzNjAgMjcwUzQzMCAxNjYgNTMyIDE2NiIgc3Ryb2tlPSIjODNjZWYwIiBzdHJva2Utd2lkdGg9IjI4IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTg1IDIzN0MxNDAgMjM3IDEyNSAxNTAgMjE2IDE1MFMyODggMjcwIDM2MCAyNzBTNDMwIDE2NiA1MzIgMTY2IiBzdHJva2U9InVybCgjY2FibGUpIiBzdHJva2Utd2lkdGg9IjIwIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNoYXJyYXkiIHZhbHVlcz0iMTIgMTA7MjIgODsxMiAxMCIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L3BhdGg+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzggMjE4KSByb3RhdGUoLTcpIj48cmVjdCB4PSIwIiB5PSItMjMiIHdpZHRoPSI4MiIgaGVpZ2h0PSI0OCIgcng9IjgiIGZpbGw9IiMxYTUwN2EiLz48cmVjdCB4PSI1NyIgeT0iLTE3IiB3aWR0aD0iNDIiIGhlaWdodD0iMzciIHJ4PSI0IiBmaWxsPSJ1cmwoI3BsdWcpIi8+PGcgc3Ryb2tlPSIjZmZmMWFkIiBzdHJva2Utd2lkdGg9IjMiPjxwYXRoIGQ9Ik02NSAtMTBWMU03MyAtMTBWMU04MSAtMTBWMU04OSAtMTBWMSIvPjwvZz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDczIDE0MCkgcm90YXRlKC03KSI+PHJlY3QgeD0iMCIgeT0iLTIzIiB3aWR0aD0iNzciIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjMTY0Yzc2Ii8+PHJlY3QgeD0iNTEiIHk9Ii0xNyIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjM3IiByeD0iNCIgZmlsbD0idXJsKCNwbHVnKSIvPjxnIHN0cm9rZT0iI2ZmZjFhZCIgc3Ryb2tlLXdpZHRoPSIzIj48cGF0aCBkPSJNNjAgLTEwVjFNNjggLTEwVjFNNzYgLTEwVjFNODQgLTEwVjEiLz48L2c+PC9nPjx0ZXh0IHg9IjMxMCIgeT0iNzgiIGZpbGw9IiMwODdmYzMiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iODAwIiBmb250LXNpemU9IjMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MQU4gLyBFdGhlcm5ldDwvdGV4dD48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTUgMTgwKSI+PHJlY3Qgd2lkdGg9IjEzMCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZmZmIiBzdHJva2U9IiM5ZWQyZWYiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjIyIiBjeT0iMzAiIHI9IjciIGZpbGw9IiMxM2JkODIiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTsuMzsxIiBkdXI9IjEuNHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+PHBhdGggZD0iTTQyIDIySDExMU00MiAzMUg5NU00MiA0MEgxMDYiIHN0cm9rZT0iIzcyYjhkZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L2c+PGcgZmlsbD0iIzBjOGVkMCI+PGNpcmNsZSBjeD0iMTIxIiBjeT0iOTEiIHI9IjUiLz48Y2lyY2xlIGN4PSI1MDYiIGN5PSIyOTAiIHI9IjUiLz48L2c+PC9zdmc+Cg==" alt="رسم توضيحي لكابل شبكة LAN" loading="lazy"></div><h3>كيبل LAN والتوصيلات</h3><p>فحص ثبات رأس الكيبل، سلامة المسار، لمبة المنفذ، وتجربة كيبل معروف السلامة عند السماح بذلك.</p><button class="card-open" data-open="lan">افتح شرح LAN ←</button></article>
-<article class="device-card"><div class="device-visual"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InUiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDVlYWZhIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaGFkb3ciPjxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSIxNSIgc3RkRGV2aWF0aW9uPSIxNCIgZmxvb2QtY29sb3I9IiMyMzVhODgiIGZsb29kLW9wYWNpdHk9Ii4yIi8+PC9maWx0ZXI+PC9kZWZzPjxlbGxpcHNlIGN4PSIzMDYiIGN5PSIzNDMiIHJ4PSIxNTAiIHJ5PSIyMCIgZmlsbD0iIzdkYmNlNCIgb3BhY2l0eT0iLjI1Ii8+PGcgZmlsdGVyPSJ1cmwoI3NoYWRvdykiPjxyZWN0IHg9IjE5MiIgeT0iNTIiIHdpZHRoPSIyMzYiIGhlaWdodD0iMjcwIiByeD0iMjUiIGZpbGw9InVybCgjdSkiIHN0cm9rZT0iIzlkYzllNiIgc3Ryb2tlLXdpZHRoPSIzIi8+PHJlY3QgeD0iMjE0IiB5PSI3NyIgd2lkdGg9IjE5MiIgaGVpZ2h0PSI3NSIgcng9IjEyIiBmaWxsPSIjMTQzNjUzIi8+PHJlY3QgeD0iMjI5IiB5PSI5MCIgd2lkdGg9IjE2MiIgaGVpZ2h0PSI0NyIgcng9IjYiIGZpbGw9IiMwYzJhNDMiIHN0cm9rZT0iIzRlYzRmYyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iMzEwIiB5PSIxMTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM3N2UyZmYiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iODAwIiBmb250LXNpemU9IjIwIj5VUFMgU1RBVFVTPC90ZXh0PjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMSAxNzcpIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTU4IiBoZWlnaHQ9Ijc3IiByeD0iMTMiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2M0ZGZlZiIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMTYiIHk9IjE1IiB3aWR0aD0iNjAiIGhlaWdodD0iNDYiIHJ4PSI2IiBmaWxsPSIjZTlmN2ZmIiBzdHJva2U9IiM4ZGM4ZWMiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9Ijc5IiB5PSIyMiIgd2lkdGg9IjYyIiBoZWlnaHQ9IjExIiByeD0iNCIgZmlsbD0iI2MzZTZmNyIvPjxyZWN0IHg9Ijc5IiB5PSI0MSIgd2lkdGg9IjQ3IiBoZWlnaHQ9IjgiIHJ4PSI0IiBmaWxsPSIjYzNlNmY3Ii8+PGNpcmNsZSBjeD0iMzAiIGN5PSIzNyIgcj0iNyIgZmlsbD0iIzFjYzg4YyI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOy4zNTsxIiBkdXI9IjEuOHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+PC9nPjxwYXRoIGQ9Ik0yNjMgMjc0aDk0IiBzdHJva2U9IiM3ZmE5YzciIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHRleHQgeD0iMzEwIiB5PSIzMDQiIGZpbGw9IiMwYjZmYWUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE5IiBmb250LXdlaWdodD0iODAwIj5QT1dFUiBCQUNLVVA8L3RleHQ+PC9nPjxwYXRoIGQ9Ik0xMDAgMTg1TDEzNSAxODVMMTUwIDE1OEwxNjkgMjEzTDE4NyAxODUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzEwYTdlNiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iLjQ1OzE7LjQ1IiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvcGF0aD48cGF0aCBkPSJNNDUyIDIxNmgyNWwxNS0yNCAxNCA0OSAxOC0yNWgyMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTBhN2U2IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIuNDU7MTsuNDUiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9wYXRoPjxjaXJjbGUgY3g9IjExNyIgY3k9Ijk5IiByPSI2IiBmaWxsPSIjMGU5ZWQ5Ii8+PGNpcmNsZSBjeD0iNTAwIiBjeT0iMTAwIiByPSI2IiBmaWxsPSIjMGU5ZWQ5Ii8+PC9zdmc+Cg==" alt="رسم توضيحي لجهاز UPS" loading="lazy"></div><h3>جهاز UPS والطاقة</h3><p>تمييز انقطاع الكهرباء عن خلل الشبكة، ومراجعة مؤشرات الطاقة والبطارية دون فتح الجهاز.</p><button class="card-open" data-open="ups">افتح شرح UPS ←</button></article>
-</div><div class="power-panel"><div><span class="eyebrow">قراءة القدرة الضوئية</span><h3>شنو الباور الطبيعي عند المشترك؟</h3><p>تُقاس قراءة الاستقبال بوحدة dBm. في كثير من وحدات GPON من فئة B+ يكون المجال التقني تقريباً من ‎-27 إلى ‎-8 dBm؛ لذلك قد تقع قراءة مثل ‎-20 أو ‎-23 dBm ضمن المجال، لكن معيار القبول النهائي يعتمد على طراز ONU وتصميم الشبكة ومعيار أرض الكرم المعتمد.</p><p class="power-source">للتفاصيل: <a href="https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/80c6b3a879cc4ad7b2725ab50b31337e/M3T1A590N1156544042463686850/ec842ed7-f892-4aa3-8eb6-786f04219dda.pdf" target="_blank" rel="noopener noreferrer">ورقة مواصفات Huawei T602E</a> و<a href="https://forum.huawei.com/enterprise/intl/en/introduction-of-huawei-ont-indicators/thread/614058-100181?isInitURL=true" target="_blank" rel="noopener noreferrer">شرح مؤشرات ONT من Huawei</a>.</p></div><div class="power-steps"><div><b>1</b><span>اقرأ القيمة من واجهة الجهاز أو نظام الإدارة المتاح.</span></div><div><b>2</b><span>قارنها بحدود الشبكة المعتمدة وبقراءة سابقة إن توفرت.</span></div><div><b>3</b><span>وثّق القراءة والطراز والوقت، وصعّد للفني إذا كانت خارج المجال المعتمد.</span></div></div></div><div class="field-note"><b>قاعدة مهمة:</b> موظف الكول سنتر يجمع المعلومات ويجري الفحوصات المسموحة عن بُعد؛ فني الصيانة يفحص المسار والقياسات والتوصيلات الميدانية ضمن صلاحياته.</div></section>
-<section class="section devices" id="routers">
- <div class="section-heading"><div><span class="eyebrow"><i></i> دليل مبسّط للمشترك والفني</span><h2>أنواع الراوترات وعناوين الدخول</h2><p>اختَر نوع الراوتر لعرض عنوان الدخول الشائع وطريقة تغيير اسم الشبكة وكلمة المرور.</p></div><span class="code-badge">Router • IP • Wi‑Fi</span></div>
- <div class="device-grid">
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">📡</div></div><h3>TP-Link</h3><p>عناوين شائعة: <bdi dir="ltr">192.168.0.1</bdi> أو <bdi dir="ltr">192.168.1.1</bdi>، وبعض الموديلات تستخدم <bdi dir="ltr">tplinkwifi.net</bdi>.</p><button class="card-open" data-open="router-tplink">طريقة التغيير ←</button></article>
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">📶</div></div><h3>Huawei</h3><p>غالباً <bdi dir="ltr">192.168.3.1</bdi> أو العنوان المطبوع على ملصق الجهاز؛ يختلف حسب الموديل.</p><button class="card-open" data-open="router-huawei">طريقة التغيير ←</button></article>
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">🌐</div></div><h3>ZTE</h3><p>قد يكون <bdi dir="ltr">192.168.1.1</bdi> أو عنواناً مختلفاً حسب إصدار الجهاز والشركة المجهزة.</p><button class="card-open" data-open="router-zte">طريقة التغيير ←</button></article>
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">📶</div></div><h3>Tenda</h3><p>شائعاً <bdi dir="ltr">192.168.0.1</bdi> أو <bdi dir="ltr">tendawifi.com</bdi>، حسب الموديل.</p><button class="card-open" data-open="router-tenda">طريقة التغيير ←</button></article>
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">🛜</div></div><h3>D-Link</h3><p>قد يكون <bdi dir="ltr">192.168.0.1</bdi> أو <bdi dir="ltr">192.168.1.1</bdi> حسب الجهاز.</p><button class="card-open" data-open="router-dlink">طريقة التغيير ←</button></article>
-  <article class="device-card"><div class="device-visual"><div style="font-size:68px">📡</div></div><h3>Xiaomi</h3><p>شائعاً <bdi dir="ltr">192.168.31.1</bdi> أو <bdi dir="ltr">miwifi.com</bdi>.</p><button class="card-open" data-open="router-xiaomi">طريقة التغيير ←</button></article>
- </div>
- <div class="field-note"><b>مهم:</b> عناوين IP أعلاه شائعة وليست ثابتة لكل الأجهزة. تأكد من الملصق أسفل الراوتر أو من خانة Default Gateway في تفاصيل اتصال الجهاز. بيانات الدخول تختلف، ولا توجد كلمة مرور واحدة تصلح لكل الراوترات. لا تسوّي إعادة ضبط مصنع إلا بموافقة صاحب الجهاز وبعد التأكد من توفر إعدادات إعادة تشغيل الخدمة.</div>
- <div class="power-panel"><div><span class="eyebrow"><i></i> خطوات عامة</span><h3>تغيير اسم الشبكة والرمز</h3><p>هذه الخطوات متشابهة بمعظم الراوترات، لكن أسماء القوائم قد تختلف قليلاً.</p></div><div class="power-steps"><div><b>1</b> اتصل بالراوتر من الواي فاي أو كيبل LAN.</div><div><b>2</b> افتح المتصفح واكتب عنوان IP الصحيح في شريط العنوان.</div><div><b>3</b> سجّل الدخول ببيانات الإدارة الموجودة على الملصق أو التي جهزها المسؤول.</div><div><b>4</b> افتح Wi‑Fi / WLAN ثم Basic أو Wireless Settings.</div><div><b>5</b> غيّر اسم الشبكة في SSID، والرمز في Password / Wi‑Fi Key.</div><div><b>6</b> اضغط Save / Apply. قد ينقطع الاتصال؛ اتصل بالاسم الجديد واكتب الرمز الجديد.</div></div></div>
-</section>
-<section class="section offers" id="offers"><div class="section-heading"><div><span class="eyebrow">عروض أرض الكرم</span><h2>باقات المشتركين والعروض</h2><p>تفاصيل الباقات تُحدّث وفق قائمة الشركة الحالية؛ لا نعرض سعراً تخمينياً.</p></div></div><div class="speed-range"><div class="speed-range-head"><span>نطاق السرعات المتاح بحسب الباقة والتغطية</span><strong>60–500 <small>Mbps</small></strong></div><div class="speed-track"><span></span></div><div class="speed-labels"><span>60 ميگابت</span><span>100</span><span>200</span><span>300</span><span>500 ميگابت</span></div></div><div class="offer-grid"><article class="offer-card featured-offer"><span class="offer-icon">✦</span><h3>Basic — الباقة الأساسية</h3><div class="offer-price">35,000 <small>د.ع</small></div><p>مدة الاشتراك: شهر واحد، ويُحتسب وفق عدد أيام الشهر.</p><small class="offer-foot">تأكد من السرعة والشروط من القائمة الرسمية قبل تأكيد الاشتراك.</small></article><article class="offer-card"><span class="offer-icon">↻</span><h3>عروض التجديد</h3><p>وضح للمشترك مدة الاشتراك، تاريخ الانتهاء، قيمة التجديد المعتمدة وطريقة التجديد الرسمية.</p></article><article class="offer-card"><span class="offer-icon">◈</span><h3>العروض الترويجية</h3><p>اذكر السعر والمدة والشروط والفئات المشمولة كما هي معلنة من الإدارة، ولا تعد بميزة غير مثبتة.</p></article></div><p class="offer-disclaimer">المعروض هنا هو السعر الأساسي المذكور في بيانات المحادثة. بقية الأسعار وأسماء الباقات تحتاج إلى قائمة العروض الأخيرة حتى تظهر بدقة على الموقع.</p></section>
-<section class="section roadmap" id="about"><div class="roadmap-copy"><span class="eyebrow">طريقة التعلّم</span><h2>خطوات صغيرة، <em>تطوّر أكبر.</em></h2><p>مسار مقترح لكل موظف جديد حتى يتدرّج من فهم الأساسيات إلى التطبيق والمتابعة.</p><a class="btn primary" href="#departments">ابدأ من القسم المناسب <span>←</span></a></div><div class="roadmap-steps"><div class="roadmap-step"><span>01</span><div><b>افهم الأساسيات</b><p>تعرّف المصطلحات والأدوات ودور القسم.</p></div><i>✓</i></div><div class="roadmap-step"><span>02</span><div><b>شاهد المثال</b><p>استخدم الرسوم والصور لفهم الفكرة.</p></div><i>▧</i></div><div class="roadmap-step"><span>03</span><div><b>طبّق عملياً</b><p>جرّب السيناريو التدريبي وفق إجراءات الشركة.</p></div><i>⌘</i></div><div class="roadmap-step"><span>04</span><div><b>راجع وتطوّر</b><p>قيّم النتيجة وحدّث معرفتك باستمرار.</p></div><i>↗</i></div></div></section>
-<section class="bottom-cta"><div class="cta-symbol"><img src="data:image/png;base64,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" alt="شعار أرض الكرم"></div><div><h2>المعرفة تكبر بالمشاركة.</h2><p>أضف مادة تدريبية جديدة، صورة، أو دليل عمل حتى تصير الموسوعة أغنى لفريق أرض الكرم.</p></div><a href="#departments" class="btn white">تصفّح الموسوعة <span>←</span></a></section>
-</main>
-<footer class="footer"><span>© <span id="year"></span> شركة أرض الكرم — إعداد المحتوى: علي وجدي</span><a href="#home" class="back-top">العودة للأعلى ↑</a></footer>
-<div class="modal-backdrop" id="lessonModal" aria-hidden="true"><div class="lesson-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button id="modalClose" class="modal-close" aria-label="إغلاق">×</button><span class="eyebrow" id="modalKicker">دليل القسم</span><h2 id="modalTitle">عنوان الدليل</h2><p id="modalIntro"></p><div id="modalTopics" class="modal-topics"></div><div class="modal-footnote">هذا محتوى تمهيدي قابل للتخصيص. راجع تعليمات الشركة وإجراءاتها المعتمدة قبل تطبيق أي إجراء ميداني.</div></div></div>
+<meta name="description" content="الموسوعة التدريبية التفاعلية المصوّرة لشركة أرض الكرم: الدعم الفني، خدمة العملاء، المبيعات، التدريب، والصيانة الميدانية. إعداد وتطوير: علي وجدي.">
+<title>الموسوعة التدريبية المصوّرة والمتحركة | أكاديمية أرض الكرم</title>
+<script src="https://cdn.tailwindcss.com"></script>
 <script>
-/* التفاعلات المحلية لموسوعة أرض الكرم */
-const lessonData = {
- support:{kicker:'الدعم الفني',title:'دليل تشخيص العطل عن بُعد',intro:'اجمع معلومات دقيقة قبل تحويل الحالة للفني. لا تغيّر إعدادات المشترك دون الصلاحية والإجراء المعتمد.',topics:[
- ['حدّد نطاق المشكلة','اسأل: المشكلة بكل الأجهزة لو جهاز واحد؟ الاتصال يفصل بالكامل لو الواي فاي ضعيف بمكان محدد؟'],
- ['راجع حالة الخدمة','تحقق من وجود بلاغ عام أو انقطاع بالمنطقة عبر النظام الداخلي المتاح، وسجّل وقت بداية المشكلة.'],
- ['راجع لمبات ONU','POWER مطفأة قد تشير للطاقة؛ LOS حمراء أو تومض قد تشير لمشكلة إشارة؛ PON وLAN تُفسّران حسب طراز الجهاز.'],
- ['افصل مشكلة الواي فاي','إذا سمحت الإجراءات، قارن اتصالاً سلكياً قريباً بالاتصال اللاسلكي. السلكي يعمل والواي فاي ضعيف؟ افحص التغطية والتداخل.'],
- ['اقرأ الباور من النظام','سجّل RX Optical Power بوحدة dBm والطراز والوقت. قارنها بمعيار الشبكة المعتمد، ولا تعتمد رقماً واحداً لكل الأجهزة.'],
- ['افتح بلاغاً واضحاً','دوّن رقم المشترك، الأعراض، اللمبات، قراءة الباور، الاختبارات ونتيجتها، ثم حوّلها للجهة المختصة. لا تطلب كلمة مرور المشترك.']]},
- service:{kicker:'خدمة العملاء والكول سنتر',title:'دليل المكالمة وتشخيص المشكلة',intro:'نصوص عراقية بسيطة لإدارة المكالمة بهدوء وتوجيه المشترك للأسئلة الصحيحة دون وعود غير مؤكدة.',topics:[
- ['بداية المكالمة','«السلام عليكم، وياك [اسم الموظف] من خدمة عملاء أرض الكرم، شلون نكدر نخدمك اليوم؟»'],
- ['فهم المشكلة','«حتى أساعدك بشكل أدق، المشكلة بكل الأجهزة لو بس جهاز واحد؟ ومن متى بادية وياك؟»'],
- ['السؤال عن الجهاز','«ممكن تتأكدلي من لمبات جهاز الـ ONU؟ POWER شغالة؟ PON ثابتة؟ أكو LOS حمراء أو تومض؟»'],
- ['فحص الواي فاي','«إذا تقرّب من الراوتر تتحسن الإشارة؟ المشكلة بكل البيت لو بغرفة معيّنة؟ والاتصال يفصل لو السرعة بس تصير ضعيفة؟»'],
- ['طمأنة من دون وعود','«شكراً للتوضيح، راح أوثّق المعلومات وأحوّل البلاغ للفريق المختص، ونبلغك بالتحديث حسب الإجراء المعتمد.»'],
- ['إنهاء المكالمة','«سجّلت الملاحظات، ورقم البلاغ هو [الرقم]. شكراً لاتصالك بأرض الكرم.»'],
- ['ممنوعات مهمة','لا تلُم المشترك، ولا تَعِد بوقت إصلاح غير مؤكد، ولا تطلب كلمة مرور الواي فاي أو رمز تحقق.']]},
- sales:{kicker:'المبيعات والعروض',title:'شرح الباقات للمشترك',intro:'قدّم الباقة التي تناسب استخدام المشترك، ووضّح السعر والمدة والشروط حسب آخر قائمة رسمية لدى الشركة.',topics:[
- ['ابدأ بحاجة المشترك','اسأل عن عدد المستخدمين والأجهزة، وطبيعة الاستخدام، والأماكن التي تحتاج إلى تغطية.'],
- ['الباقات المتاحة','تحقق من الباقة والسرعة المتاحة في نظام الشركة قبل تأكيد الطلب. لا تخمّن سعراً أو سرعة.'],
- ['السعر والمدة','اذكر السعر بالدينار العراقي، ومدة الاشتراك وتاريخ السريان وأي شروط كما هي بالقائمة المعتمدة.'],
- ['عرض التجديد','«أكدر أوضحلك عرض التجديد المتاح حالياً، وأتأكد من السعر والمدة قبل ما أعطيك التفاصيل النهائية.»'],
- ['التعامل مع الاعتراض','استمع للسبب، لخّصه، وقدّم خياراً مناسباً بمعلومات صحيحة. إذا ما تعرف الإجابة، اسأل المشرف.'],
- ['تسجيل المتابعة','دوّن الباقة المقترحة وموافقة المشترك وموعد إعادة الاتصال وفق سياسة الشركة.']]},
- training:{kicker:'تدريب الموظفين',title:'مسار الموظف الجديد',intro:'التدريب يبدأ بالفهم، ثم الملاحظة، ثم التطبيق بإشراف المسؤول. لا تنفذ أعمالاً ميدانية حساسة قبل التدريب والتخويل.',topics:[
- ['التعرّف','اعرف أقسام الشركة، مسؤوليات كل قسم، آلية فتح البلاغ، وسياسة التواصل مع المشتركين.'],
- ['الملاحظة','شاهد موظفاً متمرّساً يراجع الحالة ويسجل المعلومات، ودوّن أسئلتك.'],
- ['التطبيق','تدرّب على سيناريوهات افتراضية: LOS، ضعف الواي فاي، كيبل LAN مفصول، أو انقطاع الطاقة.'],
- ['التقييم','اشرح خطوات التشخيص للمشرف، وبيّن متى تحل المشكلة ومتى يجب تحويلها.'],
- ['المتابعة','راجع التحديثات والإجراءات المعتمدة، ولا تعتمد على دليل قديم وحده.']]},
- maintenance:{kicker:'الصيانة الميدانية',title:'خطوات فحص المشترك بالموقع',intro:'ابدأ بالفحص الخارجي الآمن واجمع القياسات قبل تبديل أي جهاز. تعامل مع الفايبر ومعدات الكهرباء وفق التدريب وإجراءات الشركة.',topics:[
- ['١ — وصف العطل','اسأل متى بدأ الانقطاع وهل تأثر مشتركون آخرون على نفس المسار أم أن المشكلة تخص مشتركاً واحداً.'],
- ['٢ — ONU ولمباته','سجّل الطراز وحالة POWER وPON وLOS وLAN. غياب PON أو ظهور LOS يستدعي فحص المسار من فني مخوّل.'],
- ['٣ — قراءة الباور','اقرأ من النظام المصرّح به، وسجّل القيمة بوحدة dBm والطراز والوقت وقارنها بمعيار الشبكة.'],
- ['٤ — الراوتر والواي فاي','سجّل الشركة والطراز ومكان الراوتر. افحص المسافة والجدران والأجهزة القريبة والتداخل وعدد الأجهزة المتصلة.'],
- ['٥ — كيبل LAN','افحص بصرياً رأس RJ45 والتثبيت ولمبة الرابط. استخدم كيبل اختبار سليم إذا سمحت إجراءات العمل.'],
- ['٦ — UPS ومصدر الطاقة','سجّل حالة التغذية والبطارية والإنذارات الخارجية، وقارن وقت إعادة التشغيل بانقطاع الكهرباء. لا تفتح UPS.'],
- ['٧ — سجّل أنواع الأجهزة','دوّن موديل ONU والراوتر، وفئة كيبل LAN كما هي مطبوعة عليه (مثل Cat5e أو Cat6)، وموديل UPS ومواصفاته الخارجية.'],
- ['٨ — عوائق الواي فاي','الجدران السميكة، وضع الراوتر داخل خزانة، البعد، التداخل، ازدحام القناة وكثرة الأجهزة قد تؤثر على التغطية.'],
- ['٩ — الإغلاق والتوثيق','سجّل القياسات قبل وبعد، الأجهزة المفحوصة، الإجراء المتخذ، اسم الفني ووقت المتابعة.']]},
- onu:{kicker:'مختبر الأجهزة',title:'شرح جهاز ONU ولمباته',intro:'المعاني التالية شائعة، لكن ترتيب اللمبات وألوانها وسلوكها تختلف حسب الشركة والطراز. راجع دليل الجهاز عند الاختلاف.',topics:[
- ['POWER','ثبات اللمبة غالباً يدل على وصول الطاقة. إذا كانت مطفأة فتحقق من مصدر الطاقة والمحوّل والتوصيل الظاهر بأمان.'],
- ['PON','في كثير من الأجهزة، PON الثابتة مع LOS مطفأة تعني أن التسجيل الضوئي تم بنجاح. الوميض قد يعني محاولة الاتصال.'],
- ['LOS','اللون الأحمر أو الوميض قد يدل على غياب الإشارة الضوئية أو مشكلة بالاتصال. صعّد للفني ولا تنظر داخل منفذ الفايبر.'],
- ['LAN','تدل عادة على وجود رابط إيثرنت؛ الوميض غالباً يدل على نقل البيانات. راجع دليل الطراز لمعنى المؤشر الدقيق.'],
- ['قراءة الباور','RX Optical Power تُقاس بـ dBm. في بعض وحدات GPON B+ يكون المجال التقني النموذجي قرابة ‎-27 إلى ‎-8 dBm، لكن معيار الشبكة والطراز هو المرجع النهائي.'],
- ['السلامة','لا تنظر داخل منفذ الفايبر، ولا تفصل أو تنظف الموصلات إلا بواسطة شخص مدرّب وبالأدوات المعتمدة.']]},
- router:{kicker:'شبكة المشترك',title:'تشخيص الراوتر والواي فاي',intro:'إذا بقي الإنترنت يعمل عبر اتصال سلكي مصرح به بينما الواي فاي ضعيف، فركّز على التغطية اللاسلكية قبل اعتبارها مشكلة فايبر.',topics:[
- ['مكان الجهاز','ضع الراوتر في مكان مفتوح ومرتفع نسبياً، بعيداً عن الخزائن المعدنية والجدران السميكة والزوايا المغلقة.'],
- ['قريب وبعيد','قارن جودة الاتصال قرب الراوتر وفي الغرفة التي تظهر فيها المشكلة.'],
- ['2.4GHz و5GHz','نطاق 2.4GHz يصل عادة لمسافة أبعد؛ أما 5GHz فقد يوفر سرعة أعلى لمسافة أقصر حسب الجهاز والبيئة.'],
- ['التداخل والازدحام','أجهزة إلكترونية قريبة وازدحام القناة وكثرة الأجهزة المتصلة قد تؤثر بالأداء. لا تغيّر الإعدادات إلا ضمن الصلاحية.'],
- ['مقارنة سلكية','إذا سمحت الإجراءات، قارن اتصال LAN قريباً بنتيجة Wi-Fi لفصل مشكلة التغطية عن الاتصال.'],
- ['وثّق الطراز','سجّل الشركة والطراز ومكان الجهاز والنطاق المستخدم وعدد الأجهزة والنتائج قبل اقتراح التبديل.']]},
- lan:{kicker:'التوصيلات',title:'فحص كيبل LAN',intro:'تلف رأس الكيبل أو ارتخاؤه قد يسبب انقطاعاً أو تفاوض سرعة أقل. افحص بصرياً ولا تسحب الكيبل بعنف.',topics:[
- ['لمبة المنفذ','تحقق من حالة لمبة الرابط على منفذ LAN بالراوتر أو ONU.'],
- ['رأس RJ45','ابحث عن كسر أو ارتخاء أو تلف ظاهر بالرأس أو المنفذ.'],
- ['نوع الكيبل','سجّل الفئة المطبوعة على الكيبل إذا كانت موجودة، مثل Cat5e أو Cat6؛ لا تستنتجها من اللون.'],
- ['تجربة بديلة','استخدم كيبل اختبار سليم ومعروف المواصفات إذا كان ذلك مسموحاً، ثم قارن النتيجة.'],
- ['مسار الكيبل','تجنّب الضغط الشديد أو الانثناء الحاد أو وجود تلف ظاهر، واتبع تعليمات التمديد المعتمدة.'],
- ['التوثيق','سجّل المنفذ والكيبل ونتيجة الاختبار وأي تغيير تم.']]},
- ups:{kicker:'الطاقة',title:'فحص UPS ومصدر الطاقة',intro:'خلل التغذية قد يسبب انطفاء الجهاز أو إعادة تشغيله. اكتفِ بالمؤشرات الخارجية واتبع تعليمات الشركة.',topics:[
- ['مصدر الكهرباء','تحقّق من مؤشرات الحالة الخارجية ومن وجود التغذية وفق إجراءات الموقع.'],
- ['حالة البطارية','دوّن إنذار البطارية أو مؤشرها حسب دليل طراز UPS.'],
- ['توقيت الانقطاع','قارن توقيت إعادة تشغيل ONU والراوتر مع انقطاع الكهرباء إن كانت المعلومة متاحة.'],
- ['مواصفات المحوّل','قارن الجهد والتيار بملصق الجهاز وبالمعتمد من الشركة؛ لا تستخدم محوّلاً غير متوافق.'],
- ['السلامة','لا تفتح UPS ولا تلمس البطارية أو الأسلاك الداخلية. أبلغ المسؤول عن أي تلف أو حرارة أو رائحة غير طبيعية.'],
- ['التوثيق','سجّل موديل UPS، وحالة المؤشرات، ووجود الكهرباء، ووقت المشكلة، والنتيجة.']]},
- 'router-tplink':{kicker:'راوتر TP-Link',title:'تغيير اسم الشبكة والرمز',intro:'عناوين شائعة: 192.168.0.1 أو 192.168.1.1 أو tplinkwifi.net. راجع ملصق الجهاز إذا لم يفتح العنوان.',topics:[['الدخول','اتصل بالراوتر وافتح العنوان الصحيح، ثم أدخل بيانات الإدارة الخاصة بالجهاز.'],['اسم الشبكة','افتح Wireless أو Wi-Fi ثم Wireless Settings، وعدّل Network Name (SSID).'],['الرمز','افتح Wireless Security أو Wi-Fi Password واكتب كلمة مرور جديدة قوية.'],['الحفظ','اضغط Save، ثم اتصل باسم الشبكة الجديد والرمز الجديد.']]},
- 'router-huawei':{kicker:'راوتر Huawei',title:'تغيير اسم الشبكة والرمز',intro:'قد يكون العنوان 192.168.3.1 أو العنوان المكتوب على ملصق الجهاز.',topics:[['الدخول','افتح عنوان الإدارة المكتوب على الملصق وسجّل الدخول ببيانات الجهاز.'],['اسم الشبكة','افتح WLAN أو Wi-Fi Settings وعدّل SSID أو Wi-Fi Name.'],['الرمز','عدّل WLAN Key أو Wi-Fi Password ثم احفظ.'],['إعادة الاتصال','اختر اسم الشبكة الجديد من الهاتف واكتب الرمز الجديد.']]},
- 'router-zte':{kicker:'راوتر ZTE',title:'تغيير اسم الشبكة والرمز',intro:'العنوان الشائع 192.168.1.1، لكن العنوان يختلف حسب الموديل والمزوّد.',topics:[['الدخول','استخدم عنوان الإدارة وبيانات الدخول الخاصة بالجهاز.'],['اسم الشبكة','من WLAN أو Network ثم SSID Settings غيّر اسم الشبكة.'],['الرمز','من Security أو WPA Passphrase أدخل كلمة مرور جديدة.'],['الحفظ','اضغط Apply أو Submit. لا تغيّر إعدادات WAN أو PON.']]},
- 'router-tenda':{kicker:'راوتر Tenda',title:'تغيير اسم الشبكة والرمز',intro:'قد يعمل عبر 192.168.0.1 أو tendawifi.com، حسب الموديل.',topics:[['الدخول','اتصل بالراوتر وافتح عنوان الإدارة ثم سجّل الدخول.'],['اسم الشبكة','افتح Wireless Settings أو WiFi Name وعدّل الاسم.'],['الرمز','عدّل WiFi Password أو Security Key.'],['الحفظ','اضغط Save أو OK ثم اتصل بالاسم والرمز الجديدين.']]},
- 'router-dlink':{kicker:'راوتر D-Link',title:'تغيير اسم الشبكة والرمز',intro:'العنوان الشائع 192.168.0.1، وبعض الموديلات تستخدم عنواناً مختلفاً.',topics:[['الدخول','افتح عنوان الإدارة الصحيح واستخدم بيانات الدخول الخاصة بالجهاز.'],['اسم الشبكة','اذهب إلى Wireless Settings وعدّل Wireless Network Name (SSID).'],['الرمز','من Security Mode غيّر Pre-Shared Key، واستخدم WPA2 أو WPA3 إذا كان مدعوماً.'],['الحفظ','اضغط Save Settings ثم أعد الاتصال بالشبكة.']]},
- 'router-xiaomi':{kicker:'راوتر Xiaomi',title:'تغيير اسم الشبكة والرمز',intro:'العنوان الشائع 192.168.31.1 أو miwifi.com، حسب الموديل.',topics:[['الدخول','افتح العنوان من جهاز متصل بالراوتر أو استخدم التطبيق الرسمي.'],['اسم الشبكة','افتح Wi-Fi Settings وعدّل اسم الشبكة (SSID).'],['الرمز','غيّر Wi-Fi Password إلى رمز قوي وفريد.'],['الحفظ','احفظ التعديلات وأعد الاتصال باسم الشبكة الجديد.']]}
-
-};
-const modal=document.getElementById('lessonModal');
-function openLesson(key){
- const data=lessonData[key]; if(!data||!modal)return;
- document.getElementById('modalKicker').textContent=data.kicker;
- document.getElementById('modalTitle').textContent=data.title;
- document.getElementById('modalIntro').textContent=data.intro;
- const topics=document.getElementById('modalTopics'); topics.replaceChildren();
- data.topics.forEach((topic,i)=>{const item=document.createElement('article');item.className='modal-topic';const num=document.createElement('span');num.textContent=String(i+1).padStart(2,'0');const body=document.createElement('div');const h=document.createElement('b');h.textContent=topic[0];const p=document.createElement('small');p.textContent=topic[1];body.append(h,p);item.append(num,body);topics.append(item);});
- modal.classList.add('show');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';document.getElementById('modalClose').focus();
-}
-function closeModal(){if(!modal)return;modal.classList.remove('show');modal.setAttribute('aria-hidden','true');document.body.style.overflow='';}
-document.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>openLesson(b.dataset.open)));
-document.getElementById('modalClose')?.addEventListener('click',closeModal);
-modal?.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-const toggle=document.getElementById('menuToggle'),nav=document.getElementById('mainNav');
-if(toggle&&nav){toggle.addEventListener('click',()=>{const opened=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(opened));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));const links=[...nav.querySelectorAll('a')];const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);if('IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));}),{rootMargin:'-25% 0px -65% 0px'});sections.forEach(s=>obs.observe(s));}}
-const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();
-
-</script>
-
-<script>
-/* توافق إضافي لأزرار الأدلة: event delegation حتى تعمل الأزرار بعد النشر */
-(function () {
-  function showLessonFromData(key) {
-    try {
-      const data = lessonData && lessonData[key];
-      const modal = document.getElementById('lessonModal');
-      if (!data || !modal) return false;
-      const kicker = document.getElementById('modalKicker');
-      const title = document.getElementById('modalTitle');
-      const intro = document.getElementById('modalIntro');
-      const topics = document.getElementById('modalTopics');
-      if (!kicker || !title || !intro || !topics) return false;
-      kicker.textContent = data.kicker || 'دليل القسم';
-      title.textContent = data.title || 'الدليل';
-      intro.textContent = data.intro || '';
-      topics.replaceChildren();
-      (data.topics || []).forEach(function (topic, index) {
-        const item = document.createElement('article');
-        item.className = 'modal-topic';
-        const number = document.createElement('span');
-        number.textContent = String(index + 1).padStart(2, '0');
-        const body = document.createElement('div');
-        const heading = document.createElement('b');
-        heading.textContent = topic[0] || '';
-        const description = document.createElement('small');
-        description.textContent = topic[1] || '';
-        body.append(heading, description);
-        item.append(number, body);
-        topics.append(item);
-      });
-      modal.classList.add('show');
-      modal.setAttribute('aria-hidden', 'false');
-      document.body.style.overflow = 'hidden';
-      return true;
-    } catch (error) {
-      console.error('تعذر فتح الدليل:', error);
-      return false;
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            navy: '#0b1b33',
+            dark: '#081324',
+            blue: '#0785ce',
+            cyan: '#00c2cb',
+            teal: '#0b9f87',
+            accent: '#ff9800',
+            cardDark: '#0f223d'
+          }
+        },
+        fontFamily: {
+          cairo: ['Cairo', 'sans-serif']
+        },
+        animation: {
+          'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+          'float': 'float 6s ease-in-out infinite',
+          'spin-slow': 'spin 20s linear infinite',
+        },
+        keyframes: {
+          float: {
+            '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+            '50%': { transform: 'translateY(-12px) rotate(1.5deg)' }
+          }
+        }
+      }
     }
   }
-  document.addEventListener('click', function (event) {
-    const button = event.target && event.target.closest ? event.target.closest('[data-open]') : null;
-    if (!button) return;
-    event.preventDefault();
-    const key = button.getAttribute('data-open');
-    if (typeof openLesson === 'function') {
-      try { openLesson(key); return; } catch (error) { console.error(error); }
-    }
-    showLessonFromData(key);
-  }, true);
-  document.addEventListener('click', function (event) {
-    const modal = document.getElementById('lessonModal');
-    if (!modal) return;
-    if ((event.target && event.target.id === 'modalClose') || event.target === modal) {
-      modal.classList.remove('show');
-      modal.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
-    }
-  });
-  document.addEventListener('keydown', function (event) {
-    if (event.key !== 'Escape') return;
-    const modal = document.getElementById('lessonModal');
-    if (modal) {
-      modal.classList.remove('show');
-      modal.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
-    }
-  });
-})();
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #0785ce;
+    --primary-glow: rgba(7, 133, 206, 0.35);
+  }
+  body {
+    font-family: 'Cairo', sans-serif;
+  }
+  /* Scroll Progress Bar */
+  #scrollProgress {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #00c2cb, #0785ce, #2563eb, #10b981);
+    z-index: 100;
+    width: 0%;
+    transition: width 0.1s ease-out;
+  }
+  /* Glowing LEDs */
+  .led {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .led.on-green {
+    background-color: #10b981;
+    box-shadow: 0 0 10px #10b981, 0 0 20px #10b981;
+  }
+  .led.on-red {
+    background-color: #ef4444;
+    box-shadow: 0 0 10px #ef4444, 0 0 22px #ef4444;
+  }
+  .led.on-blue {
+    background-color: #0ea5e9;
+    box-shadow: 0 0 10px #0ea5e9, 0 0 20px #0ea5e9;
+  }
+  .led.blink-slow {
+    animation: blinkLed 1.2s infinite;
+  }
+  .led.blink-fast {
+    animation: blinkLed 0.5s infinite;
+  }
+  .led.off {
+    background-color: #475569;
+    box-shadow: none;
+    opacity: 0.35;
+  }
+  @keyframes blinkLed {
+    0%, 100% { opacity: 1; filter: brightness(1.2); }
+    50% { opacity: 0.2; filter: brightness(0.7); }
+  }
+  /* Interactive 3D Card Hover */
+  .tilt-card {
+    transition: transform 0.2s cubic-bezier(0.2, 0, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+    transform-style: preserve-3d;
+  }
+  .tilt-card:hover {
+    transform: translateY(-6px);
+  }
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b1b3310;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0785ce60;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0785ce;
+  }
+  /* Fiber Mesh Canvas */
+  #fiberCanvas {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.65;
+  }
+</style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 transition-colors duration-300 selection:bg-brand-blue selection:text-white">
 
-</body></html>
+<!-- Scroll Progress -->
+<div id="scrollProgress"></div>
+
+<!-- Top Dynamic Ambient Glow Bar -->
+<div class="h-1.5 w-full bg-gradient-to-r from-cyan-400 via-blue-600 to-teal-400 animate-pulse"></div>
+
+<!-- Interactive Navigation -->
+<header class="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80 transition-all">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+    <!-- Brand -->
+    <a href="#home" class="flex items-center gap-3.5 group" aria-label="الرئيسية">
+      <div class="relative w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-blue to-cyan-500 p-0.5 shadow-lg shadow-brand-blue/30 group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
+        <div class="w-full h-full bg-white dark:bg-slate-900 rounded-[14px] flex items-center justify-center overflow-hidden">
+          <span class="text-xl font-black bg-gradient-to-r from-brand-blue to-teal-500 bg-clip-text text-transparent group-hover:rotate-12 transition-transform duration-300">AK</span>
+        </div>
+      </div>
+      <div>
+        <b class="text-base font-extrabold tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
+          شركة أرض الكرم
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+        </b>
+        <small class="text-xs text-slate-500 dark:text-slate-400 block -mt-0.5 font-medium">أكاديمية التدريب والمعرفة التقنية</small>
+      </div>
+    </a>
+
+    <!-- Nav Links (Desktop) -->
+    <nav id="desktopNav" class="hidden md:flex items-center gap-1 lg:gap-2">
+      <a href="#home" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition">الرئيسية</a>
+      <a href="#simulator" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition flex items-center gap-1">
+        <span class="w-1.5 h-1.5 rounded-full bg-brand-cyan animate-pulse"></span>
+        مختبر الأعطال
+      </a>
+      <a href="#departments" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition">الأقسام</a>
+      <a href="#devices" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition">أجهزة الفايبر</a>
+      <a href="#routers" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition">الراوترات</a>
+      <a href="#offers" class="px-3 py-1.5 text-xs lg:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-blue dark:hover:text-cyan-400 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800/60 transition">الباقات</a>
+    </nav>
+
+    <!-- Controls -->
+    <div class="flex items-center gap-3">
+      <!-- Dark mode switch -->
+      <button id="themeToggle" class="p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-yellow-400 hover:scale-105 active:scale-95 transition shadow-sm" aria-label="تبديل المظهر">
+        <span id="themeIcon" class="text-base block">🌙</span>
+      </button>
+
+      <!-- Search modal trigger -->
+      <button id="quickSearchBtn" class="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 bg-slate-100/80 dark:bg-slate-800 text-slate-500 dark:text-slate-300 hover:border-brand-blue/50 transition">
+        <span>🔍 بحث سريع في الأدلة</span>
+        <kbd class="px-1.5 py-0.5 text-[10px] rounded bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 font-mono">Ctrl+K</kbd>
+      </button>
+
+      <!-- CTA -->
+      <a href="#simulator" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-black text-white bg-gradient-to-r from-brand-blue to-teal-500 hover:from-blue-600 hover:to-teal-600 shadow-md shadow-brand-blue/25 hover:shadow-lg hover:shadow-brand-blue/40 transition active:scale-95">
+        <span>فحص فوري</span>
+        <span class="animate-bounce font-mono">←</span>
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" class="md:hidden p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200" aria-label="القائمة">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Dropdown -->
+  <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl px-4 py-4 space-y-2">
+    <a href="#home" class="block py-2 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-brand-blue">الرئيسية</a>
+    <a href="#simulator" class="block py-2 text-sm font-bold text-brand-blue dark:text-cyan-400">⚡ مختبر الأعطال التفاعلي</a>
+    <a href="#departments" class="block py-2 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-brand-blue">الأقسام التدريبية</a>
+    <a href="#devices" class="block py-2 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-brand-blue">أجهزة الفايبر</a>
+    <a href="#routers" class="block py-2 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-brand-blue">دليل الراوترات</a>
+    <a href="#offers" class="block py-2 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-brand-blue">باقات المشتركين</a>
+    <button id="mobileSearchTrigger" class="w-full text-right py-2.5 px-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-bold text-slate-600 dark:text-slate-300">🔍 ابحث في المحتوى والأعطال...</button>
+  </div>
+</header>
+
+<main class="relative overflow-hidden">
+
+  <!-- ================= HERO SECTION WITH INTERACTIVE CANVAS ================= -->
+  <section id="home" class="relative min-h-[720px] flex items-center py-16 lg:py-24 border-b border-slate-200/80 dark:border-slate-800">
+    <canvas id="fiberCanvas"></canvas>
+    
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Copy Left -->
+        <div class="lg:col-span-7 text-right space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-50 dark:bg-cyan-950/50 border border-cyan-200 dark:border-cyan-800/80 shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-teal-500 animate-ping"></span>
+            <span class="text-xs font-extrabold text-brand-blue dark:text-cyan-400 tracking-wide">تعلّم • فحص فوري • احتراف عملي</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white leading-[1.25] tracking-tight">
+            الموسوعة التفاعلية لفريق 
+            <span class="bg-gradient-to-l from-brand-blue via-cyan-500 to-teal-400 bg-clip-text text-transparent">أرض الكرم،</span>
+            <br>
+            بأسلوب عملي نابض بالحياة.
+          </h1>
+
+          <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
+            المنصة المعرفية الرسمية لفريق الدعم الفني، خدمة العملاء (Call Center)، المبيعات، والكوادر الميدانية. تتضمن الآن محاكياً حياً لمؤشرات أجهزة ONU، تشخيص قراءات الباور الضوئي، وفاحص أعطال الفايبر خطوة بخطوة.
+          </p>
+
+          <div class="inline-flex flex-wrap items-center gap-3 p-2 rounded-2xl bg-white/80 dark:bg-slate-900/80 backdrop-blur border border-slate-200/90 dark:border-slate-800 shadow-md">
+            <span class="text-xs font-bold text-slate-500 dark:text-slate-400 px-2">إعداد وتطوير المحتوى:</span>
+            <span class="px-3 py-1 rounded-xl bg-blue-50 dark:bg-blue-900/40 text-brand-blue dark:text-cyan-300 text-xs font-black flex items-center gap-1.5">
+              <span class="text-base">👨‍💻</span> علي وجدي
+            </span>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap gap-3 pt-2">
+            <a href="#simulator" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-black text-sm text-white bg-gradient-to-r from-brand-blue to-teal-500 hover:shadow-xl hover:shadow-brand-blue/30 hover:-translate-y-0.5 active:translate-y-0 transition duration-200">
+              <span>جرّب محاكي الأعطال (ONU Live)</span>
+              <span>⚡</span>
+            </a>
+            <a href="#departments" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-extrabold text-sm text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/60 hover:-translate-y-0.5 transition duration-200 shadow-sm">
+              <span>استعراض أقسام العمل</span>
+              <span>📂</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats / Badges -->
+          <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-200 dark:border-slate-800">
+            <div>
+              <span class="block text-2xl sm:text-3xl font-black text-brand-blue dark:text-cyan-400">05</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-bold">أقسام تخصصية</span>
+            </div>
+            <div>
+              <span class="block text-2xl sm:text-3xl font-black text-teal-500 dark:text-teal-400">100%</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-bold">سيناريوهات عملية</span>
+            </div>
+            <div>
+              <span class="block text-2xl sm:text-3xl font-black text-blue-600 dark:text-blue-400">GPON</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-bold">فحص بصري دقيق</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Interactive Mockup Hero Right -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          <div class="relative w-full max-w-md">
+            <!-- Pulsing Ambient Circles -->
+            <div class="absolute -top-10 -right-10 w-64 h-64 bg-cyan-400/20 dark:bg-cyan-500/10 rounded-full blur-3xl animate-pulse-slow"></div>
+            <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-500/20 dark:bg-blue-600/10 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 1.5s;"></div>
+
+            <!-- Floating Device Card -->
+            <div class="relative bg-gradient-to-b from-white to-slate-100 dark:from-slate-800 dark:to-slate-900 border border-slate-200 dark:border-slate-700 rounded-3xl p-6 shadow-2xl shadow-brand-blue/20 animate-float">
+              
+              <!-- Device Top Bar -->
+              <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-700/80 pb-4 mb-5">
+                <div class="flex items-center gap-2">
+                  <span class="w-3 h-3 rounded-full bg-emerald-500 shadow-md shadow-emerald-500/50 animate-ping"></span>
+                  <span class="text-xs font-black text-slate-700 dark:text-slate-200">EARTH AL-KARAM • ONU ACTIVE</span>
+                </div>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-50 dark:bg-blue-950 text-brand-blue dark:text-cyan-400 font-bold">GPON B+ CLASS</span>
+              </div>
+
+              <!-- Animated Signal Waves Device SVG -->
+              <div class="relative h-48 bg-gradient-to-br from-slate-900 via-brand-dark to-slate-900 rounded-2xl p-4 flex flex-col justify-between overflow-hidden shadow-inner">
+                <!-- Optical Fiber Line Animation -->
+                <div class="absolute top-0 right-0 left-0 h-1 bg-gradient-to-r from-transparent via-cyan-400 to-transparent animate-pulse"></div>
+
+                <div class="flex justify-between items-start">
+                  <div>
+                    <span class="text-[10px] tracking-wider text-slate-400 font-mono">RX POWER LEVEL</span>
+                    <div class="text-2xl font-black text-cyan-400 font-mono flex items-baseline gap-1" id="heroRxDisplay">
+                      -20.5 <span class="text-xs text-slate-400 font-sans">dBm (طبيعي)</span>
+                    </div>
+                  </div>
+                  <span class="px-2.5 py-1 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> الخدمة مستقرة
+                  </span>
+                </div>
+
+                <!-- LEDs Row inside Device Mockup -->
+                <div class="bg-black/40 backdrop-blur rounded-xl p-3 border border-slate-700/50 flex justify-between items-center text-center">
+                  <div class="space-y-1">
+                    <span class="text-[10px] text-slate-400 font-bold block">POWER</span>
+                    <span class="w-3.5 h-3.5 rounded-full inline-block led on-green" id="heroLedPower"></span>
+                  </div>
+                  <div class="space-y-1">
+                    <span class="text-[10px] text-slate-400 font-bold block">PON</span>
+                    <span class="w-3.5 h-3.5 rounded-full inline-block led on-green" id="heroLedPon"></span>
+                  </div>
+                  <div class="space-y-1">
+                    <span class="text-[10px] text-slate-400 font-bold block">LOS</span>
+                    <span class="w-3.5 h-3.5 rounded-full inline-block led off" id="heroLedLos"></span>
+                  </div>
+                  <div class="space-y-1">
+                    <span class="text-[10px] text-slate-400 font-bold block">LAN</span>
+                    <span class="w-3.5 h-3.5 rounded-full inline-block led on-blue blink-fast" id="heroLedLan"></span>
+                  </div>
+                </div>
+
+                <div class="flex justify-between items-center text-[11px] text-slate-400 pt-1">
+                  <span>تزامن البيانات: <b>مستمر 1.25 Gbps</b></span>
+                  <span class="font-mono text-cyan-400">FTTH ONLINE</span>
+                </div>
+              </div>
+
+              <!-- Quick Action Inside Card -->
+              <div class="mt-4 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span>تحديث الحالة الفوري: <b class="text-emerald-600 dark:text-emerald-400">متصل بالشبكة</b></span>
+                <a href="#simulator" class="text-brand-blue dark:text-cyan-400 font-extrabold hover:underline">اختبر الأعطال هنا ←</a>
+              </div>
+            </div>
+
+            <!-- Floating Mini Badges -->
+            <div class="absolute -top-4 -left-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-3 shadow-xl flex items-center gap-3">
+              <span class="w-9 h-9 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-brand-blue dark:text-cyan-400 flex items-center justify-center text-lg font-black">📶</span>
+              <div>
+                <b class="text-xs text-slate-800 dark:text-slate-100 block">Wi-Fi 6 & FTTH</b>
+                <span class="text-[10px] text-slate-500 dark:text-slate-400">تشخيص التغطية والراوتر</span>
+              </div>
+            </div>
+
+            <div class="absolute -bottom-4 -right-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-3 shadow-xl flex items-center gap-3">
+              <span class="w-9 h-9 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg font-black">✓</span>
+              <div>
+                <b class="text-xs text-slate-800 dark:text-slate-100 block">تدريب عملي معتمد</b>
+                <span class="text-[10px] text-slate-500 dark:text-slate-400">كول سنتر ودعم وصيانة</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST & VALUE STRIP ================= -->
+  <section class="py-6 border-b border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div class="flex items-center justify-center gap-2 text-slate-700 dark:text-slate-300 text-xs sm:text-sm font-extrabold p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/50 transition">
+          <span class="w-7 h-7 rounded-lg bg-blue-100 dark:bg-blue-950 text-brand-blue flex items-center justify-center font-black">✦</span>
+          شرح بصري فوري ومبسّط
+        </div>
+        <div class="flex items-center justify-center gap-2 text-slate-700 dark:text-slate-300 text-xs sm:text-sm font-extrabold p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/50 transition">
+          <span class="w-7 h-7 rounded-lg bg-teal-100 dark:bg-teal-950 text-teal-600 flex items-center justify-center font-black">▧</span>
+          محاكي لمبات ONU التفاعلي
+        </div>
+        <div class="flex items-center justify-center gap-2 text-slate-700 dark:text-slate-300 text-xs sm:text-sm font-extrabold p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/50 transition">
+          <span class="w-7 h-7 rounded-lg bg-purple-100 dark:bg-purple-950 text-purple-600 flex items-center justify-center font-black">⌘</span>
+          سيناريوهات كول سنتر حية
+        </div>
+        <div class="flex items-center justify-center gap-2 text-slate-700 dark:text-slate-300 text-xs sm:text-sm font-extrabold p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/50 transition">
+          <span class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950 text-amber-600 flex items-center justify-center font-black">↗</span>
+          تحديث وتطوير مستمر للمحتوى
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE ONU & OPTICAL POWER SIMULATOR ================= -->
+  <section id="simulator" class="py-16 sm:py-24 bg-gradient-to-b from-slate-100 via-white to-slate-50 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Heading -->
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-14">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-cyan-100 dark:bg-cyan-950 text-brand-blue dark:text-cyan-400">
+          <span class="w-2 h-2 rounded-full bg-cyan-500 animate-ping"></span> أداة الفحص الحي
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">
+          مختبر ومحاكي تشخيص أعطال الفايبر
+        </h2>
+        <p class="text-sm sm:text-base text-slate-600 dark:text-slate-400">
+          اختر أي حالة عطل واقعية وشاهد تغيّر لمبات جهاز الـ ONU ومؤشرات القدرة الضوئية RX Power، مع الإجراء العملي الفوري المطلوب من موظف الكول سنتر وفني الصيانة.
+        </p>
+      </div>
+
+      <!-- Simulator Interactive Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Interactive Controls (Left) -->
+        <div class="lg:col-span-5 space-y-4">
+          <h3 class="text-base font-extrabold text-slate-900 dark:text-white flex items-center justify-between">
+            <span>اختر سيناريو العطل:</span>
+            <span class="text-xs text-brand-blue dark:text-cyan-400 font-bold">تفاعل مباشر</span>
+          </h3>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-2.5" id="scenarioButtons">
+            <button class="sim-btn active w-full p-3.5 rounded-2xl border-2 text-right transition flex items-center justify-between bg-white dark:bg-slate-800 border-brand-blue shadow-md shadow-brand-blue/15" data-scenario="normal">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-xl bg-emerald-100 dark:bg-emerald-950 text-emerald-600 flex items-center justify-center font-black">✓</span>
+                <div>
+                  <b class="text-sm block text-slate-900 dark:text-white font-extrabold">الوضع الطبيعي (الخدمة ممتازة)</b>
+                  <small class="text-xs text-slate-500 dark:text-slate-400">كل اللمبات طبيعية والباور سليم</small>
+                </div>
+              </div>
+              <span class="text-xs font-mono font-bold text-emerald-500">Normal</span>
+            </button>
+
+            <button class="sim-btn w-full p-3.5 rounded-2xl border-2 text-right transition flex items-center justify-between bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-red-400" data-scenario="cut">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-xl bg-red-100 dark:bg-red-950 text-red-600 flex items-center justify-center font-black">✕</span>
+                <div>
+                  <b class="text-sm block text-slate-900 dark:text-white font-extrabold">قطع بالفايبر / إشارة مفقودة (LOS)</b>
+                  <small class="text-xs text-slate-500 dark:text-slate-400">انقطاع السلك الضوئي أو السبلتر</small>
+                </div>
+              </div>
+              <span class="text-xs font-mono font-bold text-red-500">LOS Red</span>
+            </button>
+
+            <button class="sim-btn w-full p-3.5 rounded-2xl border-2 text-right transition flex items-center justify-between bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-amber-400" data-scenario="lowPower">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-600 flex items-center justify-center font-black">⚠️</span>
+                <div>
+                  <b class="text-sm block text-slate-900 dark:text-white font-extrabold">إشارة ضوئية ضعيفة (Low RX)</b>
+                  <small class="text-xs text-slate-500 dark:text-slate-400">انحناء حاد في الفايبر أو اتساخ الكونكتر</small>
+                </div>
+              </div>
+              <span class="text-xs font-mono font-bold text-amber-500">-29 dBm</span>
+            </button>
+
+            <button class="sim-btn w-full p-3.5 rounded-2xl border-2 text-right transition flex items-center justify-between bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-blue-400" data-scenario="powerOff">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-xl bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center font-black">🔌</span>
+                <div>
+                  <b class="text-sm block text-slate-900 dark:text-white font-extrabold">انقطاع الكهرباء / عطل المحوّل</b>
+                  <small class="text-xs text-slate-500 dark:text-slate-400">الجهاز لا يصله تيار أو UPS فارغ</small>
+                </div>
+              </div>
+              <span class="text-xs font-mono font-bold text-slate-500">No Power</span>
+            </button>
+
+            <button class="sim-btn w-full p-3.5 rounded-2xl border-2 text-right transition flex items-center justify-between bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-purple-400" data-scenario="lanCut">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-xl bg-purple-100 dark:bg-purple-950 text-purple-600 flex items-center justify-center font-black">🖧</span>
+                <div>
+                  <b class="text-sm block text-slate-900 dark:text-white font-extrabold">كيبل LAN مفصول أو تالف</b>
+                  <small class="text-xs text-slate-500 dark:text-slate-400">النت واصل للـ ONU لكن لا يصل للراوتر</small>
+                </div>
+              </div>
+              <span class="text-xs font-mono font-bold text-purple-500">LAN Down</span>
+            </button>
+          </div>
+
+          <!-- Live Power dBm Slider Control -->
+          <div class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3">
+            <div class="flex justify-between items-center">
+              <span class="text-xs font-extrabold text-slate-700 dark:text-slate-200">تحكّم يدوي بالقدرة الضوئية (dBm):</span>
+              <span id="manualDbmBadge" class="font-mono text-sm font-black px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-950 text-brand-blue dark:text-cyan-400">-21 dBm</span>
+            </div>
+            <input type="range" id="dbmSlider" min="-38" max="-5" value="-21" step="0.5" class="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-brand-blue">
+            <div class="flex justify-between text-[10px] text-slate-500 dark:text-slate-400 font-mono">
+              <span>-38 (منقطع)</span>
+              <span>-27 (الحد الأدنى)</span>
+              <span>-19 (مثالي)</span>
+              <span>-8 (قوي جداً)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simulator Device Preview & Action (Right) -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- Virtual ONU Graphic Card -->
+          <div class="relative bg-gradient-to-br from-slate-900 via-slate-900 to-brand-navy rounded-3xl p-6 sm:p-8 text-white shadow-2xl border border-slate-700/80 overflow-hidden">
+            
+            <div class="flex flex-wrap justify-between items-center gap-3 border-b border-slate-700 pb-4 mb-6">
+              <div class="flex items-center gap-3">
+                <span class="w-4 h-4 rounded-full bg-cyan-500 shadow-md shadow-cyan-500/50 animate-ping"></span>
+                <span class="font-mono text-sm tracking-wider font-bold text-slate-200">EARTH AL-KARAM GPON UNIT</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span id="simStatusPill" class="px-3 py-1 rounded-full text-xs font-black bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">الحالة: طبيعية وممتازة</span>
+              </div>
+            </div>
+
+            <!-- Front Bezel of ONU with Glowing Lights -->
+            <div class="bg-black/60 rounded-2xl p-6 border border-slate-700/80 mb-6 backdrop-blur">
+              <div class="grid grid-cols-4 gap-2 sm:gap-6 text-center">
+                
+                <!-- Power LED -->
+                <div class="space-y-2.5">
+                  <span class="text-xs font-extrabold text-slate-400 font-mono">POWER</span>
+                  <div class="flex justify-center">
+                    <span id="simLedPower" class="w-6 h-6 rounded-full led on-green"></span>
+                  </div>
+                  <span id="simPowerTxt" class="text-[11px] block text-emerald-400 font-medium">مشتغلة ثابت</span>
+                </div>
+
+                <!-- PON LED -->
+                <div class="space-y-2.5">
+                  <span class="text-xs font-extrabold text-slate-400 font-mono">PON</span>
+                  <div class="flex justify-center">
+                    <span id="simLedPon" class="w-6 h-6 rounded-full led on-green"></span>
+                  </div>
+                  <span id="simPonTxt" class="text-[11px] block text-emerald-400 font-medium">تسجيل ناجح</span>
+                </div>
+
+                <!-- LOS LED -->
+                <div class="space-y-2.5">
+                  <span class="text-xs font-extrabold text-slate-400 font-mono">LOS</span>
+                  <div class="flex justify-center">
+                    <span id="simLedLos" class="w-6 h-6 rounded-full led off"></span>
+                  </div>
+                  <span id="simLosTxt" class="text-[11px] block text-slate-500 font-medium">مطفأة (سليمة)</span>
+                </div>
+
+                <!-- LAN LED -->
+                <div class="space-y-2.5">
+                  <span class="text-xs font-extrabold text-slate-400 font-mono">LAN</span>
+                  <div class="flex justify-center">
+                    <span id="simLedLan" class="w-6 h-6 rounded-full led on-blue blink-fast"></span>
+                  </div>
+                  <span id="simLanTxt" class="text-[11px] block text-cyan-400 font-medium">نقل بيانات</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Optical Power Live Bar -->
+            <div class="space-y-2 bg-slate-800/60 p-4 rounded-xl border border-slate-700/60">
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-slate-300 font-bold">مستوى القدرة الضوئية الحالي (RX Optical Power):</span>
+                <span id="simRxMeterVal" class="font-mono text-base font-black text-cyan-400">-21.0 dBm</span>
+              </div>
+              <div class="w-full h-3 rounded-full bg-slate-700 overflow-hidden p-0.5">
+                <div id="simMeterBar" class="h-full rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 transition-all duration-300" style="width: 75%;"></div>
+              </div>
+              <div id="simMeterVerdict" class="text-xs text-emerald-400 font-bold flex items-center gap-1.5">
+                <span>✓</span> القراءة ضمن المجال القياسي المعتمد لشركة أرض الكرم (-8 dBm إلى -27 dBm).
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Dynamic Diagnosis & Action Box -->
+          <div class="p-6 rounded-3xl bg-white dark:bg-slate-800 border-2 border-brand-blue/30 shadow-lg space-y-4 transition-all" id="simActionCard">
+            <div class="flex items-center gap-2.5">
+              <span class="w-8 h-8 rounded-xl bg-brand-blue/10 dark:bg-cyan-950 text-brand-blue dark:text-cyan-400 flex items-center justify-center font-black text-lg">💡</span>
+              <h4 class="text-base font-black text-slate-900 dark:text-white" id="simActionTitle">التشخيص الفوري لحالة الخدمة:</h4>
+            </div>
+
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed" id="simActionDesc">
+              الاتصال الضوئي مستقر تماماً. جهاز الـ ONU متصل بالسيرفر والـ OLT بنجاح، وكيبل الشبكة ينقل البيانات بصورة ممتازة للراوتر.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+              <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
+                <b class="text-xs text-slate-900 dark:text-white block font-extrabold mb-1">إجراء موظف الكول سنتر:</b>
+                <span class="text-xs text-slate-600 dark:text-slate-400" id="simCallAction">اطمئن، الخدمة سليمة. إذا اشتكى المشترك فركّز على تغطية الواي فاي وإعدادات الراوتر.</span>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
+                <b class="text-xs text-slate-900 dark:text-white block font-extrabold mb-1">إجراء فني الصيانة:</b>
+                <span class="text-xs text-slate-600 dark:text-slate-400" id="simFieldAction">تأكد فقط من تثبيت الجهاز بمكان جيد التهوية، ولا داعي لتدخل فني بالمسار.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= DEPARTMENTS SECTION ================= -->
+  <section class="py-16 sm:py-24 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800" id="departments">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+        <div>
+          <span class="text-xs font-black text-brand-blue dark:text-cyan-400 uppercase tracking-widest block mb-2">بوابتك العملية للمعرفة</span>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">الأقسام التدريبية الخمسة</h2>
+          <p class="text-slate-600 dark:text-slate-400 text-sm mt-1 max-w-xl">
+            كل بطاقة تحتوي على دليل عملي كامل، سيناريوهات مكالمات، خطوات فحص، وإرشادات التصعيد المعتمدة في أرض الكرم.
+          </p>
+        </div>
+        <button id="searchFilterReset" class="text-xs font-bold text-brand-blue dark:text-cyan-400 hover:underline self-start md:self-auto">إعادة ضبط الكل ←</button>
+      </div>
+
+      <!-- Department Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Support Card -->
+        <article class="tilt-card rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden shadow-sm hover:shadow-xl hover:border-brand-blue/50 flex flex-col justify-between">
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full text-[11px] font-black bg-blue-50 dark:bg-blue-950 text-brand-blue dark:text-cyan-300">الشبكات والتقنيات</span>
+              <span class="text-sm font-black font-mono text-slate-400">01</span>
+            </div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-brand-blue to-cyan-400 text-white flex items-center justify-center text-2xl font-black shadow-md shadow-brand-blue/20">
+              🛠️
+            </div>
+            <h3 class="text-xl font-black text-slate-900 dark:text-white">الدعم الفني والتشخيص</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+              أساسيات الشبكات الضوئية، تشخيص أعطال ONU، قراءة مؤشرات RX Power، فحص التوصيل السلكي، وفصل مشاكل الشبكة عن مشاكل الراوتر.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button class="w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-brand-blue hover:text-white dark:hover:bg-brand-blue text-brand-blue dark:text-cyan-400 text-xs font-extrabold transition flex items-center justify-center gap-2 group" data-open="support">
+              <span>افتح الدليل الكامل للدعم الفني</span>
+              <span class="group-hover:translate-x-1 transition-transform">←</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Service Card -->
+        <article class="tilt-card rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden shadow-sm hover:shadow-xl hover:border-purple-500/50 flex flex-col justify-between">
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full text-[11px] font-black bg-purple-50 dark:bg-purple-950 text-purple-600 dark:text-purple-300">التواصل وتجربة المشترك</span>
+              <span class="text-sm font-black font-mono text-slate-400">02</span>
+            </div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-400 text-white flex items-center justify-center text-2xl font-black shadow-md shadow-purple-500/20">
+              🎧
+            </div>
+            <h3 class="text-xl font-black text-slate-900 dark:text-white">خدمة العملاء والكول سنتر</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+              إدارة المكالمة باحتراف، نصوص الرد باللهجة العراقية، الأسئلة التشخيصية الدقيقة، احتواء غضب المشترك، وتوثيق التذاكر بدون وعود وهمية.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button class="w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-purple-600 dark:text-purple-400 text-xs font-extrabold transition flex items-center justify-center gap-2 group" data-open="service">
+              <span>افتح سيناريوهات المكالمات</span>
+              <span class="group-hover:translate-x-1 transition-transform">←</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Sales Card -->
+        <article class="tilt-card rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/50 flex flex-col justify-between">
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full text-[11px] font-black bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">العروض والنمو</span>
+              <span class="text-sm font-black font-mono text-slate-400">03</span>
+            </div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-400 text-white flex items-center justify-center text-2xl font-black shadow-md shadow-emerald-500/20">
+              📈
+            </div>
+            <h3 class="text-xl font-black text-slate-900 dark:text-white">المبيعات والعروض</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+              فهم احتياج المشترك الحقيقي، شرح باقة الـ 35,000 د.ع والباقات المعتمدة، معالجة الاعتراضات بثقة، وتقديم العروض الرسمية دون مبالغات.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button class="w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-emerald-600 hover:text-white dark:hover:bg-emerald-600 text-emerald-600 dark:text-emerald-400 text-xs font-extrabold transition flex items-center justify-center gap-2 group" data-open="sales">
+              <span>افتح دليل المبيعات والعروض</span>
+              <span class="group-hover:translate-x-1 transition-transform">←</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Training Card -->
+        <article class="tilt-card rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden shadow-sm hover:shadow-xl hover:border-amber-500/50 flex flex-col justify-between">
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full text-[11px] font-black bg-amber-500/10 text-amber-600 dark:text-amber-400">التطوير المهني</span>
+              <span class="text-sm font-black font-mono text-slate-400">04</span>
+            </div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-amber-500 to-orange-400 text-white flex items-center justify-center text-2xl font-black shadow-md shadow-amber-500/20">
+              🎓
+            </div>
+            <h3 class="text-xl font-black text-slate-900 dark:text-white">التدريب ومسار الموظف</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+              خطة تأهيل الموظف الجديد خلال أول أسبوعين، مرافقة الزملاء، محاكاة السيناريوهات، واختبارات الجاهزية قبل بدء العمل المباشر.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button class="w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-amber-600 hover:text-white dark:hover:bg-amber-600 text-amber-600 dark:text-amber-400 text-xs font-extrabold transition flex items-center justify-center gap-2 group" data-open="training">
+              <span>افتح مسار تدريب الموظف</span>
+              <span class="group-hover:translate-x-1 transition-transform">←</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Field Maintenance Card -->
+        <article class="tilt-card rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden shadow-sm hover:shadow-xl hover:border-blue-500/50 flex flex-col justify-between md:col-span-2 lg:col-span-1">
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="px-3 py-1 rounded-full text-[11px] font-black bg-cyan-50 dark:bg-cyan-950 text-brand-blue dark:text-cyan-400">الفحص الميداني</span>
+              <span class="text-sm font-black font-mono text-slate-400">05</span>
+            </div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-teal-500 text-white flex items-center justify-center text-2xl font-black shadow-md shadow-blue-500/20">
+              ⚡
+            </div>
+            <h3 class="text-xl font-black text-slate-900 dark:text-white">الصيانة الميدانية والفحص</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+              خطوات الفحص بموقع المشترك: قياس الباور بالـ Optical Power Meter، فحص التوصيلات، التحقق من UPS ومغذيات الطاقة، وتشخيص عوائق الواي فاي.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button class="w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 text-brand-blue dark:text-cyan-400 text-xs font-extrabold transition flex items-center justify-center gap-2 group" data-open="maintenance">
+              <span>افتح دليل الصيانة الميدانية</span>
+              <span class="group-hover:translate-x-1 transition-transform">←</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FIBER DEVICES SECTION ================= -->
+  <section class="py-16 sm:py-24 bg-slate-50 dark:bg-slate-900/60 border-b border-slate-200 dark:border-slate-800" id="devices">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+        <span class="text-xs font-black text-brand-blue dark:text-cyan-400 uppercase tracking-widest">مختبر الأجهزة الميدانية</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">أجهزة الفايبر وتوصيلاتها</h2>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          افهم الجهاز قبل شروعه بالعطل؛ كل عنصر له دور محدد ومؤشرات دقيقة يجب فحصها وتوثيقها.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- ONU Card -->
+        <div class="tilt-card bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 space-y-4 hover:shadow-xl transition">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-900 dark:to-slate-950 flex items-center justify-center relative overflow-hidden group">
+            <span class="text-5xl group-hover:scale-110 transition duration-300">📟</span>
+            <span class="absolute bottom-2 left-2 text-[10px] font-mono px-2 py-0.5 rounded bg-white/80 dark:bg-slate-800/80 text-brand-blue font-bold">ONU / ONT</span>
+          </div>
+          <h3 class="text-lg font-black text-slate-900 dark:text-white">جهاز الـ ONU ومؤشراته</h3>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            محول الإشارة الضوئية إلى كهربائية. الفرق بين دلالات لمبة PON ولمبة LOS بالغة الأهمية لتحديد مكان العطل.
+          </p>
+          <button class="text-xs font-black text-brand-blue dark:text-cyan-400 hover:underline flex items-center gap-1" data-open="onu">
+            <span>تفاصيل لمبات ONU</span> <span>←</span>
+          </button>
+        </div>
+
+        <!-- Router Card -->
+        <div class="tilt-card bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 space-y-4 hover:shadow-xl transition">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-cyan-50 to-teal-50 dark:from-slate-900 dark:to-slate-950 flex items-center justify-center relative overflow-hidden group">
+            <span class="text-5xl group-hover:scale-110 transition duration-300">📡</span>
+            <span class="absolute bottom-2 left-2 text-[10px] font-mono px-2 py-0.5 rounded bg-white/80 dark:bg-slate-800/80 text-teal-600 font-bold">Dual Band</span>
+          </div>
+          <h3 class="text-lg font-black text-slate-900 dark:text-white">الراوتر وبث الواي فاي</h3>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            توزيع الإشارة لاسلكياً. كيفية فحص التغطية والفرق بين تردد 2.4GHz للأماكن البعيدة و5GHz للسرعات العالية.
+          </p>
+          <button class="text-xs font-black text-brand-blue dark:text-cyan-400 hover:underline flex items-center gap-1" data-open="router">
+            <span>تشخيص الواي فاي</span> <span>←</span>
+          </button>
+        </div>
+
+        <!-- LAN Cable Card -->
+        <div class="tilt-card bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 space-y-4 hover:shadow-xl transition">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-900 dark:to-slate-950 flex items-center justify-center relative overflow-hidden group">
+            <span class="text-5xl group-hover:scale-110 transition duration-300">🔌</span>
+            <span class="absolute bottom-2 left-2 text-[10px] font-mono px-2 py-0.5 rounded bg-white/80 dark:bg-slate-800/80 text-amber-600 font-bold">Cat5e / Cat6</span>
+          </div>
+          <h3 class="text-lg font-black text-slate-900 dark:text-white">كيبل الـ LAN والتوصيلات</h3>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            الرابط السلكي بين ONU والراوتر. فحص رؤوس RJ45 والتأكد من عدم كسر الكلبسة أو هبوط السرعة إلى 100Mbps.
+          </p>
+          <button class="text-xs font-black text-brand-blue dark:text-cyan-400 hover:underline flex items-center gap-1" data-open="lan">
+            <span>فحص كيبل الشبكة</span> <span>←</span>
+          </button>
+        </div>
+
+        <!-- UPS Card -->
+        <div class="tilt-card bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 space-y-4 hover:shadow-xl transition">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-slate-900 dark:to-slate-950 flex items-center justify-center relative overflow-hidden group">
+            <span class="text-5xl group-hover:scale-110 transition duration-300">🔋</span>
+            <span class="absolute bottom-2 left-2 text-[10px] font-mono px-2 py-0.5 rounded bg-white/80 dark:bg-slate-800/80 text-purple-600 font-bold">Power Backup</span>
+          </div>
+          <h3 class="text-lg font-black text-slate-900 dark:text-white">جهاز الـ UPS والطاقة</h3>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            تأمين استمرارية الخدمة أثناء التحويل بين الشبكة والمولد، والتأكد من جهد وتيار المحولات المعتمدة.
+          </p>
+          <button class="text-xs font-black text-brand-blue dark:text-cyan-400 hover:underline flex items-center gap-1" data-open="ups">
+            <span>فحص التغذية والـ UPS</span> <span>←</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ROUTERS DIRECTORY & PASSWORD CHANGE GUIDE ================= -->
+  <section class="py-16 sm:py-24 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800" id="routers">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+        <div>
+          <span class="text-xs font-black text-brand-blue dark:text-cyan-400 uppercase tracking-widest block mb-1">دليل المشترك والفني</span>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">أنواع الراوترات وعناوين الدخول (IP)</h2>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1 max-w-2xl">
+            اختر نوع الراوتر لعرض خطوات تسجيل الدخول، عناوين IP الافتراضية، وطريقة تغيير اسم الشبكة (SSID) ورمز المرور بأمان.
+          </p>
+        </div>
+        <div class="text-xs px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 font-bold text-slate-600 dark:text-slate-300">
+          🔒 تحذير: لا تقم بعمل Reset إلا بعد توفر إعدادات الخدمة
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        
+        <!-- TP-Link -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-brand-blue/50 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-cyan-100 dark:bg-cyan-950 text-brand-blue dark:text-cyan-400 flex items-center justify-center text-2xl font-black mb-3">📡</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">TP-Link</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.0.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-brand-blue dark:text-cyan-400 border border-slate-200 dark:border-slate-700 group-hover:bg-brand-blue group-hover:text-white transition" data-open="router-tplink">طريقة التغيير ←</button>
+        </div>
+
+        <!-- Huawei -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-red-400 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-red-100 dark:bg-red-950 text-red-500 flex items-center justify-center text-2xl font-black mb-3">📶</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">Huawei</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.3.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-red-500 border border-slate-200 dark:border-slate-700 group-hover:bg-red-500 group-hover:text-white transition" data-open="router-huawei">طريقة التغيير ←</button>
+        </div>
+
+        <!-- ZTE -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-blue-400 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-blue-100 dark:bg-blue-950 text-blue-500 flex items-center justify-center text-2xl font-black mb-3">🌐</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">ZTE</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.1.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-blue-500 border border-slate-200 dark:border-slate-700 group-hover:bg-blue-500 group-hover:text-white transition" data-open="router-zte">طريقة التغيير ←</button>
+        </div>
+
+        <!-- Tenda -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-orange-400 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-orange-100 dark:bg-orange-950 text-orange-500 flex items-center justify-center text-2xl font-black mb-3">📶</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">Tenda</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.0.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-orange-500 border border-slate-200 dark:border-slate-700 group-hover:bg-orange-500 group-hover:text-white transition" data-open="router-tenda">طريقة التغيير ←</button>
+        </div>
+
+        <!-- D-Link -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-teal-400 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-teal-100 dark:bg-teal-950 text-teal-600 flex items-center justify-center text-2xl font-black mb-3">🛜</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">D-Link</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.0.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-teal-600 border border-slate-200 dark:border-slate-700 group-hover:bg-teal-600 group-hover:text-white transition" data-open="router-dlink">طريقة التغيير ←</button>
+        </div>
+
+        <!-- Xiaomi -->
+        <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-center hover:border-amber-400 hover:-translate-y-1 transition group">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-500 flex items-center justify-center text-2xl font-black mb-3">📡</div>
+          <b class="text-sm block text-slate-900 dark:text-white font-extrabold mb-1">Xiaomi</b>
+          <span class="text-[11px] font-mono text-slate-500 dark:text-slate-400 block mb-3">192.168.31.1</span>
+          <button class="w-full py-1.5 rounded-lg bg-white dark:bg-slate-800 text-xs font-bold text-amber-500 border border-slate-200 dark:border-slate-700 group-hover:bg-amber-500 group-hover:text-white transition" data-open="router-xiaomi">طريقة التغيير ←</button>
+        </div>
+
+      </div>
+
+      <!-- Quick Steps Banner -->
+      <div class="mt-8 p-6 rounded-3xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+        <h4 class="text-sm font-black text-slate-900 dark:text-white mb-3">القواعد الست لتغيير باسورد الواي فاي بأمان:</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs text-slate-600 dark:text-slate-300">
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">1</span>
+            <span>الاتصال بالراوتر سلكياً أو عبر الواي فاي قبل فتح المتصفح.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">2</span>
+            <span>كتابة الـ IP الصحيح بشريط العنوان وليس بمحرك بحث Google.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">3</span>
+            <span>استخدام بيانات الدخول المطبوعة أسفل الراوتر أو المجهزة من المسؤول.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">4</span>
+            <span>تعديل SSID لاسم الشبكة و WPA2/WPA3 Pre-Shared Key لكلمة السر.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">5</span>
+            <span>تجنب تغيير أي إعداد يخص WAN / VLAN حتى لا تنقطع الخدمة.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-950 text-brand-blue font-bold flex items-center justify-center flex-shrink-0">6</span>
+            <span>الضغط على Save / Apply وإعادة الاتصال بالرمز الجديد فوراً.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= OFFERS & SPEED TEST SIMULATOR ================= -->
+  <section class="py-16 sm:py-24 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950 border-b border-slate-200 dark:border-slate-800" id="offers">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+        <span class="text-xs font-black text-brand-blue dark:text-cyan-400 uppercase tracking-widest">باقات وعروض أرض الكرم</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white">باقات المشتركين وفحص السرعة</h2>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          التسعير الرسمي المعتمد للباقة الأساسية ومحاكي قياس سرعة فايبر أرض الكرم التفاعلي.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Interactive Speed Test Mockup (6 cols) -->
+        <div class="lg:col-span-6 p-6 sm:p-8 rounded-3xl bg-slate-900 text-white border border-slate-800 shadow-2xl space-y-6">
+          <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-teal-400 animate-ping"></span>
+              <span class="text-xs font-bold font-mono tracking-wider text-slate-300">EARTH AL-KARAM SPEED SIMULATOR</span>
+            </div>
+            <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-teal-400">Baghdad Server</span>
+          </div>
+
+          <!-- Speed Meter Display -->
+          <div class="text-center py-6 space-y-2">
+            <div class="text-5xl sm:text-6xl font-black text-transparent bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text font-mono" id="speedNumDisplay">
+              0.0
+            </div>
+            <span class="text-xs text-slate-400 font-bold block uppercase tracking-widest">Mbps Download Speed</span>
+          </div>
+
+          <!-- Progress Animation Bar -->
+          <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
+            <div id="speedMeterBar" class="h-full bg-gradient-to-r from-brand-blue via-cyan-400 to-teal-400 transition-all duration-200" style="width: 0%;"></div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 text-center text-xs pt-2 font-mono">
+            <div class="p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
+              <span class="text-[10px] text-slate-400 block font-sans">Ping</span>
+              <b class="text-cyan-400 font-bold" id="pingDisplay">-- ms</b>
+            </div>
+            <div class="p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
+              <span class="text-[10px] text-slate-400 block font-sans">Jitter</span>
+              <b class="text-teal-400 font-bold" id="jitterDisplay">-- ms</b>
+            </div>
+            <div class="p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
+              <span class="text-[10px] text-slate-400 block font-sans">Loss</span>
+              <b class="text-emerald-400 font-bold">0.0%</b>
+            </div>
+          </div>
+
+          <button id="startSpeedTestBtn" class="w-full py-3.5 rounded-xl font-black text-sm bg-gradient-to-r from-brand-blue to-teal-500 hover:opacity-95 transition shadow-lg shadow-teal-500/20 active:scale-98">
+            🚀 ابدأ محاكاة فحص سرعة الفايبر
+          </button>
+        </div>
+
+        <!-- Official Offer Cards (6 cols) -->
+        <div class="lg:col-span-6 space-y-4">
+          
+          <!-- Featured Basic Plan -->
+          <div class="p-6 rounded-3xl bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-800 dark:to-slate-850 border-2 border-brand-blue shadow-lg space-y-3">
+            <div class="flex justify-between items-start">
+              <div>
+                <span class="px-3 py-1 rounded-full text-[10px] font-black bg-brand-blue text-white">الباقة المعتمدة الأساسية</span>
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white mt-2">Basic — الباقة الأساسية</h3>
+              </div>
+              <div class="text-left font-mono" dir="ltr">
+                <span class="text-3xl font-black text-brand-blue dark:text-cyan-400">35,000</span>
+                <span class="text-xs text-slate-500 dark:text-slate-400 font-sans block">د.ع / شهرياً</span>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              مدة الاشتراك شهر تقويمي كامل. سرعة مستقرة ومثالية للتصفح، البث عالي الدقة (HD/4K)، والألعاب الإلكترونية مع بينغ منخفض عبر شبكة الفايبر المباشرة.
+            </p>
+            <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 pt-1">
+              <span>✓ دعم فني 24/7</span> • <span>✓ توصيل ضوئي مباشر</span> • <span>✓ إمكانية الترقية فوراً</span>
+            </div>
+          </div>
+
+          <!-- Renewal Card -->
+          <div class="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-between">
+            <div class="space-y-1">
+              <b class="text-sm text-slate-900 dark:text-white block font-extrabold">عروض التجديد وإعادة التفعيل</b>
+              <p class="text-xs text-slate-500 dark:text-slate-400">التأكد من رصيد الحساب وتاريخ الانتهاء وإشعار المشترك قبل موعد التجديد بوقت كافٍ.</p>
+            </div>
+            <span class="text-2xl">↻</span>
+          </div>
+
+          <!-- Promo Note -->
+          <div class="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 text-xs text-amber-800 dark:text-amber-300 leading-relaxed">
+            <b>ملاحظة رسمية:</b> الأسعار المذكورة هي المعتمدة رسمياً ضمن بيانات تدريب شركة أرض الكرم. بقية الباقات والعروض الخاصة تُحدّث دورياً من قبل إدارة المبيعات.
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ABOUT & AUTHOR BANNER ================= -->
+  <section class="py-16 bg-slate-100 dark:bg-slate-900/40" id="about">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      
+      <div class="w-16 h-16 mx-auto rounded-3xl bg-gradient-to-tr from-brand-blue to-teal-400 p-1 shadow-xl">
+        <div class="w-full h-full bg-white dark:bg-slate-900 rounded-[20px] flex items-center justify-center text-3xl">
+          📚
+        </div>
+      </div>
+
+      <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
+        أكاديمية أرض الكرم — المعرفة تكبر بالمشاركة
+      </h2>
+
+      <p class="text-sm text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
+        تم إعداد هذه الموسوعة التدريبية وتطويرها لتكون مرجعاً موحداً وعملياً وسريعاً لكل فني وموظف كول سنتر ومبيعات بشركة أرض الكرم، لتسهيل خدمة المشترك العراقي بأعلى دقة واحترافية.
+      </p>
+
+      <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm">
+        <span class="text-xs text-slate-500 dark:text-slate-400">إعداد وتطوير المنصة والمحتوى:</span>
+        <b class="text-sm font-black text-brand-blue dark:text-cyan-400">علي وجدي</b>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 py-8 text-xs text-slate-500 dark:text-slate-400">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <span class="font-extrabold text-slate-700 dark:text-slate-200">شركة أرض الكرم للاتصالات وتكنولوجيا المعلومات</span>
+      <span>•</span>
+      <span>إعداد المحتوى: <b>علي وجدي</b></span>
+    </div>
+    <div class="flex items-center gap-4">
+      <span>© <span id="currentYear"></span> جميع الحقوق محفوظة</span>
+      <a href="#home" class="font-bold text-brand-blue dark:text-cyan-400 hover:underline">العودة للأعلى ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SEARCH MODAL (CTRL+K) ================= -->
+<div id="searchModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4">
+  <div class="bg-white dark:bg-slate-900 rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-800 space-y-4">
+    <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-800 pb-3">
+      <h3 class="font-black text-sm text-slate-900 dark:text-white flex items-center gap-2">
+        <span>🔍</span> بحث سريع في أدلة أرض الكرم
+      </h3>
+      <button id="closeSearchModal" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-500 hover:bg-slate-200 text-base font-bold">×</button>
+    </div>
+    <input type="text" id="searchInput" placeholder="اكتب للبحث (مثل: LOS, راوتر, TP-Link, باور, كول سنتر)..." class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-brand-blue font-medium">
+    <div id="searchResults" class="max-h-60 overflow-y-auto space-y-2 text-xs">
+      <!-- Search hits will appear here -->
+    </div>
+    <p class="text-[11px] text-slate-400 text-center">اضغط Esc أو × للإغلاق</p>
+  </div>
+</div>
+
+<!-- ================= RICH LESSON MODAL ================= -->
+<div id="lessonModal" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-md hidden items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true">
+  <div class="relative bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl max-w-2xl w-full max-h-[88vh] flex flex-col shadow-2xl overflow-hidden animate-pop">
+    
+    <!-- Modal Header -->
+    <div class="p-6 border-b border-slate-100 dark:border-slate-800 flex items-start justify-between bg-slate-50/70 dark:bg-slate-900/70 backdrop-blur">
+      <div class="space-y-1">
+        <span id="modalKicker" class="text-xs font-black text-brand-blue dark:text-cyan-400 px-2.5 py-0.5 rounded-full bg-blue-50 dark:bg-blue-950">دليل القسم</span>
+        <h2 id="modalTitle" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">عنوان الدليل</h2>
+      </div>
+      <button id="modalClose" class="w-9 h-9 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 font-black text-lg flex items-center justify-center transition" aria-label="إغلاق">×</button>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="p-6 overflow-y-auto space-y-4">
+      <p id="modalIntro" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed"></p>
+      
+      <div id="modalTopics" class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+        <!-- Injected Topics -->
+      </div>
+
+      <div class="p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-[11px] text-amber-800 dark:text-amber-300 leading-relaxed">
+        <b>تنبيه فني:</b> راجع دائماً تعليمات الشركة وإجراءات الفحص المعتمدة قبل تطبيق أي إجراء في كابينة الفايبر أو جهاز المشترك.
+      </div>
+    </div>
+
+    <!-- Modal Footer -->
+    <div class="p-4 border-t border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 flex justify-between items-center text-xs text-slate-500">
+      <span>أكاديمية أرض الكرم • تدريب مستمر</span>
+      <button id="modalCloseBtn" class="px-4 py-2 rounded-xl bg-brand-blue text-white font-bold hover:bg-blue-600 transition">إغلاق الدليل</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ================= JAVASCRIPT LOGIC & SIMULATOR ================= -->
+<script>
+/* 1. Canvas Interactive Glowing Fiber Mesh Animation */
+(function initFiberCanvas() {
+  const canvas = document.getElementById('fiberCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let width, height;
+  let particles = [];
+  let mouse = { x: null, y: null, maxDist: 150 };
+
+  function resize() {
+    width = canvas.width = canvas.parentElement.offsetWidth;
+    height = canvas.height = canvas.parentElement.offsetHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  window.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  window.addEventListener('mouseleave', () => { mouse.x = null; mouse.y = null; });
+
+  class FiberParticle {
+    constructor() {
+      this.reset();
+    }
+    reset() {
+      this.x = Math.random() * width;
+      this.y = Math.random() * height;
+      this.vx = (Math.random() - 0.5) * 0.9;
+      this.vy = (Math.random() - 0.5) * 0.9;
+      this.radius = Math.random() * 2 + 1;
+      this.baseColor = Math.random() > 0.5 ? '#00c2cb' : '#0785ce';
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      if (this.x < 0 || this.x > width) this.vx *= -1;
+      if (this.y < 0 || this.y > height) this.vy *= -1;
+
+      // Mouse interactive push/pull
+      if (mouse.x !== null) {
+        let dx = mouse.x - this.x;
+        let dy = mouse.y - this.y;
+        let dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < mouse.maxDist) {
+          this.x -= (dx / dist) * 1.5;
+          this.y -= (dy / dist) * 1.5;
+        }
+      }
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+      ctx.fillStyle = this.baseColor;
+      ctx.shadowBlur = 8;
+      ctx.shadowColor = this.baseColor;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    }
+  }
+
+  const count = Math.min(Math.floor((window.innerWidth * 700) / 16000), 55);
+  for (let i = 0; i < count; i++) {
+    particles.push(new FiberParticle());
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, width, height);
+
+    // Draw connecting fiber lines
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        let dx = particles[i].x - particles[j].x;
+        let dy = particles[i].y - particles[j].y;
+        let dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 110) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(7, 133, 206, ${0.28 * (1 - dist / 110)})`;
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+      }
+    }
+
+    particles.forEach(p => {
+      p.update();
+      p.draw();
+    });
+
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+
+/* 2. Reading Scroll Progress Bar */
+window.addEventListener('scroll', () => {
+  const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = (winScroll / height) * 100;
+  const bar = document.getElementById('scrollProgress');
+  if (bar) bar.style.width = scrolled + '%';
+});
+
+/* 3. Dark / Light Mode Switcher with Persistence */
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+function applyTheme(isDark) {
+  if (isDark) {
+    document.documentElement.classList.add('dark');
+    if (themeIcon) themeIcon.textContent = '☀️';
+    localStorage.setItem('ak_theme', 'dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+    if (themeIcon) themeIcon.textContent = '🌙';
+    localStorage.setItem('ak_theme', 'light');
+  }
+}
+const savedTheme = localStorage.getItem('ak_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+applyTheme(savedTheme === 'dark');
+themeToggle?.addEventListener('click', () => {
+  const isDark = document.documentElement.classList.contains('dark');
+  applyTheme(!isDark);
+});
+
+/* 4. Rich Training Lessons Database (Earth Al-Karam) */
+const lessonData = {
+  support: {
+    kicker: 'الدعم الفني والتشخيص',
+    title: 'دليل تشخيص العطل عن بُعد للمشترك',
+    intro: 'اجمع معلومات دقيقة وواضحة من المشترك قبل توجيه الحالة للميدان. استمع للأعراض ولا تغيّر إعدادات حساسة دون فحص منهجي.',
+    topics: [
+      ['تحديد نطاق المشكلة بدقة', 'اسأل المشترك: هل يفصل الاتصال بكل الأجهزة أم هاتف واحد فقط؟ هل يفصل النت بالكامل أم أن الواي فاي يختفي بغرف محددة؟'],
+      ['مراجعة حالة الشبكة العامة', 'تحقق من نظام إدارة الشبكة (NMS) الداخلي لمعرفة إذا كان هناك قطع عام على مسار الـ OLT أو السبلتر بالحي.'],
+      ['فحص لمبات جهاز ONU', 'تأكد من لمبة POWER (طاقة) وPON (تسجيل ضوئي) وLOS (إشارة حمراء منقطعة) وLAN (رابط الراوتر).'],
+      ['التفريق بين الفايبر والواي فاي', 'إذا كان الاتصال السلكي من الراوتر باللابتوب يعمل بصورة ممتازة بينما الواي فاي بطيء، فالعطل محلي بالتغطية والتردد وليس بالفايبر.'],
+      ['قراءة وفحص الـ RX Power', 'سجّل قراءة الاستقبال بوحدة dBm وقارنها بمعيار الشركة (-8 dBm إلى -27 dBm). إذا تجاوزت -28 dBm صعّد للفني لإصلاح العقدة.'],
+      ['تدوين بطاقة البلاغ الاحترافية', 'دوّن: رقم المشترك، اللمبات، قراءة الباور، طراز الراوتر، نتيجة الفحص السلكي، والوقت بدقة دون طلب كلمات المرور الخاصة.']
+    ]
+  },
+  service: {
+    kicker: 'خدمة العملاء والكول سنتر',
+    title: 'دليل إدارة المكالمة باحترافية وهدوء',
+    intro: 'نصوص وسيناريوهات عراقية مهذبة للتعامل مع المشتركين واستيعاب انزعاجهم والوصول للحل دون وعود مضللة.',
+    topics: [
+      ['التحية الافتتاحية المعتمدة', '«السلام عليكم، وياك [اسمك] من مركز خدمة عملاء أرض الكرم، تفضل أستاذي شلون نكدر نساعدك اليوم؟»'],
+      ['استيعاب انفعال المشترك', '«حقك علينا وأتفهّم انزعاجك جداً.. تدلل هسه أفحص خطك وياك خطوة بخطوة وما ننهي المكالمة إلا والأمر واضح وموثّق.»'],
+      ['السؤال التشخيصي للـ ONU', '«أستاذي بلا زحمة عليك، ممكن تنظر لجهاز الفايبر الصغير (الـ ONU) وتكلي يا لمبة مشتغلة؟ أكو لمبة حمرة باسم LOS تومض؟»'],
+      ['فحص الراوتر والتوصيلات', '«إذا تقترب من الراوتر، الإشارة تقوى عندك؟ والكيبل الواصل بين الجهازين مكبوس بشكل محكم وبيه ضوء صغير؟»'],
+      ['إنهاء المكالمة وتوثيق التذكرة', '«سجلت لحضرتك بلاغ صيانة برقم [1234]، والفريق الميداني راح يتابع مسار الإشارة ويباركلك بالحل بأسرع وقت. شكراً لاتصالك بأرض الكرم.»'],
+      ['المحظورات الخمسة في الكول سنتر', 'ممنوع إلقاء اللوم على المشترك، ممنوع إعطاء وقت إصلاح غير مؤكد، وممنوع طلب باسورد الراوتر أو الرموز السرية إطلاقاً.']
+    ]
+  },
+  sales: {
+    kicker: 'المبيعات والعروض',
+    title: 'دليل مبيعات الباقات وإقناع المشترك',
+    intro: 'ركز على احتياج العائلة بدلاً من الحديث بالأرقام الجافة، وقدّم الباقات الرسمية بأسلوب جذاب وصادق.',
+    topics: [
+      ['اكتشاف احتياج العائلة', 'اسأل المشترك: كم جهاز متصل بالبيت؟ هل لديكم ألعاب بلايستيشن، بثوث تلفزيونية 4K، أم تصفح واستخدام يومي؟'],
+      ['شرح باقة Basic (35 ألف د.ع)', '«الباقة الأساسية من أرض الكرم بـ 35,000 دينار شهرياً توفرلك فايبر ضوئي مكرّس وسرعة تضمن مشاهدة وبث مستقر بدون تقطيع.»'],
+      ['توضيح ميزة الفايبر الضوئي', '«الإنترنت الضوئي من أرض الكرم ما يتأثر بالمطر أو العواصف أو أبراج الوايرلس، لأن الإشارة توصلك بكيبل ضوئي مخصص لحد بيتك.»'],
+      ['عروض التجديد والمتابعة', 'وضّح للمشترك كيفية التجديد قبل انتهاء الاشتراك بيومين لضمان عدم توقف الخدمة عن أجهزة البيت.'],
+      ['التعامل مع اعتراض السعر', 'قارن استقرار الفايبر بسرعات الأبراج القديمة التي تتذبذب عند الضغط؛ الفايبر يمنح قيمة حقيقية مقابل المبلغ المدفوع.']
+    ]
+  },
+  training: {
+    kicker: 'التطوير المهني',
+    title: 'مسار تأهيل الموظف الجديد (Onboarding)',
+    intro: 'خطة تدريبية متكاملة تنقل الموظف من مرحلة التعلم إلى الممارسة بثقة وإتقان.',
+    topics: [
+      ['الأسبوع الأول: الأساسيات النظرية', 'دراسة مصطلحات الـ FTTH، تقنية GPON، هيكلية شبكة أرض الكرم، ومهام كل قسم بالشركة.'],
+      ['الأسبوع الثاني: الملاحظة المباشرة', 'الجلوس بجانب موظف متمرس، الاستماع للمكالمات الحية، ومتابعة كيفية توثيق الحالات في النظام.'],
+      ['محاكاة سيناريوهات الأعطال', 'التدريب العملي على فحص لمبات الـ ONU، قراءة الـ Power Meter، وتشخيص مختلف مشاكل الراوترات.'],
+      ['اختبار الجاهزية والجودة', 'مراجعة المشرف لأسلوب التواصل والدقة التقنية قبل السماح بالرد المستقل على المشتركين.'],
+      ['التحديث المستمر للمعرفة', 'حضور ورش العمل التقنية الدورية والاطلاع على كل راوتر أو جهاز جديد يتم اعتماده بالشركة.']
+    ]
+  },
+  maintenance: {
+    kicker: 'الصيانة الميدانية',
+    title: 'دليل الفحص الميداني الاحترافي بالموقع',
+    intro: 'خطوات الفني المعتمدة عند زيارة منزل المشترك لضمان سلامة التوصيل وجودة الإشارة الضوئية.',
+    topics: [
+      ['١ — معاينة المسار الخارجي (Drop Cable)', 'فحص مسار الكيبل من السبلتر بالكابينة إلى منزل المشترك والتأكد من عدم وجود شد أو انحناء حاد أو تمزق.'],
+      ['٢ — قياس الباور بالـ Optical Meter', 'فصل الكونكتر وقياس القدرة الضوئية RX Power، والتأكد أنها تقع بين -15 dBm و -24 dBm لمثالية الخدمة.'],
+      ['٣ — تنظيف الكونكترات الضوئية', 'استخدام مناديل كحولية مخصصة للفايبر لتنظيف رؤوس SC/APC قبل ربطها بالـ ONU.'],
+      ['٤ — فحص لمبات وحالة الـ ONU', 'التأكد من ثبات PON وانطفاء LOS التام، ومراجعة عمل منفذ الـ LAN مع الراوتر.'],
+      ['٥ — فحص تغطية الواي فاي ومكان الراوتر', 'نصح المشترك بوضع الراوتر بمكان وسطي ومرتفع، وتجنب وضعه داخل مكتبات خشبية مغلقة أو قرب المايكروويف.'],
+      ['٦ — إغلاق أمر العمل والتوثيق', 'تصوير قراءة الباور بجهاز الفحص، تسجيل القياسات بتقرير الصيانة، وأخذ توقيع المشترك برضاه عن الخدمة.']
+    ]
+  },
+  onu: {
+    kicker: 'مختبر الأجهزة',
+    title: 'شرح لمبات جهاز ONU ودلالاتها الفنية',
+    intro: 'دليل تفصيلي لكل مؤشر ضوئي على واجهة جهاز الـ ONU الشائع في شبكات GPON.',
+    topics: [
+      ['POWER (الطاقة)', 'أخضر ثابت: التغذية الكهربائية سليمة تماماً. مطفأة: تأكد من المحول والـ UPS أو مقبس الكهرباء.'],
+      ['PON (Passive Optical Network)', 'أخضر ثابت: تم التعرف والتسجيل مع سيرفر الـ OLT بنجاح. تومض: الجهاز يحاول المزامنة والارتباط. مطفأة: لا يوجد تسجيل.'],
+      ['LOS (Loss of Signal)', 'مطفأة: الإشارة ممتازة ولا يوجد فقدان. أحمر يرمش أو ثابت: قطع تام بالإشارة الضوئية بالفايبر أو انحناء حاد جداً.'],
+      ['LAN / ETH (الشبكة المحلية)', 'أخضر/أزرق يرمش: نقل بيانات نشط مع الراوتر. مطفأة: كيبل الـ LAN مفصول أو تالف أو الراوتر مطفأ.'],
+      ['معايير السلامة البصرية', 'تحذير شديد: لا تنظر أبداً بالعين المجردة داخل بورت الفايبر أو رأس الكيبل، لأن أشعة الليزر غير مرئية وقد تضر العين.']
+    ]
+  },
+  router: {
+    kicker: 'شبكة المشترك',
+    title: 'تشخيص مشاكل الراوتر وتغطية الواي فاي',
+    intro: 'أكثر من 70% من شكاوى المشتركين ناتجة عن التغطية اللاسلكية وليس من خط الفايبر.',
+    topics: [
+      ['تردد 2.4GHz مقابل 5GHz', 'نطاق 2.4GHz يغطي مسافات أبعد ويخترق الجدران، بينما 5GHz يعطي سرعات فائقة جداً ولكن بمدى أقصر.'],
+      ['تأثير مكان الراوتر', 'وضع الراوتر على الأرض أو داخل خزانة يضعف الإشارة بنسبة تزيد عن 50%. يجب رفعه لمستوى متر ونصف على الأقل.'],
+      ['التداخل اللاسلكي والقنوات', 'في المناطق المزدحمة بالشبكات، يجب اختيار قناة بث أقل ازدحاماً من إعدادات الراوتر (مثل القنوات 1، 6، 11).'],
+      ['التجربة السلكية للفصل', 'دائماً اطلب من المشترك فحص السرعة بكيبل LAN، إذا كانت السرعة كاملة فالفايبر سليم والمشكلة بإشارة الواي فاي.']
+    ]
+  },
+  lan: {
+    kicker: 'التوصيلات السلكية',
+    title: 'فحص كيبل الشبكة LAN ورؤوس RJ45',
+    intro: 'سلامة الكيبل تضمن نقل السرعة كاملة من الـ ONU إلى الراوتر بدون هبوط مفاجئ.',
+    topics: [
+      ['فئة الكيبل (Cat5e / Cat6)', 'تأكد من استخدام كيبل Cat5e أو Cat6 يدعم سرعة 1000Mbps (Gigabit) للاستفادة الكاملة من باقة الفايبر.'],
+      ['فحص كلبسة رأس RJ45', 'تأكد أن رأس الكيبل يركب بصوت نقرة واضحة، حيث أن ارتخاء الكلبسة يسبب انقطاعاً لحظياً بالخدمة.'],
+      ['ترتيب ألوان الأسلاك (T568B)', 'التأكد من كبس الأطراف وفق المعيار القياسي T568B لمنع فقدان الحزم وتداخل الإشارات.'],
+      ['تجنب الشد والتمديد بجانب الكهرباء', 'لا تمدد كيبل الشبكة ملاصقاً لأسلاك الكهرباء ذات الجهد العالي لتفادي التشويش الكهرومغناطيسي.']
+    ]
+  },
+  ups: {
+    kicker: 'الطاقة المستمرة',
+    title: 'فحص جهاز الـ UPS ومصادر التغذية',
+    intro: 'استقرار الإنترنت يعتمد كلياً على ثبات الطاقة المجهزة للـ ONU والراوتر.',
+    topics: [
+      ['وظيفة الـ UPS الميداني', 'منع إعادة تشغيل الـ ONU والراوتر أثناء التحويل بين الكهرباء الوطنية ومولدات الحي.'],
+      ['مطابقة الفولتية والتيار (Volt/Amp)', 'تأكد من أن مخرج الـ UPS يعطي 12V أو 9V وفق متطلبات الجهاز، لتفادي احتراق البورد أو إعادة التشغيل المستمر.'],
+      ['فحص كفاءة البطارية', 'إذا انطفأ الجهاز فور انقطاع الكهرباء، فهذا يعني تلف بطارية الـ UPS وتحتاج إلى استبدال.']
+    ]
+  },
+  'router-tplink': {
+    kicker: 'إعدادات راوتر TP-Link',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر TP-Link',
+    intro: 'العناوين الافتراضية الشائعة: 192.168.0.1 أو 192.168.1.1 أو tplinkwifi.net.',
+    topics: [
+      ['١ — تسجيل الدخول', 'اتصل بالراوتر وافتح المتصفح واكتب 192.168.0.1 واكتب admin / admin أو الباسورد الخاص بك.'],
+      ['٢ — تغيير اسم الشبكة', 'ادخل إلى قائمة Wireless ثم Wireless Settings وعدّل اسم الشبكة في خانة Wireless Network Name (SSID).'],
+      ['٣ — تغيير الرمز السري', 'ادخل إلى Wireless Security واختر WPA/WPA2-Personal ثم اكتب رمزاً قوياً في خانة Wireless Password.'],
+      ['٤ — الحفظ وإعادة الاتصال', 'اضغط Save بالأسفل، وسينقطع اتصالك؛ ابحث عن الشبكة بالاسم الجديد واكتب الرمز السري.']
+    ]
+  },
+  'router-huawei': {
+    kicker: 'إعدادات راوتر Huawei',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر Huawei',
+    intro: 'العنوان الشائع: 192.168.3.1 أو 192.168.8.1.',
+    topics: [
+      ['١ — فتح صفحة الإدارة', 'افتح المتصفح واكتب 192.168.3.1 وسجل الدخول بالمعلومات المكتوبة على الملصق الخلفي.'],
+      ['٢ — الإعدادات اللاسلكية', 'من القائمة العلوية أو الجانبية اختر Wi-Fi Settings ثم Wi-Fi Basic Settings.'],
+      ['٣ — تعديل البيانات', 'عدّل Wi-Fi Name (SSID) لتغيير الاسم، و Wi-Fi Password لتغيير رمز المرور.'],
+      ['٤ — الحفظ', 'اضغط Save أو Apply وانتظر دقيقة لإعادة بث الشبكة بالبيانات الجديدة.']
+    ]
+  },
+  'router-zte': {
+    kicker: 'إعدادات راوتر ZTE',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر ZTE',
+    intro: 'العنوان الشائع: 192.168.1.1.',
+    topics: [
+      ['١ — الدخول للنظام', 'افتح 192.168.1.1 واكتب اسم المستخدم وكلمة المرور المخصصة.'],
+      ['٢ — إعدادات WLAN', 'انتقل إلى Local Network ثم WLAN ثم WLAN Basic أو SSID Configuration.'],
+      ['٣ — كلمة المرور', 'اكتب الباسورد الجديد في خانة WPA Passphrase مع التأكد من قوة الرمز.'],
+      ['٤ — التأكيد', 'اضغط Apply أسفل الصفحة لتطبيق التغييرات.']
+    ]
+  },
+  'router-tenda': {
+    kicker: 'إعدادات راوتر Tenda',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر Tenda',
+    intro: 'العنوان الشائع: 192.168.0.1 أو tendawifi.com.',
+    topics: [
+      ['١ — الدخول السريع', 'افتح tendawifi.com أو 192.168.0.1 وسجل دخولك.'],
+      ['٢ — خيار Wireless Settings', 'من القائمة الجانبية اضغط مباشرة على Wireless Settings.'],
+      ['٣ — التعديل بخطوة واحدة', 'ستجد WiFi Name و WiFi Password في نفس الصفحة، قم بتعديلها.'],
+      ['٤ — الحفظ', 'اضغط OK أسفل الشاشة، وسيعيد الراوتر تشغيل بث الواي فاي.']
+    ]
+  },
+  'router-dlink': {
+    kicker: 'إعدادات راوتر D-Link',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر D-Link',
+    intro: 'العنوان الشائع: 192.168.0.1 أو 192.168.1.1.',
+    topics: [
+      ['١ — تسجيل الدخول', 'ادخل لعنوان الراوتر واكتب اسم المستخدم admin.'],
+      ['٢ — Wireless Setup', 'من تبويب Setup اختر Wireless Settings ثم Manual Wireless Network Setup.'],
+      ['٣ — ضبط الأمان', 'عدّل Wireless Network Name واكتب الرمز الجديد في Pre-Shared Key.'],
+      ['٤ — حفظ الإعدادات', 'اضغط Save Settings لإتمام التعديل.']
+    ]
+  },
+  'router-xiaomi': {
+    kicker: 'إعدادات راوتر Xiaomi',
+    title: 'تغيير اسم الشبكة ورمز المرور لراوتر Xiaomi',
+    intro: 'العنوان الشائع: 192.168.31.1 أو miwifi.com أو عبر تطبيق Mi Home.',
+    topics: [
+      ['١ — صفحة الإدارة', 'افتح 192.168.31.1 أو تطبيق Mi Wi-Fi بالهاتف.'],
+      ['٢ — Settings', 'انتقل إلى Settings ثم تبويب Wi-Fi.'],
+      ['٣ — تحديث البيانات', 'عدّل Name و Password للترددين 2.4G و 5G.'],
+      ['٤ — الحفظ التلقائي', 'اضغط Save وسيعيد الراوتر الاتصال خلال ثوانٍ.']
+    ]
+  }
+};
+
+/* 5. Rich Modal Open & Close System */
+const lessonModal = document.getElementById('lessonModal');
+const modalClose = document.getElementById('modalClose');
+const modalCloseBtn = document.getElementById('modalCloseBtn');
+const modalKicker = document.getElementById('modalKicker');
+const modalTitle = document.getElementById('modalTitle');
+const modalIntro = document.getElementById('modalIntro');
+const modalTopics = document.getElementById('modalTopics');
+
+function openLessonModal(key) {
+  const data = lessonData[key];
+  if (!data || !lessonModal) return;
+  modalKicker.textContent = data.kicker;
+  modalTitle.textContent = data.title;
+  modalIntro.textContent = data.intro;
+  modalTopics.innerHTML = '';
+
+  data.topics.forEach((t, idx) => {
+    const card = document.createElement('div');
+    card.className = 'p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 space-y-1';
+    card.innerHTML = `
+      <div class="flex items-center gap-2">
+        <span class="w-5 h-5 rounded-lg bg-blue-100 dark:bg-blue-950 text-brand-blue dark:text-cyan-400 font-black text-xs flex items-center justify-center">${idx + 1}</span>
+        <b class="text-xs font-bold text-slate-900 dark:text-white">${t[0]}</b>
+      </div>
+      <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed pr-7">${t[1]}</p>
+    `;
+    modalTopics.appendChild(card);
+  });
+
+  lessonModal.classList.remove('hidden');
+  lessonModal.classList.add('flex');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLessonModal() {
+  if (!lessonModal) return;
+  lessonModal.classList.add('hidden');
+  lessonModal.classList.remove('flex');
+  document.body.style.overflow = '';
+}
+
+document.querySelectorAll('[data-open]').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.preventDefault();
+    openLessonModal(btn.getAttribute('data-open'));
+  });
+});
+
+modalClose?.addEventListener('click', closeLessonModal);
+modalCloseBtn?.addEventListener('click', closeLessonModal);
+lessonModal?.addEventListener('click', e => { if (e.target === lessonModal) closeLessonModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLessonModal(); });
+
+/* 6. Live Interactive ONU & Optical Power Simulator Logic */
+const simLedPower = document.getElementById('simLedPower');
+const simLedPon = document.getElementById('simLedPon');
+const simLedLos = document.getElementById('simLedLos');
+const simLedLan = document.getElementById('simLedLan');
+const simPowerTxt = document.getElementById('simPowerTxt');
+const simPonTxt = document.getElementById('simPonTxt');
+const simLosTxt = document.getElementById('simLosTxt');
+const simLanTxt = document.getElementById('simLanTxt');
+const simStatusPill = document.getElementById('simStatusPill');
+const simRxMeterVal = document.getElementById('simRxMeterVal');
+const simMeterBar = document.getElementById('simMeterBar');
+const simMeterVerdict = document.getElementById('simMeterVerdict');
+const simActionTitle = document.getElementById('simActionTitle');
+const simActionDesc = document.getElementById('simActionDesc');
+const simCallAction = document.getElementById('simCallAction');
+const simFieldAction = document.getElementById('simFieldAction');
+const dbmSlider = document.getElementById('dbmSlider');
+const manualDbmBadge = document.getElementById('manualDbmBadge');
+
+const scenarios = {
+  normal: {
+    power: 'on-green', powerTxt: 'مشتغلة ثابت',
+    pon: 'on-green', ponTxt: 'تسجيل ناجح',
+    los: 'off', losTxt: 'مطفأة (سليمة)',
+    lan: 'on-blue blink-fast', lanTxt: 'نقل بيانات',
+    dbm: -20.5,
+    statusText: 'الحالة: طبيعية وممتازة',
+    statusClass: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40',
+    title: 'تشخيص الخدمة: مستقرة وسليمة 100%',
+    desc: 'جهاز الـ ONU متصل بالسيرفر والـ OLT بنجاح، ومستوى القدرة الضوئية مثالي تماماً، وكيبل الشبكة ينقل البيانات بدون أي فقدان.',
+    callAction: 'الخدمة سليمة؛ إذا كان المشترك يشتكي من بطء، وجّهه لاختبار المسافة من الراوتر أو فصل الأجهزة التي تحمل ملفات ضخمة.',
+    fieldAction: 'تأكد فقط من سلامة تثبيت الجهاز وعدم تعرض الكيبل للحرارة أو الضغط المنزلي.'
+  },
+  cut: {
+    power: 'on-green', powerTxt: 'مشتغلة ثابت',
+    pon: 'off', ponTxt: 'لا يوجد اتصال',
+    los: 'on-red blink-slow', losTxt: 'أحمر يرمش (قطع!)',
+    lan: 'on-blue', lanTxt: 'ثابت / متصل',
+    dbm: -37.0,
+    statusText: 'الحالة: قطع بالإشارة الضوئية (LOS RED)',
+    statusClass: 'bg-red-500/20 text-red-400 border-red-500/40',
+    title: 'تشخيص الخدمة: إشارة الفايبر مفقودة تماماً',
+    desc: 'لمبة الـ LOS تومض باللون الأحمر أو ثابتة، ولمبة PON مطفأة. هذا يدل على انقطاع الشعيرة الضوئية بين السبلتر الخارجي وجهاز المشترك.',
+    callAction: 'تأكد من عدم كسر الكيبل الأصفر الصغير داخل البيت، ثم افتح تذكرة صيانة ميدانية عاجلة فوراً مع توثيق (LOS Red).',
+    fieldAction: 'افحص السبلتر بالشارع بالـ VFL (قلم الليزر الأحمر)، وحدد نقطة القطع لإعادة اللحام بالفيوجن (Fusion Splicer).'
+  },
+  lowPower: {
+    power: 'on-green', powerTxt: 'مشتغلة ثابت',
+    pon: 'on-green blink-slow', ponTxt: 'تذبذب مستمر',
+    los: 'off', losTxt: 'مطفأة',
+    lan: 'on-blue blink-fast', lanTxt: 'نقل متقطع',
+    dbm: -29.5,
+    statusText: 'الحالة: إشارة حرجة وضعيفة جداً (-29 dBm)',
+    statusClass: 'bg-amber-500/20 text-amber-400 border-amber-500/40',
+    title: 'تشخيص الخدمة: قدرة ضوئية منخفضة (High Attenuation)',
+    desc: 'القراءة تجاوزت الحد المقبول (-27 dBm)، مما يسبب فقدان حزم (Packet Loss)، بطء شديد، وفصل متكرر كل بضع دقائق.',
+    callAction: 'أبلغ المشترك بأن الإشارة الواصلة ضعيفة وتحتاج لوزن وضبط من الفني الميداني، ولا ينفع تغيير الباسورد.',
+    fieldAction: 'افحص انحناء الكيبل في مسار النزول، ونظّف كونكتر SC/APC أو أعد تركيب رأس الفاست كونكتر.'
+  },
+  powerOff: {
+    power: 'off', powerTxt: 'مطفأة تماماً',
+    pon: 'off', ponTxt: 'مطفأة',
+    los: 'off', losTxt: 'مطفأة',
+    lan: 'off', lanTxt: 'مطفأة',
+    dbm: -38.0,
+    statusText: 'الحالة: الجهاز لا يصله تيار كهربائي',
+    statusClass: 'bg-slate-500/20 text-slate-400 border-slate-500/40',
+    title: 'تشخيص الخدمة: انقطاع الطاقة أو تلف المحوّل',
+    desc: 'جميع لمبات الجهاز مطفأة تماماً، وهذا يدل على انقطاع التيار الكهربائي أو تلف محول الـ 12V أو تفريغ بطارية الـ UPS.',
+    callAction: 'اطلب من المشترك التحقق من مقبس الكهرباء وزر التشغيل بالـ ONU وتجربة شاحن الـ UPS بمقبس آخر.',
+    fieldAction: 'قس جهد الخرج من المحول بالمولتميتر وتأكد من أنه يخرج 12V / 1A بثبات.'
+  },
+  lanCut: {
+    power: 'on-green', powerTxt: 'مشتغلة ثابت',
+    pon: 'on-green', ponTxt: 'تسجيل ناجح',
+    los: 'off', losTxt: 'مطفأة',
+    lan: 'off', lanTxt: 'مطفأة (مفصول)',
+    dbm: -19.5,
+    statusText: 'الحالة: الفايبر واصل، لكن كيبل الراوتر مفصول',
+    statusClass: 'bg-purple-500/20 text-purple-400 border-purple-500/40',
+    title: 'تشخيص الخدمة: انقطاع الرابط بين الـ ONU والراوتر',
+    desc: 'الفايبر واصل والخدمة فعالة 100% داخل الـ ONU، لكن لمبة الـ LAN مطفأة؛ الراوتر لا يصله إنترنت بسبب كيبل الشبكة.',
+    callAction: 'اطلب من المشترك التأكد من أن كيبل الـ LAN مشكوك بمنفذ WAN الأزرق بالراوتر ومكبوس بإحكام من الطرفين.',
+    fieldAction: 'استخدم تيستر الشبكة (Cable Tester) لفحص الأسلاك الثمانية أو استبدل كيبل الـ Patch Cord.'
+  }
+};
+
+function updateSimulator(state) {
+  // LEDs
+  simLedPower.className = `w-6 h-6 rounded-full led ${state.power}`;
+  simLedPon.className = `w-6 h-6 rounded-full led ${state.pon}`;
+  simLedLos.className = `w-6 h-6 rounded-full led ${state.los}`;
+  simLedLan.className = `w-6 h-6 rounded-full led ${state.lan}`;
+
+  simPowerTxt.textContent = state.powerTxt;
+  simPonTxt.textContent = state.ponTxt;
+  simLosTxt.textContent = state.losTxt;
+  simLanTxt.textContent = state.lanTxt;
+
+  // Status
+  simStatusPill.className = `px-3 py-1 rounded-full text-xs font-black border ${state.statusClass}`;
+  simStatusPill.textContent = state.statusText;
+
+  // Rx Meter
+  simRxMeterVal.textContent = state.dbm <= -37 ? 'No Signal (-∞)' : `${state.dbm.toFixed(1)} dBm`;
+  let percent = Math.min(Math.max(((state.dbm - (-38)) / ((-8) - (-38))) * 100, 5), 100);
+  simMeterBar.style.width = percent + '%';
+
+  // Slider sync
+  if (dbmSlider) dbmSlider.value = state.dbm;
+  if (manualDbmBadge) manualDbmBadge.textContent = `${state.dbm.toFixed(1)} dBm`;
+
+  // Verdict text
+  if (state.dbm > -8) {
+    simMeterVerdict.className = 'text-xs text-amber-400 font-bold';
+    simMeterVerdict.textContent = '⚠️ تنبيه: الإشارة قوية جداً وقد تسبب تشويشاً على الحساس الضوئي.';
+  } else if (state.dbm >= -27 && state.dbm <= -8) {
+    simMeterVerdict.className = 'text-xs text-emerald-400 font-bold';
+    simMeterVerdict.textContent = '✓ القراءة ضمن المجال القياسي المعتمد لشركة أرض الكرم (-8 إلى -27 dBm).';
+  } else if (state.dbm < -27 && state.dbm > -35) {
+    simMeterVerdict.className = 'text-xs text-amber-400 font-bold';
+    simMeterVerdict.textContent = '⚠️ القراءة حرجة وضعيفة (-28 إلى -34 dBm) وتسبب تقطيعاً مستمراً.';
+  } else {
+    simMeterVerdict.className = 'text-xs text-red-400 font-bold';
+    simMeterVerdict.textContent = '✕ لا توجد إشارة ضوئية (قطع تام بالفايبر أو انكسار الشعيرة).';
+  }
+
+  // Action box
+  simActionTitle.textContent = state.title;
+  simActionDesc.textContent = state.desc;
+  simCallAction.textContent = state.callAction;
+  simFieldAction.textContent = state.fieldAction;
+}
+
+// Button Clicks
+document.querySelectorAll('.sim-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.sim-btn').forEach(b => {
+      b.classList.remove('border-brand-blue', 'shadow-md', 'shadow-brand-blue/15');
+      b.classList.add('border-slate-200', 'dark:border-slate-700');
+    });
+    btn.classList.remove('border-slate-200', 'dark:border-slate-700');
+    btn.classList.add('border-brand-blue', 'shadow-md', 'shadow-brand-blue/15');
+
+    const sc = scenarios[btn.getAttribute('data-scenario')];
+    if (sc) updateSimulator(sc);
+  });
+});
+
+// Slider Input
+dbmSlider?.addEventListener('input', e => {
+  const val = parseFloat(e.target.value);
+  manualDbmBadge.textContent = `${val.toFixed(1)} dBm`;
+
+  let customState;
+  if (val < -32) {
+    customState = { ...scenarios.cut, dbm: val };
+  } else if (val < -27) {
+    customState = { ...scenarios.lowPower, dbm: val };
+  } else {
+    customState = { ...scenarios.normal, dbm: val };
+  }
+  updateSimulator(customState);
+});
+
+// Initialize with normal
+updateSimulator(scenarios.normal);
+
+/* 7. Speed Test Simulator */
+const startSpeedBtn = document.getElementById('startSpeedTestBtn');
+const speedNumDisplay = document.getElementById('speedNumDisplay');
+const speedMeterBar = document.getElementById('speedMeterBar');
+const pingDisplay = document.getElementById('pingDisplay');
+const jitterDisplay = document.getElementById('jitterDisplay');
+
+let isTesting = false;
+startSpeedBtn?.addEventListener('click', () => {
+  if (isTesting) return;
+  isTesting = true;
+  startSpeedBtn.disabled = true;
+  startSpeedBtn.textContent = '⏳ جاري القياس الفعلي للإشارة...';
+  speedMeterBar.style.width = '0%';
+  speedNumDisplay.textContent = '0.0';
+  pingDisplay.textContent = '4 ms';
+  jitterDisplay.textContent = '1 ms';
+
+  let current = 0;
+  const target = 295.4; // Target speed Mbps
+  const interval = setInterval(() => {
+    current += Math.random() * 25 + 10;
+    if (current >= target) {
+      current = target;
+      clearInterval(interval);
+      startSpeedBtn.disabled = false;
+      startSpeedBtn.textContent = '✓ اكتمل الفحص! إعادة الاختبار ↺';
+      isTesting = false;
+    }
+    speedNumDisplay.textContent = current.toFixed(1);
+    speedMeterBar.style.width = Math.min((current / 350) * 100, 100) + '%';
+  }, 70);
+});
+
+/* 8. Quick Search System (Ctrl+K or Button) */
+const quickSearchBtn = document.getElementById('quickSearchBtn');
+const mobileSearchTrigger = document.getElementById('mobileSearchTrigger');
+const searchModal = document.getElementById('searchModal');
+const closeSearchModal = document.getElementById('closeSearchModal');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+
+function openSearch() {
+  searchModal.classList.remove('hidden');
+  searchModal.classList.add('flex');
+  searchInput.focus();
+}
+function closeSearch() {
+  searchModal.classList.add('hidden');
+  searchModal.classList.remove('flex');
+  searchInput.value = '';
+  searchResults.innerHTML = '';
+}
+
+quickSearchBtn?.addEventListener('click', openSearch);
+mobileSearchTrigger?.addEventListener('click', () => {
+  mobileMenu?.classList.add('hidden');
+  openSearch();
+});
+closeSearchModal?.addEventListener('click', closeSearch);
+searchModal?.addEventListener('click', e => { if (e.target === searchModal) closeSearch(); });
+
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    openSearch();
+  }
+  if (e.key === 'Escape' && !searchModal.classList.contains('hidden')) {
+    closeSearch();
+  }
+});
+
+searchInput?.addEventListener('input', e => {
+  const query = e.target.value.trim().toLowerCase();
+  searchResults.innerHTML = '';
+  if (!query) return;
+
+  const hits = [];
+  Object.keys(lessonData).forEach(key => {
+    const item = lessonData[key];
+    const matchTitle = item.title.toLowerCase().includes(query) || item.kicker.toLowerCase().includes(query);
+    const matchTopic = item.topics.some(t => t[0].toLowerCase().includes(query) || t[1].toLowerCase().includes(query));
+    if (matchTitle || matchTopic) {
+      hits.push({ key, title: item.title, kicker: item.kicker });
+    }
+  });
+
+  if (hits.length === 0) {
+    searchResults.innerHTML = `<div class="p-3 text-slate-400 text-center">لا توجد نتائج مطابقة لـ "${query}"</div>`;
+    return;
+  }
+
+  hits.forEach(hit => {
+    const el = document.createElement('div');
+    el.className = 'p-3 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-brand-blue/10 dark:hover:bg-slate-700 cursor-pointer flex justify-between items-center transition';
+    el.innerHTML = `
+      <div>
+        <b class="text-xs text-slate-900 dark:text-white block">${hit.title}</b>
+        <span class="text-[10px] text-brand-blue dark:text-cyan-400 font-bold">${hit.kicker}</span>
+      </div>
+      <span class="text-xs text-slate-400">فتح ←</span>
+    `;
+    el.addEventListener('click', () => {
+      closeSearch();
+      openLessonModal(hit.key);
+    });
+    searchResults.appendChild(el);
+  });
+});
+
+/* 9. Mobile Navbar Toggle */
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+mobileMenuBtn?.addEventListener('click', () => {
+  mobileMenu?.classList.toggle('hidden');
+});
+mobileMenu?.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+});
+
+/* 10. Dynamic Current Year */
+const yr = document.getElementById('currentYear');
+if (yr) yr.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
