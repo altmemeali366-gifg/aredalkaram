@@ -1,2 +1,0 @@
-# aredalkaram
-internet
